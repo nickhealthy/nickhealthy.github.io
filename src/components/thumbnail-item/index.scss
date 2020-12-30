@@ -2,10 +2,12 @@
 
 .thumbnail {
   display: block;
-  margin-bottom: 12px;
-  padding: 4px;
-  padding-bottom: 12px;
-  box-shadow: none;
+  margin: 25px 0 25px 0;
+  padding: 0px 25px;
+  padding-bottom: 10px;
+  border: 1px solid #ecf0f2;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px #00000023, 0 1px 1px #a9ceff57;
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
 

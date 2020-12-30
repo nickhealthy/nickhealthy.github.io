@@ -51,7 +51,9 @@ body.light {
       color: $middle-gray;
     }
     &:hover {
-      text-shadow: $light-hover-text-shadow;
+      // text-shadow: $light-hover-text-shadow;
+      background-color: #7ca7df28;
+      border: 1px solid #7ca7df0c;
     }
   }
 
@@ -68,5 +70,30 @@ body.light {
       background-color: $navigator-background-color;
       color: $navigator-text-color;
     }
+  }
+}
+
+.thumbnail-date {
+  color: #a9a9a9;
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.up-button {
+  float: right;
+  background-image: linear-gradient(
+    to right,
+    #9d50bb 0%,
+    #9d50bb 51%,
+    #6e48aa 100%
+  );
+  color: white;
+  border-radius: 5px;
+  padding: 3px 5px 3px 10px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 1px 1px 5px 0 #666666;
   }
 }

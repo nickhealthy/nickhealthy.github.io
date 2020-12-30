@@ -1,15 +1,16 @@
 module.exports = {
-  title: `nickhealthy`,
+  title: `Woo's Dev Log`,
   description: `Devlog`,
   author: `nickhealthy`,
   introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
   siteUrl: `https://nickhealthy.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    github: `nickhealthy`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
+    Instagram: `sung_wooo`,
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
