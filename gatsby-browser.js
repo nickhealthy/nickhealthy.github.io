@@ -2,7 +2,7 @@
 require('typeface-noto-sans-kr')
 require('typeface-catamaran')
 
-// polyfill
+// /polyfill
 require('intersection-observer')
 
 const metaConfig = require('./gatsby-meta-config')
