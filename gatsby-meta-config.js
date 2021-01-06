@@ -2,7 +2,7 @@ module.exports = {
   title: `Woo's Dev Log`,
   description: `Devlog`,
   author: `nickhealthy`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  introduction: `개발자를 꿈꾸고, 파이썬과 클라우드에 관심이 많은 비전공자`,
   siteUrl: `https://nickhealthy.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
