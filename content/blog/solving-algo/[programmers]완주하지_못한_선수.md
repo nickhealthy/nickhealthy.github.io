@@ -56,6 +56,8 @@ def solution(participant, completion):
             return participant[i]
 ```
 
+## 문제풀이
+
 우선 문제에서 중요한 힌트 중 하나인  
 "단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다."  
 위의 구문을 참고해 정렬 시킨 후 중복되는 값을 고려하지 않고 `completion`의 배열 안에 없으면  

@@ -77,7 +77,7 @@ def solution(genres, plays):
     return answer
 ```
 
-### 문제풀이
+## 문제풀이
 
 우선 문제에서 결과 값으로 요구하는 사항이 _index_ 인 것을 감안해 `enumerate()`를 사용하였다.
 
