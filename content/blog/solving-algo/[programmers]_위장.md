@@ -1,12 +1,12 @@
 ---
-title: '[programmers]_위장'
+title: '[programmers]위장'
 date: 2021-01-06 15:01:59
 category: '💯 solving-algo'
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-> Algorithm, Python, Hash, enmerate(), lambda()
+> Algorithm, Python, Hash, dict.keys()
 
 ## 문제 설명
 

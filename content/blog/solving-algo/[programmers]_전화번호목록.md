@@ -1,5 +1,5 @@
 ---
-title: '[programmers]_전화번호목록'
+title: '[programmers]전화번호목록'
 date: 2021-01-05 22:01:14
 category: "\U0001F4AF solving-algo"
 thumbnail: { thumbnailSrc }
