@@ -49,9 +49,9 @@ Leo가 가진 음식의 스코빌 지수를 담은 배열 scoville과 원하는 
 
 ```python
 def solution(scoville, K):
-tmp = 0
-count = 0
-scoville.sort() # 가장 작은 스코빌, 두번째로 작은 스코빌을 찾기 위해 오름차순 정렬
+    tmp = 0
+    count = 0
+    scoville.sort()  # 가장 작은 스코빌, 두번째로 작은 스코빌을 찾기 위해 오름차순 정렬
 
     try:  # 밑에서 리스트 원소를 del 해준 부분에서 밑의 for문의 len()에 적용이 안되서 예외 처리
         for i in range(len(scoville) - 1):
@@ -83,18 +83,19 @@ scoville.sort() # 가장 작은 스코빌, 두번째로 작은 스코빌을 찾�
 
 ```python
 import heapq
+
 def solution(scoville, K):
-answer = 0
-heapq.heapify(scoville)
+    answer = 0
+    heapq.heapify(scoville)
 
- while scoville[0] < K:
-mix = heapq.heappop(scoville) + (heapq.heappop(scoville) \* 2)
-heapq.heappush(scoville, mix)
-answer += 1
-if len(scoville) == 1 and scoville[0] < K:
-return -1
+    while scoville[0] < K:
+        mix = heapq.heappop(scoville) + (heapq.heappop(scoville) * 2)
+        heapq.heappush(scoville, mix)
+        answer += 1
+        if len(scoville) == 1 and scoville[0] < K:
+            return -1
 
- return answer
+    return answer
 ```
 
 ## 배운내용
