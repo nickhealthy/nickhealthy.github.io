@@ -73,6 +73,11 @@ def solution(operations):
         return [max(new_operations), min(new_operations)]
 ```
 
+## 배운내용
+
+`split()` 이라는 내장 함수는 default 값이 `" "`로 지정되어 있어 띄어쓰기를 기준으로 나누고 싶을 땐  
+생략해도 되었다. 또한 default 값으로 아무 것도 지정하지 않을 시 `\t` 과 같은 이스케이프 문자도 처리하여 주의가 필요할 것 같다.
+
 <br />
 <a href='#'><small class='up-button'>위로 올라가기💨</small></a>
 <br />
