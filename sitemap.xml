@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://nickhealthy.github.io/error/1.윈도우 환경에서 python-pip 패키지 에러날 때/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_체육복/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/8.Kubernetes_Kubernetes Service_Headless, Endpoint, ExternalName/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_카펫/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/7.Kubernetes_Lifecycle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_이중우선순위큐/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/백준_단계별_기본수학1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/6.Kubernetes_Controller/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_디스크컨트롤러/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[백준]_단계별_문자열/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_더맵게/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_프린터/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/5.Kubernetes_Namespace,ResourceQuota,LimitRange/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/4.Kubernetes_ConfigMap,Secret/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_다리를_지나는_트럭/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/3.Kubernetes 파드,서비스,볼륨/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_기능개발/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/2.Kubernetes기초실습/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/1.Kubernetes기초/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/infra/vagrant기초/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_소수찾기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/infra/infrastructure_as_code/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/linux/2.리눅스 기본 명령어/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/linux/1.리눅스 기본 명령어/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -17,7 +36,7 @@
 <url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]완주하지_못한_선수/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/gatsby/깃허브로-블로그-만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/aws/test2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://nickhealthy.github.io/development/second/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/study/second/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
