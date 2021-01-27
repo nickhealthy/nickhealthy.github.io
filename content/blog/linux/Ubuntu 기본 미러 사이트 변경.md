@@ -1,6 +1,6 @@
 ---
 title: 'Ubuntu 기본 미러 사이트 변경'
-date: 2021-01-30 20:48:50
+date: 2021-01-26 20:48:50
 category: 🖥️ linux
 thumbnail: { thumbnailSrc }
 draft: false
