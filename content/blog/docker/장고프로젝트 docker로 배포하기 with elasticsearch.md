@@ -242,6 +242,7 @@ services:
       - discovery.type=single-node
     command: ./server_start.sh
 
+
 ```
 
 이렇게 모두 작성하고 `docker-compose.yml` 파일이 있는 곳에서 `docker-compose up` 명령어를 치면 정상적으로 도커로 만든 장고 프로젝트가 실행되는 것을 확인해 볼 수 있었다.
