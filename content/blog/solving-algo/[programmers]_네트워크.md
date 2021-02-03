@@ -67,5 +67,6 @@ def solution(n, computers):
 ```
 
 <br />
+<br />
 <a href='#'><small class='up-button'>위로 올라가기💨</small></a>
 <br />
