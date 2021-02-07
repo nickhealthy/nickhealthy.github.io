@@ -1,6 +1,6 @@
 ---
 title: '[programmers]단어 변환'
-date: 2021-02-06 11:30:59
+date: 2021-02-07 11:30:59
 category: '💯 solving-algo'
 thumbnail: { thumbnailSrc }
 draft: false
