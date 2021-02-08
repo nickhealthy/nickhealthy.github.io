@@ -241,7 +241,6 @@ services:
       - 'ES_JAVA_OPTS=-Xms512m -Xmx512m'
       - discovery.type=single-node
     command: ./server_start.sh
-    # command: python3.8 manage.py runserver 0:8000
 
 ```
 
