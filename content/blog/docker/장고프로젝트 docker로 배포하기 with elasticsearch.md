@@ -110,7 +110,7 @@ COPY requirements.txt /usr/src/app
 RUN pip install -r requirements.txt
 COPY . /usr/src/app
 
-RUN python manage.py migrate
+RUN python manage.py migrate # 명령어 추가
 ```
 
 > 아주 살짝 수정하였지만 docker-compose.yml에서 `depends_on` 을 설정해 주었으므로 장고 컨테이너가 실행된 후 컨테이너 내부 진입으로 migrate 해줄 필요없이 자동적으로 실행이 되도록하였다.
@@ -132,11 +132,24 @@ services:
       - MYSQL_USER=project
       - MYSQL_PASSWORD=project
 
+# 엘라스틱 서치 컨테이너 연동이 안되는 문제로 DB와 django만 실행할 수 있도록 주석 처리해놓았다.
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+  #   ports:
+  #     - '9200:9200'
+  #     - '9300:9300'
+  #   expose:
+  #     - '8000'
+  #   environment:
+  #     - 'ES_JAVA_OPTS=-Xms512m -Xmx512m'
+  #     - discovery.type=single-node
+
   # 앱 컨테이너 이름 정의
   backend:
   	# 데이터베이스 서비스가 실행된 후 장고 서버를 실행하도록 설정
     depends_on:
       - database
+      - elasticsearch
     # Dockerfile이 있는 위치
     build: .
     ports:
@@ -153,6 +166,8 @@ services:
 정상적으로 서버가 실행된다. 또한 위의 도커 파일에서는 `--link` 라는 옵션을 줘서 각 컨테이너를 연결시켜주었는데 해당 `docker-compose.yml` 을 보면 옵션이 빠져있다.
 
 **그 이유는 docker-compose에서는 별도의 네트워크 옵션을 설정해주지 않으면 기본적으로 동일한 네트워크에 서로 연결되어 있기 때문이다.**
+
+
 
 ## 방법2. 엘라스틱서치까지 추가
 
