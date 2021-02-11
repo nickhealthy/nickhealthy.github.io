@@ -1,6 +1,6 @@
 ---
 title: 'automation-server(AWS-EC2) 생성 및 GitHub Webhook 연동'
-date: 2021-02-10 15:03:30
+date: 2021-02-11 18:00:30
 category: '👨‍🍳 jenkins'
 thumbnail: { thumbnailSrc }
 draft: false
@@ -12,7 +12,7 @@ draft: false
 
 이때동안 우분투 `AMI`만 사용했기에 빠른 시작 탭에서 이미지를 구할 수 있었는데 `centos` 이미지는 AWS-Marketplace에서 찾을 수 있다.
 
-![1](C:\Users\Nick\_주성우\OneDrive\바탕 화면\jenkins\aws-jenkins_server\1.PNG)
+<img width="606" alt="1" src="https://user-images.githubusercontent.com/66216102/107617093-9c67b780-6c92-11eb-97fc-0a22986eadce.PNG">
 
 이후 젠키스의 기본 포트는 `8080` 포트이기 때문에 보안 그룹.인바운드에서 `8080` 포트를 개방해 주었다.
 
