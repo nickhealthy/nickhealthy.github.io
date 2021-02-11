@@ -18,7 +18,7 @@ export const Layout = ({ location, title, children }) => {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(37),
+          maxWidth: rhythm(30),
           padding: `${rhythm(1.2)} ${rhythm(3 / 4)}`,
         }}
       >
