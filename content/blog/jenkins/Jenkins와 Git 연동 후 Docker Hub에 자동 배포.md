@@ -74,6 +74,8 @@ draft: false
 
 젠킨스를 활용해서 간단한 CI를 구현했지만, 서비스가 점점 커지면서 **파이프라인을 구축해** 좀 더 활용도 높게 개선해야 할 것 같습니다.
 
+다음 포스팅에서는 `github - webhook`을 설정할 예정!
+
 <br />
 <a href='#'><small class='up-button'>위로 올라가기💨</small></a>
 <br />
