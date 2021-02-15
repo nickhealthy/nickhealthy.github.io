@@ -38,6 +38,23 @@ GitHubTheme.overrideThemeStyles = () => {
     li: {
       marginBottom: '2px',
     },
+
+    h3: {
+      fontSize: '22px',
+      fontWeight: 800,
+      fontFamily: 'Catamaran',
+    },
+
+    h4: {
+      fontSize: '18px',
+      fontWeight: 800,
+      fontFamily: 'Catamaran',
+    },
+
+    h5: {
+      fontWeight: 800,
+      fontFamily: 'Catamaran',
+    },
   }
 }
 

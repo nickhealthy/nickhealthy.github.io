@@ -13,12 +13,12 @@ lang: 'ko'
 
 `Python` `Data Analysis` `Web Development` `React`
 
-|               |                                                                |
-| :-----------: | -------------------------------------------------------------- |
-|  **GitHub**   | [CoodingPenguin](https://github.com/CoodingPenguin)            |
-|   **Blog**    | [코딩하는펭귄의 저장소](https://cooding-penguin.netlify.app)   |
-| **Instagram** | [@cooding_penguin](https://www.instagram.com/cooding_penguin/) |
-|  **Contact**  | coodingpenguin@gmail.com                                       |
+|               |                                                    |
+| :-----------: | -------------------------------------------------- |
+|  **GitHub**   | [nickhealthy](https://github.com/nickhealthy)      |
+|   **Blog**    | [Woo's Dev Log](https://nickhealthy.github.io/)    |
+| **Instagram** | [@sung_wooo](https://www.instagram.com/sung_wooo/) |
+|  **Contact**  | alskadmlcraz1@gmail.com                            |
 
 <br />
 
