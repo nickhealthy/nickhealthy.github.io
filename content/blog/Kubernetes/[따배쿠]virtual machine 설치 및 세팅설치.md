@@ -1,20 +1,18 @@
 ---
-title: '[따배쿠] 우분투 Desktop 설치'
+title: '[따배쿠] virtual machine 설치 및 세팅'
 date: 2021-02-16 00:22:30
 category: '🧭 Kubernetes'
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-# virtual machine 설치 및 세팅
-
-### 네트워크 구성
+# 네트워크 구성
 
 - 도구 - 환경설정 - 네트워크 만들기
   - 네트워크 이름: k8s Network
   - 네트워크 CIDR(10.100.0.0/24)
 
-### 포트포워딩
+# 포트포워딩
 
 |  이름  | 프로토콜 | 호스트IP  | 호스트포트 |  게스트 IP   | 게스트 포트 |
 | :----: | :------: | :-------: | :--------: | :----------: | :---------: |
@@ -73,8 +71,7 @@ $ sudo apt-get install -y openssh-server curl vim tree
 
 # root 패스워드 설정
 
-> 우분투 OS는 기본적으로 관리자 계정 하나만 만듬
->
+> 우분투 OS는 기본적으로 관리자 계정 하나만 만듬  
 > 기본적으로 root 로그인이 안되고, root 패스워드가 없으니 switch도 안되는 것임
 
 ```bash
