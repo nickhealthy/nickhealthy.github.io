@@ -6,12 +6,12 @@ lang: 'ko'
 
 # NICKHEALTHY
 
-**하고 싶은 것을 찾고 있는 코딩하는펭귄🐧**
+**MSA를 지향하고, DevOps 개발자를 꿈꾸는 있는 nickhealthy🌞**
 
-**정리하는 것**을 정말 좋아하며 블로그, 인스타, Notion으로 여러 가지를 정리합니다.  
-데이터분석, 인공지능, 웹개발 공부를 해왔으며 지금은 <u>파이썬</u>과 <u>인공지능</u>에 집중하고 있습니다.
+**궁금한 것**이 정말 많으며 여러 개의 예시를 먼저 따라해보고, 직접 만들어보며, 기술에 대해 정확하게 익히고 이해하려 노력합니다.  
+클라우드, DevOps, 웹개발 공부를 해왔으며 지금은 <u>파이썬</u>과 <u>클라우드</u>에 집중하고 있습니다.
 
-`Python` `Data Analysis` `Web Development` `React`
+`Python` `Infra` `DevOps` `Cloud` `Web Development`
 
 |               |                                                    |
 | :-----------: | -------------------------------------------------- |
@@ -24,27 +24,30 @@ lang: 'ko'
 
 # PROJECTS
 
-## [영화평점 서비스 StarWatches](https://starwatches.netlify.app)
+## [나만의 플레이리스트 구축 서비스 OneSound](https://starwatches.netlify.app)
 
-**Nomad Coders ReactJS Challenge 5기 졸업 작품**  
-리액트JS와 TMDB API를 이용한 영화 평점 사이트 클론
+**멀티캠퍼스 - 인터페이스 개발 프로젝트 최우수상 수상🥇**  
+Youtube에서 원하는 노래(구간)을 플레이리스트에 저장 및 상대방과 공유할 수 있는 서비스
 
-|                |                                                                                |
-| :------------- | ------------------------------------------------------------------------------ |
-| **Period**     | 2020.10 - 2020.11                                                              |
-| **What I Did** | ◾ ReactJS로 영화 평점 사이트 프론트엔드 구현<br>◾ axios로 TMDB API 결과 추출 |
-| **Tech**       | `Javascript` `Axios` `ReactJS` `Hooks`                                         |
+|                |                                                                                                               |
+| :------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Period**     | 2020.07 - 2020.08                                                                                             |
+| **What I Did** | ◾ Docker 배포, Jenkins로 CI 구현<br>◾ 메인페이지 UI, 플레이리스트 구현, 형상관리(Git) & DB & Venv 환경 구축 |
+| **Tech**       | `Django` `Docker` `Jenkins` `Elastic Search` `FFMPEG` `MariaDB` `bootstrapk`                                  |
 
-## 공공 배달앱 : 소비자를 위한 다다익선
+## [프렌차이즈 커피 영양정보 & 위치 제공 서비스](https://caca0.shop/)
 
-**대전광역시 빅데이터 아이디어 공모전 2020 장려상 수상🥉**  
-유동인구 및 카드 데이터를 활용한 획기적인 1인 가구 배달 아이디어
+**멀티캠퍼스 - 클라우드 활용 프로젝트 최우수상 수상🥇**  
+각 프렌차이즈 커피를 Crawling을 통해 하나의 웹 사이트에서 확인이 가능  
+ ◾ 종류 별로 커피 분류가 가능하고 영양 정보도(카페인 등) 쉽게 비교가 가능  
+ ◾ Kakao Map를 이용해 선택한 커피 프렌차이즈를 현재 위치를 기반으로 조회가 가능  
+React를 활용한 SPA 구현과 AWS-Lambda를 이용한 Serverless 사이트 구현
 
 |            |                                                                                                |
 | :--------- | ---------------------------------------------------------------------------------------------- |
-| **Period** | 2020.04 - 2020.06                                                                              |
+| **Period** | 2020.08 - 2020.09                                                                              |
 | **Role**   | ◾ 유동인구 및 카드 데이터 분석<br>◾ 배달 아이디어 관련 수식 세우기<br>◾ 데이터분석 부분 PPT |
-| **Tech**   | `Python` `Pandas` `Numpy` `Excel` `Jupyter Notebook`                                           |
+| **Tech**   | `Serverless` `RDS` `API-Gateway` `CloudFront` `Pipeline` `React` `Web-Crawling`                |
 
 ## [StackOverflow 키워드 크롤링](https://github.com/CoodingPenguin/web-scrapper)
 
