@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_야근지수/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_2xn 타일링/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_스킬트리/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 yaml, API version/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 아키텍처 - k8s 동작원리/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] kubectl 실습/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/network/[후니]_1.네트워크와 케이블/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[백준]_단계별_재귀/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_입국심사/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]7-1.선형 자료구조/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]_15.3Sum/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]_42.Trapping Rain Water/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_등굣길/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]7.선형 자료구조/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]_1.TwoSum/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[백준]_단계별_스택/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[programmers]_정수삼각형/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]쿠버네티스 설치,비설치 실습/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]virtual machine 설치 및 세팅설치/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]_819.Most Common Word/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]쿠버네티스입문/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]_5.Longest Palindromic Substring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]6-1.문자열 조작(String-Manipulation)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/jenkins/automation-server(AWS-EC2) 생성 및 GitHub Webhook 연동/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
