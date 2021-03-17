@@ -1,9 +1,17 @@
+---
+title: '[programmers]SQL_ISNULL'
+date: 2021-03-15 15:01:59
+category: '💯 solving-algo'
+thumbnail: { thumbnailSrc }
+draft: false
+---
+
 ## [이름이 없는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59039)
 
 ```mysql
 -- 코드를 입력하세요
 SELECT ANIMAL_ID
-FROM ANIMAL_INS 
+FROM ANIMAL_INS
 WHERE NAME IS NULL
 ```
 
@@ -12,7 +20,7 @@ WHERE NAME IS NULL
 ```mysql
 -- 코드를 입력하세요
 SELECT ANIMAL_ID
-FROM ANIMAL_INS 
+FROM ANIMAL_INS
 WHERE NAME IS NOT NULL
 ```
 
@@ -23,4 +31,3 @@ WHERE NAME IS NOT NULL
 SELECT ANIMAL_TYPE, IFNULL(NAME, "No name") AS NAME, SEX_UPON_INTAKE
 FROM ANIMAL_INS
 ```
-

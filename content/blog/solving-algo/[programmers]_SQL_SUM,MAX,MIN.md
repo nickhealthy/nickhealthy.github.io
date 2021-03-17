@@ -1,3 +1,11 @@
+---
+title: '[programmers]SQL_SUM,MAX,MIN'
+date: 2021-03-13 15:01:59
+category: '💯 solving-algo'
+thumbnail: { thumbnailSrc }
+draft: false
+---
+
 ## [최대값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415)
 
 ```mysql
@@ -23,7 +31,6 @@ FROM ANIMAL_INS
 
 ```mysql
 SELECT COUNT(DISTINCT NAME)
-FROM ANIMAL_INS 
+FROM ANIMAL_INS
 WHERE NAME IS NOT NULL
 ```
-

@@ -1,3 +1,11 @@
+---
+title: '[programmers]SQL_SELECT'
+date: 2021-03-12 15:01:59
+category: '💯 solving-algo'
+thumbnail: { thumbnailSrc }
+draft: false
+---
+
 ## [모든 레코드 조회하기](https://programmers.co.kr/learn/courses/30/lessons/59034)
 
 ```MYSQL
@@ -40,8 +48,7 @@ ORDER BY NAME, DATETIME DESC
 
 ```mysql
 SELECT NAME
-FROM ANIMAL_INS 
+FROM ANIMAL_INS
 ORDER BY DATETIME
 LIMIT 1
 ```
-

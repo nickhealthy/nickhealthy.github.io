@@ -1,8 +1,16 @@
+---
+title: '[programmers]SQL_GROUPBY'
+date: 2021-03-14 15:01:59
+category: '💯 solving-algo'
+thumbnail: { thumbnailSrc }
+draft: false
+---
+
 ## [고양이와 개는 몇 마리 있을까](https://programmers.co.kr/learn/courses/30/lessons/59040)
 
 ```mysql
 SELECT ANIMAL_TYPE, COUNT(ANIMAL_ID) AS 'count'
-FROM ANIMAL_INS 
+FROM ANIMAL_INS
 GROUP BY ANIMAL_TYPE
 ORDER BY ANIMAL_TYPE
 ```
@@ -11,9 +19,9 @@ ORDER BY ANIMAL_TYPE
 
 ```mysql
 SELECT NAME, COUNT(NAME) AS COUNT
-FROM ANIMAL_INS 
+FROM ANIMAL_INS
 GROUP BY NAME
-HAVING COUNT(NAME) >=2 
+HAVING COUNT(NAME) >=2
 ORDER BY NAME
 ```
 
@@ -21,7 +29,7 @@ ORDER BY NAME
 
 ```mysql
 SELECT HOUR(DATETIME) as HOUR, COUNT(ANIMAL_ID) as COUNT
-FROM ANIMAL_OUTS 
+FROM ANIMAL_OUTS
 GROUP BY HOUR(DATETIME)
 HAVING  HOUR >= 9 and HOUR <= 19
 ORDER BY HOUR
@@ -37,4 +45,3 @@ SELECT (@hour := @hour + 1) as HOUR,
 FROM ANIMAL_OUTS
 WHERE @hour < 23
 ```
-
