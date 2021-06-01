@@ -1,6 +1,6 @@
 ---
 title: 'AWS 서비스와 클라우드'
-date: 2021-06-02 14:21:13
+date: 2021-05-31 14:21:13
 category: '☁️ aws'
 draft: false
 ---
