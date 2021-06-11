@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://nickhealthy.github.io/aws/NAT 인스턴스를 통한 인터넷 연결/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/Proxy (Squid) Instance - VPC Outbound Filtering/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/배치 그룹 &amp; 메타데이터/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/엔드포인트 서비스로 프라이빗 링크 구성/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/network/[후니]_3. TCP,IP, DHCP, 망분리/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/network/[후니]_2. 캐스트, OSI 7 Layer, 프로토콜/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/게이트웨이인터페이스 엔드포인트 비교/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/퍼블릭,프라이빗 서브넷 VPC 구성 및 통신/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/AWS - VPC 서비스 및 기본개념/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/CloudFormation으로 인프라 자동 구축/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/aws/AWS 서비스와 클라우드/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-DP]_바닥공사/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-DP]_금광문제/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-DP]_효율적인 화폐/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-DP]_개미전사/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-DP]_1로 만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-이진탐색]_부품찾기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-이진탐색]_떡볶이 떡 만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[이코테]/[이코테-DFS,BFS]_미로탈출/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -30,7 +46,7 @@
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 yaml, API version/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 아키텍처 - k8s 동작원리/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] kubectl 실습/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://nickhealthy.github.io/network/[후니]_1.네트워크와 케이블/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/network/[후니]_1. 네트워크(이더넷), 케이블, MAC(ARP)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[백준]/[백준]_단계별_재귀/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_입국심사/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]7-1.선형 자료구조/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -103,7 +119,6 @@
 <url> <loc>https://nickhealthy.github.io/docker/도커 시작하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]완주하지_못한_선수/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/gatsby/깃허브로-블로그-만들기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://nickhealthy.github.io/aws/test2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/study/second/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
