@@ -6,12 +6,21 @@ lang: 'ko'
 
 # NICKHEALTHY
 
-**MSA를 지향하고, DevOps 개발자를 꿈꾸는 있는 nickhealthy🌞**
+**배움, 실행을 선행하여 공유해 같이 성장하는 것을 지향하는 예비 개발자**  
+<u>Cloud</u>, <u>DevOps</u> 개발자를 꿈꾸는 있는 **nickhealthy🌞**
 
-**궁금한 것**이 정말 많으며 여러 개의 예시를 먼저 따라해보고, 직접 만들어보며, 기술에 대해 정확하게 익히고 이해하려 노력합니다.  
+**저는 `______` 하는 엔지니어입니다.**
+
+1. 궁금한 것이 정말 많아 다양하게 시도하는
+2. 새로운 기술, 언어를 배우는데 거부감이 없는
+3. 사용하는 기술에 대해 정확하게 이해하고 사용하려 노력하는
+4. 자동화를 통한 생산성 향상에 신경쓰는
+5. 업무 프로세스 그리고 이를 뒷받침하는 조직 문화에 관심이 많은
+
 클라우드, DevOps, 웹개발 공부를 해왔으며 지금은 <u>파이썬</u>과 <u>클라우드</u>에 집중하고 있습니다.
 
-`Python` `Infra` `DevOps` `Cloud` `Web Development`
+`Skills:` `Python` `Django` `Linux` `IaC` `Docker` `Kubernetes` `AWS`  
+`Want:` `Cloud` `DevOps` `Infra` `Web Development`
 
 |               |                                                    |
 | :-----------: | -------------------------------------------------- |
@@ -24,148 +33,92 @@ lang: 'ko'
 
 # PROJECTS
 
-## [나만의 플레이리스트 구축 서비스 OneSound](https://starwatches.netlify.app)
+## [장고 기반 사용자만의 플레이리스트 구축 서비스 OneSound](https://github.com/multicampus-cloud/django_playlist)
 
 **멀티캠퍼스 - 인터페이스 개발 프로젝트 최우수상 수상🥇**  
 Youtube에서 원하는 노래(구간)을 플레이리스트에 저장 및 상대방과 공유할 수 있는 서비스
 
-|                |                                                                                                               |
-| :------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Period**     | 2020.07 - 2020.08                                                                                             |
-| **What I Did** | ◾ Docker 배포, Jenkins로 CI 구현<br>◾ 메인페이지 UI, 플레이리스트 구현, 형상관리(Git) & DB & Venv 환경 구축 |
-| **Tech**       | `Django` `Docker` `Jenkins` `Elastic Search` `FFMPEG` `MariaDB` `bootstrapk`                                  |
+#### 주요 기능
 
-## [프렌차이즈 커피 영양정보 & 위치 제공 서비스](https://caca0.shop/)
+◾ Youtube에서 원하는 음원을 구간별 Cutting이 가능하도록 구축  
+◾ FFMPEG를 사용하여 MP4 파일을 MP3 파일로 변환  
+◾ 가져온 음원은 개인 계정(DB)에 저장되며, 사용자가 원하는 테마별로 플레이리스트 구축 가능  
+◾ 웹 사이트 내 자신의 플레이리스트를 다른 사용자에게 공유 가능  
+◾ 사용자가 저장한 음원, 가수명 등 Elastic Search 솔루션을 통해 빠른 음원 검색 가능
+
+|            |                                                                                                                                                     |
+| :--------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why ?**  | ◾ 국내외 각 음원 플랫폼 특성상 음원이 없는 사항을 파악해 기획<br/> ◾ 하나의 플랫폼에서 원하는 음원을 모두 들을 수 있도록 개발                     |
+| **Period** | 2020.08.11 - 2020.09.03                                                                                                                             |
+| **Role**   | ◾ 메인페이지 UI, 플레이리스트 구현, 형상관리(Git) & DB & Venv 환경 구축<br/>◾ 프로젝트 종료 후 - Docker 배포, Jenkins로 CI 구현, AWS배포(EC2, S3) |
+| **Tech**   | `Python` `Web Scraping` `Django` `Docker` `Public Cloud(AWS)` `AWS-SDK` `Jenkins` `Elastic Search` `FFMPEG` `MariaDB` `Bootstrap` `git/github`      |
+
+## [서러리스 기반 프렌차이즈 커피 영양정보 & 위치 제공 서비스](https://caca0.shop/)
+
+[Github](https://github.com/multicampus-cloud2/Portfolio)
 
 **멀티캠퍼스 - 클라우드 활용 프로젝트 최우수상 수상🥇**  
-각 프렌차이즈 커피를 Crawling을 통해 하나의 웹 사이트에서 확인이 가능  
- ◾ 종류 별로 커피 분류가 가능하고 영양 정보도(카페인 등) 쉽게 비교가 가능  
- ◾ Kakao Map를 이용해 선택한 커피 프렌차이즈를 현재 위치를 기반으로 조회가 가능  
-React를 활용한 SPA 구현과 AWS-Lambda를 이용한 Serverless 사이트 구현
+각 프렌즈차이즈 제품 정보를 Crawling을 통해 하나의 웹 사이트에서 확인 및 비교 가능 서비스
 
-|            |                                                                                                |
-| :--------- | ---------------------------------------------------------------------------------------------- |
-| **Period** | 2020.08 - 2020.09                                                                              |
-| **Role**   | ◾ 유동인구 및 카드 데이터 분석<br>◾ 배달 아이디어 관련 수식 세우기<br>◾ 데이터분석 부분 PPT |
-| **Tech**   | `Serverless` `RDS` `API-Gateway` `CloudFront` `Pipeline` `React` `Web-Crawling`                |
+#### 주요 기능
 
-## [StackOverflow 키워드 크롤링](https://github.com/CoodingPenguin/web-scrapper)
+◾ 프렌차이즈, 제품 별 분류 및 영양 정보(가격 포함) 쉽게 비교가 가능  
+◾ Kakao Map를 이용해 선택한 커피 프렌차이즈 지점을 현재 위치를 기반으로 조회가 가능  
+◾ 신규메뉴 출시 시 등록한 사용자에게 SNS 알림 서비스  
+◾ React를 활용한 SPA 구현과 AWS-Lambda를 이용한 Serverless 사이트 구현
 
-**Nomad Coders Python Challenge 1기 졸업 작품**  
-StackOverflow 특정 키워드 일자리 크롤링 사이트
+|            |                                                                                                                                                                   |
+| :--------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why ?**  | 카페인 등 영양정보 확인이 어렵고, 구성성분에 민감한 소비자를 위해 기획                                                                                            |
+| **Period** | 2020.10.28 - 2020.11.16                                                                                                                                           |
+| **Role**   | ◾ 퍼블릭 클라우드 자원 관리 및 총괄<br>◾ 제품 클릭 시 영양정보 확인 가능(React)<br>◾ WBS(Work Breakdown Structure) 관리<br>◾ 형상관리 툴(GitHub) 세팅 및 관리 |
+| **Tech**   | `Python` `Web Scraping` `Public Cloud(AWS)` `AWS-SDK` `React` `KakaoMap API` `git/github`                                                                         |
 
-|                |                                                                                          |
-| :------------- | ---------------------------------------------------------------------------------------- |
-| **Period**     | 2020.04 - 2020.04                                                                        |
-| **What I Did** | ◾ 특정 키워드 일자리 크롤링 구현<br>◾ 엑셀 내보내기 구현<br>◾ 크롤링 결과 사이트 구현 |
-| **Tech**       | `Python` `BeautifulSoup4` `Requests` `Flask`                                             |
+## ['서울시 자전거(따릉이) 효율적 배치 추천 시스템'](https://github.com/multicampus-Convergence-Project)
 
-## [유튜브 클론](https://github.com/CoodingPenguin/youtube-clone)
+**멀티캠퍼스 - 융복합(IoT, AI, 빅데이터, 클라우드) 프로젝트**  
+서울시 자전거 '따릉이' 관리자를 위한 효율적 배치 추천 및 각종 다양한 서비스
 
-**Nomad Coders Youtube Challenge 3기 졸업 작품**  
-유튜브 프론트 및 백엔드 클론
+#### 주요 기능
 
-|                |                                                                                                                                                       |
-| :------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Period**     | 2020.02 - 2020.03                                                                                                                                     |
-| **What I Did** | ◾ 유튜브 홈화면/프로필/동영상 창 프론트 구현<br>◾ 동영상 녹화/업로드/수정 및 댓글 기능 구현<br>◾ 회원가입/로그인/로그아웃 및 프로필 수정 기능 구현 |
-| **Tech**       | `HTML` `CSS` `PUG` `Javascript` `NodeJS` `Express`<br>`MongoDB` `Heroku` `AWS`                                                                        |
+◾ 관리자 웹, 앱 페이지에서 Kakao Map를 통해 따릉이 현 배치 현황, 추천 수요를 지도 상에 표시  
+◾ 공공 OpenAPI 데이터를 Cron 기술을 통해 주기적으로 모아 빅데이터 분석에 활용  
+◾ YOLO, 라즈베리파이(센서)를 활용해 전방 장애물 파악 및 사용자에게 경고 알림 기능  
+◾ 사고 발생이 의심될 시, 사용자가 등록한 지인 연락처로 위험 문자 알림 서비스  
+◾ 따릉이 도난 및 방치가 의심될 시, IoT와 연동된 관리자 앱을 통해 따릉이 위치 파악 기능
 
-## [투드리스트 Momentum 클론](https://github.com/CoodingPenguin/momentum-app-clone)
-
-**Nomad Coders Javascript Challenge 2기 졸업 작품**  
-투두리스트 앱 Momentum 클론
-
-|                |                                                                                                                 |
-| :------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Period**     | 2020.01 - 2020.02                                                                                               |
-| **What I Did** | ◾ 투두리스트 추가/삭제 구현수정<br>◾ 현재 시간 및 투두리스트 작성 시간 구현<br>◾ LocalStorage를 통한 DB 저장 |
-| **Tech**       | `Javascript` `HTML` `CSS`                                                                                       |
-
-## [카카오톡 프론트엔드 클론](https://github.com/CoodingPenguin/kakao-clone)
-
-**Nomad Coders Kakao Clone Challenge 4기 졸업 작품**  
-카카오톡 프론트엔드 클론
-
-|                |                                                         |
-| :------------- | ------------------------------------------------------- |
-| **Period**     | 2020.01 - 2020.01                                       |
-| **What I Did** | ◾ 기본적인 카카오톡 UI 및 그룹톡, 카카오페이 블록 구현 |
-| **Tech**       | `HTML` `CSS`                                            |
-
-## [사용자 맞춤 악성 댓글 필터링 서비스](https://github.com/IamGroooooot/customized-toxic-comment-filtering)
-
-**코알라 Univ. 2기 해커톤**  
-사용자가 지정한 악성 지표에 따라 댓글 필터링이 가능한 서비스  
-프로토타입까지 완성
-
-|            |                                                             |
-| :--------- | ----------------------------------------------------------- |
-| **Period** | 2020.01 - 2020.01                                           |
-| **Role**   | ◾ EDA 및 악성 댓글 필터링 분류기 개발<br>◾ 발표 PPT       |
-| **Tech**   | `Python` `Scikit-Learn` `Numpy` `Pandas` `Jupyter Notebook` |
-
-## [김해시 화재발생 예측모델 개발](https://github.com/CoodingPenguin/data-contest-collection/tree/main/2019-gimhae-fire-prediction)
-
-**COMPAS 김해시 화재발생 예측모델 개발**  
-경상남도 소방 및 건물 관련 데이터로 김해시 건축물의 화재 위험도 분석 및 예측 모델 개발
-
-|            |                                                             |
-| :--------- | ----------------------------------------------------------- |
-| **Period** | 2019.10 - 2020.11                                           |
-| **Role**   | ◾ 데이터 전처리 및 EDA<br>◾ 화재예측 모델 설계            |
-| **Tech**   | `Python` `Pandas` `Numpy` `Jupyter Notebook` `Scikit-Learn` |
-
-## [프로젝트 Doldam](https://github.com/CoodingPenguin/doldam)
-
-**2018년 CIEN 튜토리얼 프로젝트**  
-**2018년 여름 LINE 동아리 게임 공모전 수상작**  
-자이로센서를 이용한 횡스크롤 눈 굴리기 게임 RockyDownHill
-
-|            |                                                 |
-| :--------- | ----------------------------------------------- |
-| **Period** | 2018.05 - 2018.08                               |
-| **Role**   | ◾ UI 및 사운드 매니저 개발<br>◾ 기타 유지보수 |
-| **Tech**   | `Unity` `C#`                                    |
+|            |                                                                                                                                                               |
+| :--------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Why ?**  | ◾ 특정 시간 및 장소에서 수요 부족, 과다 현상이 발생한다는 것을 파악<br>◾ 빅데이터 기반 분석을 통한 솔루션을 제공하고자 기획                                 |
+| **Period** | 2020.11.19 ~ 2020.12.22                                                                                                                                       |
+| **Role**   | ◾ 융복합 클라우드 아키텍처 설계 총괄<br>◾ 퍼블릭 클라우드 자원 구축 및 총괄<br>◾ WBS(Work Breakdown Structure) 관리<br>◾ 형상관리 툴(GitHub) 세팅 및 관리 |
+| **Tech**   | `Python` `Public Cloud(AWS)` `AWS-SDK` `OpenAPI(KakaoMap, 공공데이터)` `React` `Android` `XGBoost` `YOLO` `TFLite` `IoT(Raspberry Pi 및 각종 센서)`           |
 
 <br />
 
 # EDUCATION
 
-### 부스트캠프 AI Tech
+### 클라우드(MSA) 서비스 개발
 
-`2021.01 - ing` by **네이버 커넥트재단**
+`2020.07.13 - 2020.12.24` 수료 by **멀티캠퍼스**
 
-### ReactJS Online Bootcamp
+### 부스트코스: 부스트 코딩 뉴비 챌린지
 
-[우수졸업자🎓](https://www.notion.so/nomadcoders/ReactJS-5-c1e7e589824f44a3958db13710e81487)  
-`2020.11` 수료 by **Nomad Coders**
+6주차 우수조선정🎓  
+`2020.07.10 - 2020.08.28` 수료 by **네이버커넥트**
 
-### Python Online Bootcamp
+### 임베디드 시스템과
 
-`2020.05` 수료 by **Nomad Coders**
+`2019.03.05 - 2019.12.06` 수료 by **한국폴리텍 융합기술교육원**
 
-### NodeJS Fullstack Online Bootcamp
+### 코딩 스터디
 
-`2020.03 - 2020.04` 수료 by **Nomad Coders**
+스터디 팀원✍  
+매일 1문제씩 백준, 프로그래머스를 풀이 및 1주마다 백준 단계별 풀이  
+`2021.01 - 2020.04` by **멀티캠퍼스 동기들**
 
-### 부스트코스 : 파이토치로 시작하는 딥러닝 기초
+### SAFFY 대비 스터디
 
-`2020.03` 수료 by **boostcourse**
-
-### VanillaJS Online Bootcamp
-
-[우수졸업자🎓](https://www.notion.so/VanillaJS-2-ff8005575c4a4077a923648afa400d9a)  
-`2020.02` 수료 by **Nomad Coders**
-
-### HTML/CSS Online Bootcamp
-
-`2020.01` 수료 by **Nomad Coders**
-
-### 코알라 Univ. 2기
-
-스터디 운영진✍  
-사용자 맞춤 악성 댓글 필터링 서비스 개발  
-`2019.09 - 2020.01` 수료 by **Meeta**
-
-<!-- </div> -->
+스터디 모임장✍  
+매 주말(토) 풀이할 문제 준비 및 리뷰  
+`2020.03 - 2020.06` by **개인 운영**
