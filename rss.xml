@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Jun 2021 02:28:46 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</link><guid isPermaLink="false">https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</guid><content:encoded>&lt;h1 id=&quot;연결리스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;연결리스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연결리스트&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Jun 2021 14:05:57 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</link><guid isPermaLink="false">https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</guid><content:encoded>&lt;h1 id=&quot;연결리스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;연결리스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연결리스트&lt;/h1&gt;
 &lt;div class=&quot;quote-block&quot;&gt;
 &lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
 &lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
@@ -280,7 +280,614 @@ end_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;spa
 start_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 end_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;기본정렬&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end_time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[NAT 인스턴스를 통한 인터넷 연결]]></title><description><![CDATA[NAT 인스턴스를 통하여 프라이빗 서브넷에 인스턴스가 외부 인터넷으로 통신을 가능하게 하는 실습 실습 단계 기본 환경 구성 CloudFormation 적용 생성 자원 확인 기본 환경 검증 NAT 인스턴스 실습 NAT…]]></description><link>https://nickhealthy.github.io/aws/NAT 인스턴스를 통한 인터넷 연결/</link><guid isPermaLink="false">https://nickhealthy.github.io/aws/NAT 인스턴스를 통한 인터넷 연결/</guid><pubDate>Thu, 10 Jun 2021 08:43:13 GMT</pubDate><content:encoded>&lt;p&gt;NAT 인스턴스를 통하여 프라이빗 서브넷에 인스턴스가 외부 인터넷으로 통신을 가능하게 하는 실습&lt;/p&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;기본정렬&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end_time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[ALB와 NLB를 통한 로드밸런싱]]></title><description><![CDATA[실습목표 ELB의 3가지 유형의 로드밸런싱 중에 ALB와 NLB를 생성하여 부하 분산을 통한 고가용성 환경을 구성하고, 각 로드밸런서의 차이와 통신 과정을 살펴봄 실습 단계 기본 환경 구성 CloudFormation…]]></description><link>https://nickhealthy.github.io/aws/ALB와 NLB를 통한 로드밸런싱/</link><guid isPermaLink="false">https://nickhealthy.github.io/aws/ALB와 NLB를 통한 로드밸런싱/</guid><pubDate>Mon, 28 Jun 2021 17:06:13 GMT</pubDate><content:encoded>&lt;h2 id=&quot;실습목표&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%8A%B5%EB%AA%A9%ED%91%9C&quot; aria-label=&quot;실습목표 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실습목표&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ELB의 3가지 유형의 로드밸런싱 중에 ALB와 NLB를 생성하여 부하 분산을 통한 고가용성 환경을 구성하고, 각 로드밸런서의 차이와 통신 과정을 살펴봄&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;실습-단계&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%8A%B5-%EB%8B%A8%EA%B3%84&quot; aria-label=&quot;실습 단계 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실습 단계&lt;/h2&gt;
+&lt;h3 id=&quot;기본-환경-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;기본 환경 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본 환경 구성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CloudFormation 적용&lt;/li&gt;
+&lt;li&gt;생성 자원 확인&lt;/li&gt;
+&lt;li&gt;기본 환경 검증&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;alb를-통한-로드밸런싱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#alb%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1&quot; aria-label=&quot;alb를 통한 로드밸런싱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB를 통한 로드밸런싱&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ALB 생성&lt;/li&gt;
+&lt;li&gt;ALB 검증&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;nlb를-통한-로드밸런싱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlb%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1&quot; aria-label=&quot;nlb를 통한 로드밸런싱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLB를 통한 로드밸런싱&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;NLB 생성&lt;/li&gt;
+&lt;li&gt;NLB 검증&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;자원-삭제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EC%9B%90-%EC%82%AD%EC%A0%9C&quot; aria-label=&quot;자원 삭제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자원 삭제&lt;/h3&gt;
+&lt;h2 id=&quot;기본-환경-구성-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1-1&quot; aria-label=&quot;기본 환경 구성 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본 환경 구성&lt;/h2&gt;
+&lt;h3 id=&quot;cloudformation-적용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cloudformation-%EC%A0%81%EC%9A%A9&quot; aria-label=&quot;cloudformation 적용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CloudFormation 적용&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;이전 실습 확인&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AWS 인프라 자원을 생성할 [YAML 파일]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VPC(10.0.0.0/16, 20.0.0.0/16)&lt;/li&gt;
+&lt;li&gt;퍼블릭 서브넷(ELB-Public-SN-1, ELB-Public-SN-2, My-Public-SN)&lt;/li&gt;
+&lt;li&gt;퍼블릭 라우팅 테이블(ELB-Public-RT, My-Public-RT)&lt;/li&gt;
+&lt;li&gt;인터넷 게이트웨이(ELB-IGW, My-IGW)&lt;/li&gt;
+&lt;li&gt;퍼블릭 EC2 인스턴스(My-EC2, ELB-EC2-1, ELB-EC2-2)&lt;/li&gt;
+&lt;li&gt;보안그룹(ELB-SG) - 프로토콜: SSH, HTTP, SNMP/대상(0.0.0.0/0)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;Parameters&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;KeyName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name of an existing EC2 KeyPair to enable SSH access to the instances. Linked to AWS Parameter
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;KeyPair&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;KeyName
+    &lt;span class=&quot;token key atrule&quot;&gt;ConstraintDescription&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; must be the name of an existing EC2 KeyPair.
+  &lt;span class=&quot;token key atrule&quot;&gt;LatestAmiId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; (DO NOT CHANGE)
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;AWS::SSM::Parameter::Value&amp;lt;AWS::EC2::Image::Id&gt;&apos;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Default&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2&apos;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;AllowedValues&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; /aws/service/ami&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;amazon&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;linux&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest/amzn2&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;ami&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;hvm&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;x86_64&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;gp2
+
+&lt;span class=&quot;token key atrule&quot;&gt;Resources&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBVPC&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;VPC
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;CidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10.0.0.0/16
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;VPC
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyVPC&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;VPC
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;CidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 20.0.0.0/16
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; My&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;VPC
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBIGW&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;InternetGateway
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;IGW
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyIGW&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;InternetGateway
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; My&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;IGW
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBIGWAttachment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;VPCGatewayAttachment
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;InternetGatewayId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBIGW
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBVPC
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyIGWAttachment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;VPCGatewayAttachment
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;InternetGatewayId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyIGW
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyVPC
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBPublicRT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;RouteTable
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Public&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;RT
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBDefaultPublicRoute&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Route
+    &lt;span class=&quot;token key atrule&quot;&gt;DependsOn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELBIGWAttachment
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;RouteTableId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicRT
+      &lt;span class=&quot;token key atrule&quot;&gt;DestinationCidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0/0
+      &lt;span class=&quot;token key atrule&quot;&gt;GatewayId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBIGW
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyPublicRT&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;RouteTable
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; My&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Public&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;RT
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyDefaultPublicRoute&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Route
+    &lt;span class=&quot;token key atrule&quot;&gt;DependsOn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; MyIGWAttachment
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;RouteTableId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyPublicRT
+      &lt;span class=&quot;token key atrule&quot;&gt;DestinationCidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0/0
+      &lt;span class=&quot;token key atrule&quot;&gt;GatewayId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyIGW
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBPublicSN1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Subnet
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;AvailabilityZone&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Select&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!GetAZs&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;CidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10.0.0.0/24
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Public&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;SN&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBPublicSN2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Subnet
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;AvailabilityZone&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Select&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!GetAZs&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;CidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10.0.1.0/24
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Public&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;SN&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyPublicSN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Subnet
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;AvailabilityZone&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Select&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!GetAZs&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;CidrBlock&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 20.0.0.0/24
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; My&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Public&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;SN
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBPublicSNRouteTableAssociation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;SubnetRouteTableAssociation
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;RouteTableId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicRT
+      &lt;span class=&quot;token key atrule&quot;&gt;SubnetId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicSN1
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBPublicSNRouteTableAssociation2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;SubnetRouteTableAssociation
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;RouteTableId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicRT
+      &lt;span class=&quot;token key atrule&quot;&gt;SubnetId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicSN2
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyPublicSNRouteTableAssociation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;SubnetRouteTableAssociation
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;RouteTableId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyPublicRT
+      &lt;span class=&quot;token key atrule&quot;&gt;SubnetId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyPublicSN
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MySG&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;SecurityGroup
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;GroupDescription&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Enable HTTP access via port 80 and SSH access via port 22
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; My&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;SG
+      &lt;span class=&quot;token key atrule&quot;&gt;SecurityGroupIngress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;IpProtocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; tcp
+          &lt;span class=&quot;token key atrule&quot;&gt;FromPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;22&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;ToPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;22&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;CidrIp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0/0
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBSG&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;SecurityGroup
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;GroupDescription&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Enable HTTP access via port 80 and SSH access via port 22
+      &lt;span class=&quot;token key atrule&quot;&gt;VpcId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBVPC
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELBSG
+      &lt;span class=&quot;token key atrule&quot;&gt;SecurityGroupIngress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;IpProtocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; tcp
+          &lt;span class=&quot;token key atrule&quot;&gt;FromPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;80&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;ToPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;80&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;CidrIp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0/0
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;IpProtocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; udp
+          &lt;span class=&quot;token key atrule&quot;&gt;FromPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;161&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;ToPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;161&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;CidrIp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0/0
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;IpProtocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; tcp
+          &lt;span class=&quot;token key atrule&quot;&gt;FromPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;22&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;ToPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;22&apos;&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;CidrIp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0/0
+
+  &lt;span class=&quot;token key atrule&quot;&gt;MyEC2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Instance
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;InstanceType&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; t2.micro
+      &lt;span class=&quot;token key atrule&quot;&gt;ImageId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; LatestAmiId
+      &lt;span class=&quot;token key atrule&quot;&gt;KeyName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; KeyName
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; My&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;EC2
+      &lt;span class=&quot;token key atrule&quot;&gt;NetworkInterfaces&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;DeviceIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;SubnetId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MyPublicSN
+          &lt;span class=&quot;token key atrule&quot;&gt;GroupSet&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; MySG
+          &lt;span class=&quot;token key atrule&quot;&gt;AssociatePublicIpAddress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;UserData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;Fn::Base64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Sub&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+          #!/bin/bash
+          yum install net-snmp-utils -y&lt;/span&gt;
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBEC21&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Instance
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;InstanceType&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; t2.micro
+      &lt;span class=&quot;token key atrule&quot;&gt;ImageId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; LatestAmiId
+      &lt;span class=&quot;token key atrule&quot;&gt;KeyName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; KeyName
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;NetworkInterfaces&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;DeviceIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;SubnetId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicSN1
+          &lt;span class=&quot;token key atrule&quot;&gt;GroupSet&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBSG
+          &lt;span class=&quot;token key atrule&quot;&gt;AssociatePublicIpAddress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;UserData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;Fn::Base64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Sub&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+          #!/bin/bash
+          hostname ELB-EC2-1
+          yum install httpd -y
+          yum install net-snmp net-snmp-utils -y
+          yum install tcpdump -y
+          service httpd start
+          chkconfig httpd on
+          service snmpd start
+          chkconfig snmpd on
+          echo &quot;&amp;lt;h1&gt;ELB-EC2-1 Web Server&amp;lt;/h1&gt;&quot; &gt; /var/www/html/index.html
+          mkdir /var/www/html/dev
+          echo &quot;&amp;lt;h1&gt;ELB-EC2-1 Dev Web Page&amp;lt;/h1&gt;&quot; &gt; /var/www/html/dev/index.html&lt;/span&gt;
+
+  &lt;span class=&quot;token key atrule&quot;&gt;ELBEC22&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; AWS&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;Instance
+    &lt;span class=&quot;token key atrule&quot;&gt;Properties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;InstanceType&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; t2.micro
+      &lt;span class=&quot;token key atrule&quot;&gt;ImageId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; LatestAmiId
+      &lt;span class=&quot;token key atrule&quot;&gt;KeyName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; KeyName
+      &lt;span class=&quot;token key atrule&quot;&gt;Tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Name
+          &lt;span class=&quot;token key atrule&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ELB&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;EC2&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;NetworkInterfaces&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;DeviceIndex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;SubnetId&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBPublicSN2
+          &lt;span class=&quot;token key atrule&quot;&gt;GroupSet&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Ref&lt;/span&gt; ELBSG
+          &lt;span class=&quot;token key atrule&quot;&gt;AssociatePublicIpAddress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;UserData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;Fn::Base64&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;!Sub&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+          #!/bin/bash
+          hostname ELB-EC2-2
+          yum install httpd -y
+          yum install net-snmp net-snmp-utils -y
+          yum install tcpdump -y
+          service httpd start
+          chkconfig httpd on
+          service snmpd start
+          chkconfig snmpd on
+          echo &quot;&amp;lt;h1&gt;ELB-EC2-2 Web Server&amp;lt;/h1&gt;&quot; &gt; /var/www/html/index.html
+          mkdir /var/www/html/mgt
+          echo &quot;&amp;lt;h1&gt;ELB-EC2-2 Mgt Web Page&amp;lt;/h1&gt;&quot; &gt; /var/www/html/mgt/index.html&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;기본-환경-검증&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8-%ED%99%98%EA%B2%BD-%EA%B2%80%EC%A6%9D&quot; aria-label=&quot;기본 환경 검증 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본 환경 검증&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;My-EC2 인스턴스에서 &lt;em&gt;ELb-EC2-1과 ELB-EC2-2&lt;/em&gt;로 HTTP 서비스와 SNMP 서비스 확인&lt;/li&gt;
+&lt;li&gt;각 인스턴스의 퍼블릭 IP 확인한 후 My-EC2 인스턴스에서 SSH로 접근&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649312-a0bcf780-d864-11eb-9daf-ff3844796dbd.JPG&quot; alt=&quot;1 기본환경검증&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;alb를-통한-로드밸런싱-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#alb%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1-1&quot; aria-label=&quot;alb를 통한 로드밸런싱 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB를 통한 로드밸런싱&lt;/h2&gt;
+&lt;h3 id=&quot;alb-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#alb-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;alb 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB 생성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;경로: 서비스 - EC2 - 로드밸런싱 - 로드밸런서 - 로드밸런서 생성 클릭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649316-a1ee2480-d864-11eb-859c-6edff407e15d.JPG&quot; alt=&quot;2  에이엘비로드밸런서생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;핵심 구성요소로 &lt;strong&gt;&lt;u&gt;리스너와 대상 그룹 존재&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;서비스 대상 프로토콜과 포트 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649318-a286bb00-d864-11eb-8611-b608d422d31a.JPG&quot; alt=&quot;2-1&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VPC 및 가용 영역 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649321-a286bb00-d864-11eb-90b7-370c4889ea5e.JPG&quot; alt=&quot;2-2&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ALB는 보안 그룹을 설정해 주어야 합니다.&lt;/li&gt;
+&lt;li&gt;보안 그룹은 서비스 대상을 지정하여 허용하는 필터링 기능입니다.(CloudFormation에 만든 자원을 설정)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649323-a31f5180-d864-11eb-9093-34cd2b71ba3e.JPG&quot; alt=&quot;3  보안그룹 설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;라우팅 구성 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;대상 그룹과 상태 검사 설정을 합니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649325-a31f5180-d864-11eb-8c00-04c4ecadf089.JPG&quot; alt=&quot;4  대상그룹설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;대상 그룹 대상 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ELB-EC2-1, ELB-EC2-2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649327-a3b7e800-d864-11eb-8492-6fd30529ee2f.JPG&quot; alt=&quot;5  대상그룹 등록설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ALB 생성 시, &lt;strong&gt;프로비저닝 상태&lt;/strong&gt;로 정상적인 동작 상태가 아님&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정상 동작을 한다면 곧 &lt;strong&gt;active&lt;/strong&gt;상태로 변경&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기다리는 동안, 대상 그룹을 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;경로: 서비스 - EC2 - 로드밸런싱 - 대상그룹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;초기 &lt;strong&gt;intial&lt;/strong&gt; 상태로 상태 검사가 진행중인 상태임, 인스턴스 상태가 확인되지 않은 것을 의미&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;시간이 지난 후, &lt;strong&gt;healthy&lt;/strong&gt;로 상태 변경&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649331-a4507e80-d864-11eb-8bb2-066d6a76262f.JPG&quot; alt=&quot;6  대상그룹확인&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;alb-검증&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#alb-%EA%B2%80%EC%A6%9D&quot; aria-label=&quot;alb 검증 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB 검증&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ALB DNS 주소 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649336-a4e91500-d864-11eb-80e3-56321f42aaff.JPG&quot; alt=&quot;7  에이엘비 검증&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;My-EC2 인스턴스에서 ALB 검증&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EC2-1, EC-2 인스턴스가 번갈아 가면서 접속됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649339-a4e91500-d864-11eb-9985-34a1598ebd0a.JPG&quot; alt=&quot;7-1&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ALB의 기본적인 로드밸런싱 알고리즘은 &lt;strong&gt;라운트 로빈 방식을 취하고 있음&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;경로-기반-라우팅-기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EB%A1%9C-%EA%B8%B0%EB%B0%98-%EB%9D%BC%EC%9A%B0%ED%8C%85-%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot;경로 기반 라우팅 기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경로 기반 라우팅 기능&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;현재 EC2-1, EC2-2 모두 &lt;em&gt;index.html&lt;/em&gt; 페이지를 보유중인데,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EC2-1에는 &lt;em&gt;dev/index.html&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;EC2-2에는 &lt;em&gt;mgt/index.html&lt;/em&gt; 각각 보유중임&lt;/li&gt;
+&lt;li&gt;해당 경로를 같은 대상그룹으로 묶은 ALB로 시험&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;dev, mgt 각각 한번은 경로를 찾고, 한번은 경로를 찾지 못함&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이러한 것을 해결하기 위한 기능이 &lt;strong&gt;&lt;u&gt;경로 기반 라우팅 기능입니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;해당 기능을 사용하기 위해 대상그룹을 분리 해야 함&lt;/li&gt;
+&lt;li&gt;경로: 서비스 - EC2 - 로드밸런싱 - 대상그룹 - 대상그룹생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649342-a581ab80-d864-11eb-90cc-6205610b7291.JPG&quot; alt=&quot;8  경로기반라우팅설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;대상 그룹 분리 및 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dev, Mgt 모두 대상그룹을 각각 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649347-a61a4200-d864-11eb-943f-0686d9cd57e1.JPG&quot; alt=&quot;8-1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649349-a61a4200-d864-11eb-9fa0-31f1b479ff95.JPG&quot; alt=&quot;8-2&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;생성한 ALB 페이지의 리스너에서 경로 기반 라우팅을 설정&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649356-a6b2d880-d864-11eb-9f9f-be31ce87ed6a.JPG&quot; alt=&quot;8-3&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;규칙 삽입, 조건 삽입, 경로 삽입, 대상 그룹 설정&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;마찮가지로 Mgt도 규칙 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/dev/ 경로로 향하는 URL 주소는 Dev-Group에 속한 인스턴스로 전달하고,&lt;/li&gt;
+&lt;li&gt;/mgt/ 경로로 향하는 URL 주소는 Mgt-Group에 속한 인스턴스로 전달하라는 의미임&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649358-a74b6f00-d864-11eb-8849-d0aee1bec550.JPG&quot; alt=&quot;8-4&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;각각 총 5번씩 테스트 진행, 모두 정상적으로 트래픽이 라우팅 되는 모습&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dev 경로는 EC2-1 으로,&lt;/li&gt;
+&lt;li&gt;mgt 경로는 EC2-2 으로,&lt;/li&gt;
+&lt;li&gt;index.html은 양쪽 번갈아가며 트래픽이 유입됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649359-a74b6f00-d864-11eb-9828-85f47b572567.JPG&quot; alt=&quot;8-5&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;nlb를-통한-로드밸런싱-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlb%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1-1&quot; aria-label=&quot;nlb를 통한 로드밸런싱 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLB를 통한 로드밸런싱&lt;/h2&gt;
+&lt;h3 id=&quot;nlb-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlb-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;nlb 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLB 생성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;경로: 서비스 - EC2 - 로드밸런싱 - 로드밸런서 - 로드밸런서 생성 클릭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649361-a7e40580-d864-11eb-9d73-a97d997730b5.JPG&quot; alt=&quot;9  NLB 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NLB 이름 설정 및 인터넷 경계 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이전 ALB와 설정 화면이 조금 다르다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649363-a87c9c00-d864-11eb-81b8-24f1b5e12b76.JPG&quot; alt=&quot;9-1  NLB 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ELB VPC 선택 및 가용영역 / 서브넷 선택&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649366-a87c9c00-d864-11eb-9ed4-339242c5734f.JPG&quot; alt=&quot;9-2  NLB 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;리스너 라우팅 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 설정도 기존과 좀 다르다.&lt;/li&gt;
+&lt;li&gt;대상 그룹이 사전에 만들어져 있어야 함&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Default action&lt;/em&gt; 에서 만든 해당 그룹을 선택해야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649368-a9153280-d864-11eb-8247-554cd7bdf187.JPG&quot; alt=&quot;9-3  NLB 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;NLB 대상 그룹 생성 / (위 사진에서 Create target group를 눌러 대상그룹을 NLB 생성 중간 과정에 만들었다.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;그룹 이름 설정&lt;/li&gt;
+&lt;li&gt;포트 설정&lt;/li&gt;
+&lt;li&gt;VPC 선택&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649369-a9adc900-d864-11eb-8906-c10249aead4d.JPG&quot; alt=&quot;9-4  NLB 타켓그룹설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대상 그룹 헬스체크 설정, 상태 검사 프로토콜 포트 HTTP 포트로 재정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649373-a9adc900-d864-11eb-9690-e8e15fcc5595.JPG&quot; alt=&quot;9-5  NLB 타켓그룹설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대상 그룹 타겟을 설정 후, 대상 그룹에 정상적인 상태를 확인한 모습&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649375-aa465f80-d864-11eb-838c-3ddf3133634e.JPG&quot; alt=&quot;9-6  엔엘비 대상그룹 확인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NLB 검증을 위해 NLB의 DNS 주소 복사&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649377-aa465f80-d864-11eb-8851-daf86f233128.JPG&quot; alt=&quot;9-7  NLB 확인&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;nlb-검증&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlb-%EA%B2%80%EC%A6%9D&quot; aria-label=&quot;nlb 검증 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLB 검증&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SNMP 서비스를 확인&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;snmpget&lt;/code&gt; 명령어로 NLB DNS 주소로 시스템 이름(SNMP OID 1.3.6.1.2.1.1.5.0)을 요청 시, &lt;em&gt;ELB-EC2-1, ELB-EC2-2&lt;/em&gt;가 번갈아 응답합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;즉, UDP 프로토콜 161 포트로 전달하는 SNMP 요청을 NLB가 부하 분산하여 대상 그룹에 속한 2개의 인스턴스로 부하 분산하는 것입니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649383-aadef600-d864-11eb-8099-f18007f104e4.JPG&quot; alt=&quot;10  NLB 검증&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;추가로 사용자가 전달하는 요청에 대해 NLB 로드 밸런서를 거쳐갈 때, 출발지 IP를 어떻게 전달하는지 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;3.35.55.43 &amp;gt; 10.0.0.57&lt;/code&gt; 은 출발지 IP가 &lt;code class=&quot;language-text&quot;&gt;3.35.x.x&lt;/code&gt; 라는 것으로 해당 IP는 &lt;em&gt;My-EC2&lt;/em&gt;에 해당&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;즉, NLB는 출발지 IP를 사용자의 퍼블릭 IP를 그대로 유지하여 전달하는 특징이 있음&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;반면, ALB는 출발지 IP를 사용자의 IP 주소가 아닌, ALB 자신의 로컬 IP로 통신하는 특징이 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/123649385-ab778c80-d864-11eb-8947-0d9ad3e65ee0.JPG&quot; alt=&quot;11  엔엘비 로드밸런서 출발지 아이피확인&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;결론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%B0%EB%A1%A0&quot; aria-label=&quot;결론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;결론&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ALB는 HTTP(S)에 특화되어 상세한 제어가 가능한 로드밸런서&lt;/li&gt;
+&lt;li&gt;NLB는 TCP, UDP 모든 포트에 대하여 빠른 처리 속도의 로드밸런서&lt;/li&gt;
+&lt;li&gt;또한, NLB는 클라이언트 IP를 보존하지만,&lt;/li&gt;
+&lt;li&gt;ALB는 클라이언트 IP를 보존하지않고, 자신의 IP로 대체하여 전달하는 차이가 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;클라이언트 IP를 보존하지 않으면, 서버 입장에서는 어떤 대상의 IP가 접근했는지 알 수 없습니다.&lt;/p&gt;
+&lt;p&gt;이런 부분을 해결하기 위해 ALB에서는 X-Forwarded-For 헤더라는 곳에 클라이언트 IP정보를 담아 전달합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;자원-삭제-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EC%9B%90-%EC%82%AD%EC%A0%9C-1&quot; aria-label=&quot;자원 삭제 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;자원 삭제&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;로드 밸런서 삭제&lt;/li&gt;
+&lt;li&gt;대상 그룹 삭제&lt;/li&gt;
+&lt;li&gt;CloudFormation 삭제&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[AWS-ELB(부하 분산)]]></title><description><![CDATA[배경 VPC 내 단일 서버를 통한 서비스를 구성하면 단일 서버가 장애 시 서비스를 받을 수 없음 지속적인 서비스 제공을 위해 서버를 다중화 구성하여 서비스의 연속성을 보장하는 고가용성 구성이 필요 ELB - 로드밸런서 다중 서버를 구성(EC…]]></description><link>https://nickhealthy.github.io/aws/AWS_ELB(부하 분산)/</link><guid isPermaLink="false">https://nickhealthy.github.io/aws/AWS_ELB(부하 분산)/</guid><pubDate>Mon, 28 Jun 2021 15:06:13 GMT</pubDate><content:encoded>&lt;h2 id=&quot;배경&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%B0%EA%B2%BD&quot; aria-label=&quot;배경 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;배경&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;VPC 내 단일 서버를 통한 서비스를 구성하면 단일 서버가 장애 시 서비스를 받을 수 없음&lt;/li&gt;
+&lt;li&gt;지속적인 서비스 제공을 위해 &lt;strong&gt;&lt;u&gt;서버를 다중화 구성하여 서비스의 연속성을 보장하는 고가용성 구성이 필요&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;elb---로드밸런서&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#elb---%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%84%9C&quot; aria-label=&quot;elb   로드밸런서 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ELB - 로드밸런서&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;다중 서버를 구성(EC2 인스턴스)하면 부하 분산을 할 수 있지만, 서비스 타깃을 사용자 입장에서 일일이 지정해야 하는 문제가 발생합니다. 이를 해결하기 위해 로드밸런서가 존재합니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;로드밸런서는 서버의 상태를 파악하고,&lt;/li&gt;
+&lt;li&gt;데이터를 분사하여 전달하는 접점 역할을 수행합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;리스너&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%8A%A4%EB%84%88&quot; aria-label=&quot;리스너 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리스너&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;리스너는 &lt;strong&gt;&lt;u&gt;프로토콜 및 포트를 사용하여 연결 요청을 확인하는 프로세스&lt;/u&gt;&lt;/strong&gt;입니다.&lt;/li&gt;
+&lt;li&gt;서비스하고자 하는 프로토콜과 포트를 지정하는 규칙(Rule)을 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;대상그룹&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8C%80%EC%83%81%EA%B7%B8%EB%A3%B9&quot; aria-label=&quot;대상그룹 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;대상그룹&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;하나 이상의 대상을 라우팅하여 부하 분산을 하는데 사용합니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;대상 그룹에(&lt;em&gt;Target Group&lt;/em&gt;) 속한 대상에 대해 주기적으로 확인하는 프로세스(&lt;em&gt;Keepalive&lt;/em&gt;)를 통해 &lt;strong&gt;&lt;u&gt;상태 확인(Health Check)을 수행합니다.&lt;/u&gt;&lt;/strong&gt; 그리고 정상적인 상태의 대상에게만 데이터를 전달합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;elb의-종류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#elb%EC%9D%98-%EC%A2%85%EB%A5%98&quot; aria-label=&quot;elb의 종류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ELB의 종류&lt;/h2&gt;
+&lt;h3 id=&quot;albapplication-load-balancer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#albapplication-load-balancer&quot; aria-label=&quot;albapplication load balancer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB(Application Load Balancer)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP나 HTTPS와 같이 웹 애플리케이션에 대한 분산 처리를 제공하는 로드밸런서&lt;/li&gt;
+&lt;li&gt;OSI 7계층에 특화되어 유연하게 관리, 그 외 프로토콜은 NBL 사용 권장&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;nlbnetwork-load-balancer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlbnetwork-load-balancer&quot; aria-label=&quot;nlbnetwork load balancer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLB(Network Load Balancer)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TCP나 UDP 프로토콜에 대한 포트 정보를 정의하여 네트워크 기반의 분산 처리를 제공하는 로드밸런서&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;clbclassic-load-balancer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#clbclassic-load-balancer&quot; aria-label=&quot;clbclassic load balancer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CLB(Classic Load Balancer)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;VPC의 예전 버전인 EC2-Classic에 대해서도 분산 처리를 제공할 수 있는 이전 세대의 로드밸런서&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;일반적인 VPC 환경에서는 ALB나 NLB를 사용하는 것이 적합&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;alb-vs-nlb&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#alb-vs-nlb&quot; aria-label=&quot;alb vs nlb permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB vs NLB&lt;/h2&gt;
+&lt;h3 id=&quot;alb&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#alb&quot; aria-label=&quot;alb permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ALB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;다른 로드밸런서에 비해 처리 속도가 조금 느릴 수 있으나 HTTP(S)에 대해 세부적이고 다양한 정책으로 라우팅 할 수 있음&lt;/li&gt;
+&lt;li&gt;URL 경로 기반 라우팅, 호스트 기반 라우팅, HTTP 헤더 기반 라우팅 등과 같이 다양한 규칙을 생성하여 포워드(Forward), 리다이렉션(Re-direction), 지정 HTTP 응답등의 작업 수행 가능&lt;/li&gt;
+&lt;li&gt;ALB는 Lambda 함수를 호출하여 HTTP(S) 요청을 처리할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;nlb&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nlb&quot; aria-label=&quot;nlb permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NLB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TCP, UDP, TLS 프로토콜에 대하여 로드밸런싱을 수행할 수 있는 OSI 4계층 레벨의 로드밸런서&lt;/li&gt;
+&lt;li&gt;고정 IP나 탄력적 IP를 보유할 수 있음&lt;/li&gt;
+&lt;li&gt;VPC 엔드포인트 서비스로 연결하여 프라이빗 링크 구성할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;elb-통신-방식&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#elb-%ED%86%B5%EC%8B%A0-%EB%B0%A9%EC%8B%9D&quot; aria-label=&quot;elb 통신 방식 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ELB 통신 방식&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인터넷 연결(Internet Facing Load Balancer)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인터넷을 통한 요청을 로드밸런서에 등록된 &lt;strong&gt;&lt;u&gt;EC2 인스턴스로 라우팅&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;내부(Internal Load Balancer)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;프라이빗 주소만 가지고 있어, 로드밸런서를 위한 VPC 내부에 액세스하여 등록된 EC2 인스턴스 등 컴퓨팅 자원으로 라우팅&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;elb-특징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#elb-%ED%8A%B9%EC%A7%95&quot; aria-label=&quot;elb 특징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ELB 특징&lt;/h2&gt;
+&lt;h3 id=&quot;고가용성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1&quot; aria-label=&quot;고가용성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;고가용성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;트래픽을 다수의 대상으로 분산하여 고가용성을 유지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;상태-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%83%81%ED%83%9C-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;상태 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;상태 확인&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;대상 그룹에 대한 Keepalive를 통해 주기적으로 상태를 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;보안기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%B4%EC%95%88%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot;보안기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;보안기능&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;보안 그룹을 적용하여 보안 옵션을 부여할 수 있음(단, NLB는 보안 그룹이 적용 되지 않음)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4계층7계층-로드밸런싱&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4%EA%B3%84%EC%B8%B57%EA%B3%84%EC%B8%B5-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1&quot; aria-label=&quot;4계층7계층 로드밸런싱 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4계층/7계층 로드밸런싱&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP/HTTPS의 7계층의 애플리케이션을 로드밸런싱하거나 TCP/UDP의 4계층을 로드밸런싱할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;운영-모니터링&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B4%EC%98%81-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81&quot; aria-label=&quot;운영 모니터링 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;운영 모니터링&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ELB 애플리케이션 성능을 실시간으로 모니터링할 수 있음&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[NAT 인스턴스를 통한 인터넷 연결]]></title><description><![CDATA[NAT 인스턴스를 통하여 프라이빗 서브넷에 인스턴스가 외부 인터넷으로 통신을 가능하게 하는 실습 실습 단계 기본 환경 구성 CloudFormation 적용 생성 자원 확인 기본 환경 검증 NAT 인스턴스 실습 NAT…]]></description><link>https://nickhealthy.github.io/aws/NAT 인스턴스를 통한 인터넷 연결/</link><guid isPermaLink="false">https://nickhealthy.github.io/aws/NAT 인스턴스를 통한 인터넷 연결/</guid><pubDate>Thu, 10 Jun 2021 08:43:13 GMT</pubDate><content:encoded>&lt;p&gt;NAT 인스턴스를 통하여 프라이빗 서브넷에 인스턴스가 외부 인터넷으로 통신을 가능하게 하는 실습&lt;/p&gt;
 &lt;h2 id=&quot;실습-단계&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%8A%B5-%EB%8B%A8%EA%B3%84&quot; aria-label=&quot;실습 단계 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실습 단계&lt;/h2&gt;
 &lt;h3 id=&quot;기본-환경-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;기본 환경 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본 환경 구성&lt;/h3&gt;
 &lt;ol&gt;
