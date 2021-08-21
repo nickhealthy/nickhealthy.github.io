@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 Aug 2021 15:17:20 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</link><guid isPermaLink="false">https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</guid><content:encoded>&lt;h1 id=&quot;연결리스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;연결리스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연결리스트&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Aug 2021 15:02:05 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</link><guid isPermaLink="false">https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</guid><content:encoded>&lt;h1 id=&quot;연결리스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;연결리스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연결리스트&lt;/h1&gt;
 &lt;div class=&quot;quote-block&quot;&gt;
 &lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
 &lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
@@ -280,7 +280,590 @@ end_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;spa
 start_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 end_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;기본정렬&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end_time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[리눅스 스토리지 마운트]]></title><description><![CDATA[리눅스 서버에 스토리지를 마운트 하는 방법에 대해 알아봅시다. 스토리지 상태 확인 및 추가 스토리지를 할당하기 전에  명령으로 디스크를 조회합니다. 실습 진행을 위해 NCP를 이용 SSH…]]></description><link>https://nickhealthy.github.io/linux/리눅스 스토리지 마운트/</link><guid isPermaLink="false">https://nickhealthy.github.io/linux/리눅스 스토리지 마운트/</guid><pubDate>Tue, 10 Aug 2021 21:25:50 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;기본정렬&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end_time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[따배쿠] - 쿠버네티스 pod(Single / Multi container)]]></title><description><![CDATA[쿠버네티스 파드에 대해 알아보고, 싱글-멀티 컨테이너 파드 차이점에 대해 알아봅시다. Pod 개념 및 사용하기 Pod 란? 컨테이너를 표현하는 K8S API의 최소 단위 Pod…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] - 쿠버네티스 pod(Single  Multi container)/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] - 쿠버네티스 pod(Single  Multi container)/</guid><pubDate>Sun, 22 Aug 2021 00:20:30 GMT</pubDate><content:encoded>&lt;p&gt;쿠버네티스 파드에 대해 알아보고, 싱글-멀티 컨테이너 파드 차이점에 대해 알아봅시다.&lt;/p&gt;
+&lt;h2 id=&quot;pod-개념-및-사용하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pod-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot; aria-label=&quot;pod 개념 및 사용하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pod 개념 및 사용하기&lt;/h2&gt;
+&lt;h3 id=&quot;pod-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#pod-%EB%9E%80&quot; aria-label=&quot;pod 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Pod 란?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;컨테이너를 표현하는 &lt;u&gt;&lt;strong&gt;K8S API의 최소 단위&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pod에는 하나 또는 여러 개의 컨테이너가 포함될 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;파드를 생성한는 방법은 2가지 - &lt;strong&gt;&lt;u&gt;CLI 또는 정의된 yaml 파일을 통해서 실행이 가능&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;도커로 생각해봤을 때, CLI, Dockerfile로 생각하면 간편합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;싱글-컨테이너-파드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%B1%EA%B8%80-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%ED%8C%8C%EB%93%9C&quot; aria-label=&quot;싱글 컨테이너 파드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;싱글 컨테이너 파드&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CLI 명령어로 nginx 파드 생성하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CLI 명령어는 즉시 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl run web1 --image&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nginx:1.14 --port&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;[nginx.yaml] 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;$ cat &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt; web2.yaml
+
+&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
+&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
+&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; web2
+&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; web2
+    &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; TCP&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;[nginx.yaml] 파일을 통해 파드 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create -f web2.yaml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;CLI 명령어로 만들어진 web1 파드의 정보를 yaml 형태로 확인하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl get pods web1 -o yaml
+&lt;span class=&quot;token comment&quot;&gt;# 필요한 정보만 찾고 싶을 땐, grep -i 명령어가 유용&lt;/span&gt;
+$ kubectl get pods web1 -o &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; -i podip&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;멀티-컨테이너-파드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A9%80%ED%8B%B0-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%ED%8C%8C%EB%93%9C&quot; aria-label=&quot;멀티 컨테이너 파드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;멀티 컨테이너 파드&lt;/h2&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;멀티 컨테이너 파드 사용방식&lt;/p&gt;
+&lt;p&gt;서로 &lt;strong&gt;&lt;u&gt;유기적인 컨테이너 또는 결합도가 강한 애플리케이션 환경&lt;/u&gt;&lt;/strong&gt;이라면 Multiple-Pod의 형태로 구성합니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Multi-Container Pod 생성하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;$ cat &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt; multi_pod.yaml
+
+&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
+&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
+&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; multipod
+&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;container
+    &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; centos&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; centos&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;container
+    &lt;span class=&quot;token key atrule&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; sleep
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;10000&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;위에서 만들었던 싱글 파드와 멀티 파드의 차이점 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;멀티 파드는 여러 개의 컨테이너를 담고 있지만, &lt;strong&gt;&lt;u&gt;동일한 pod이름, IP를 사용합니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130325713-094798c7-d90b-4895-a1ac-0019671504f1.JPG&quot; alt=&quot;1  멀티 컨테이너&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;describe&lt;/code&gt; 명령어를 통해 조금 더 자세히 확인해보기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Containers 안에 2개의 컨테이너가 있는 것을 확인할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130325715-cf47c16a-9656-4e43-92d3-c4adfb05032e.JPG&quot; alt=&quot;2  자세히 확인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;exec&lt;/code&gt; 명령어를 통해 2개의 컨테이너 중 nginx 컨테이너 접속&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-c&lt;/code&gt; 옵션은 container를 의미&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; multipod -c nginx-container -it -- &lt;span class=&quot;token function&quot;&gt;bash&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;curl&lt;/code&gt; 명령어로 동작확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사진은 없지만, nginx 기본 화면이 출력 됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10.36&lt;/span&gt;.0.2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;알고가기&lt;/p&gt;
+&lt;p&gt;멀티 파드인 &lt;code class=&quot;language-text&quot;&gt;multipod&lt;/code&gt;는 nginx, centos 2개의 컨테이너를 가지고 있는데, centos 컨테이너 안에서도 동일하게 &lt;code class=&quot;language-text&quot;&gt;curl 10.36.0.2:80&lt;/code&gt; 명령어가 동일하게 수행됩니다. 그 이유는 &lt;strong&gt;&lt;u&gt;하나의 파드 안에서 동일한 네트워크를 사용&lt;/u&gt;&lt;/strong&gt;하고 있기 때문입니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;logs&lt;/code&gt; 명령어를 이용해 해당 컨테이너 로그 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;싱글 파드는 &lt;code class=&quot;language-text&quot;&gt;-c&lt;/code&gt; 옵션이 불필요함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl logs multipod -c ngunx-container&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130325716-0d51d4de-08e8-43b1-9fcc-c84d157aca9b.JPG&quot; alt=&quot;3  multi-logs 확인&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[따배쿠] 아키텍처 & 네임스페이스]]></title><description><![CDATA[쿠버네티스의 동작방식과 네임스페이스 구조를 알아봅시다! 쿠버네티스 아키텍처 쿠버네티스에 사용할 컨테이너 이미지를 저장소에 이미지 push 컨테이너 이미지 저장소는 사내망이 될 수도, 도커허브처럼 퍼블릭 공간도 될 수 있습니다. 사용자가 control…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] 아키텍처 &amp; 네임스페이스/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] 아키텍처 &amp; 네임스페이스/</guid><pubDate>Sat, 21 Aug 2021 21:20:30 GMT</pubDate><content:encoded>&lt;p&gt;쿠버네티스의 동작방식과 네임스페이스 구조를 알아봅시다!&lt;/p&gt;
+&lt;h2 id=&quot;쿠버네티스-아키텍처&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98&quot; aria-label=&quot;쿠버네티스 아키텍처 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;쿠버네티스 아키텍처&lt;/h2&gt;
+&lt;img width=&quot;695&quot; alt=&quot;2  쿠버네티스 아키텍처&quot; src=&quot;https://user-images.githubusercontent.com/66216102/130322276-2ec1f64a-3e9c-45e0-8d17-ffab256f1c67.png&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;쿠버네티스에 사용할 컨테이너 이미지를 저장소에 이미지 push&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;컨테이너 이미지 저장소는 사내망이 될 수도, 도커허브처럼 퍼블릭 공간도 될 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;사용자가 control-plane 노드에서 &lt;code class=&quot;language-text&quot;&gt;kubectl&lt;/code&gt;의 yaml 형태든, CLI 형태든 명령어를 입력하게 되면,&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;REST API Server&lt;/code&gt;가 명령어를 받아서 명령어에 맞게 요청을 받음&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;etcd&lt;/code&gt;의 상태 정보를 확인&lt;/li&gt;
+&lt;li&gt;이때 어느 노드에 배치하는 것이 가장 좋은지 판단 및 배치 해주는 것이 &lt;code class=&quot;language-text&quot;&gt;Scheduler&lt;/code&gt; 입니다. 스케줄러는 &lt;code class=&quot;language-text&quot;&gt;REST API Server&lt;/code&gt;에게 적절하게 판단해 응답&lt;/li&gt;
+&lt;li&gt;응답 받은 값을 가지고 &lt;code class=&quot;language-text&quot;&gt;REST API Server&lt;/code&gt;는 해당하는 노드의 &lt;code class=&quot;language-text&quot;&gt;kubelet&lt;/code&gt;에게 요청&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;요청을 받은 &lt;code class=&quot;language-text&quot;&gt;kubelet&lt;/code&gt;은 해당 명령어를 실제 컨테이너 엔진을 담당하는 &lt;code class=&quot;language-text&quot;&gt;docker 데몬&lt;/code&gt; 전달&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;docker 명령어로 변환해서 docker에게 보내줍니다.&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;도커 데몬은 최종적으로 이미지 저장소에서 지정한 컨테이너를 불러와 실행&lt;/li&gt;
+&lt;li&gt;컨트롤러는 지속적으로 감시해 파드 개수를 보장&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;쿠버네티스-컴포넌트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&quot; aria-label=&quot;쿠버네티스 컴포넌트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;쿠버네티스 컴포넌트&lt;/h2&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;알아두기&lt;/p&gt;
+&lt;p&gt;모든 컴포넌트는 마스터 노드의 API Server를 거쳐 운영됩니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;etcd&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;쿠버네티스의 자원 및 상태를 저장하는 컴포넌트&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;key:value 형태로 상태를 저장함&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;kubelet&lt;/code&gt;안에는 &lt;code class=&quot;language-text&quot;&gt;cAdvisor&lt;/code&gt;가 있는데 워커노드의 상태정보를 모니터링하고, 해당 정보를 마스터노드의 &lt;code class=&quot;language-text&quot;&gt;REST API server&lt;/code&gt;에 전달 후 &lt;code class=&quot;language-text&quot;&gt;etcd&lt;/code&gt;에 전달&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;schduler&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;자원을 실행시킬 적절한 워커노드를 선정 후, &lt;code class=&quot;language-text&quot;&gt;REST API Server&lt;/code&gt; 반환&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;controller&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정의된 자원의 수만큼 유지되도록 모니터링 및 장애 발생 시 대응하도록 하는 컴포넌트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;namespace-란-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#namespace-%EB%9E%80-&quot; aria-label=&quot;namespace 란  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Namespace 란 ?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;&lt;strong&gt;물리적으로 하나의 클러스터(서버) 내에서 네임스페이스를 통해 논리적으로 구분해 줄 수 있습니다.&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;K8S API 종류 중 하나&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;클러스터 하나를 &lt;u&gt;&lt;strong&gt;여러 개의 논리적인 단위로 나눠서 사용&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;&lt;strong&gt;용도에 따라 실행해야 하는 앱&lt;/strong&gt;&lt;/u&gt;을 구분할 때 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;클러스터를 구성하게 되면 &lt;u&gt;&lt;strong&gt;기본적으로 4개의 네임스페이스가 존재&lt;/strong&gt;&lt;/u&gt;하고, 미설정 시 기본 네임스페이스를 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;알아두면 좋은 정보!&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;kubectl get pod&lt;/code&gt;(파드가 없는 상태에서) 명령어 실행 시, &lt;em&gt;No resources found in default namespace.&lt;/em&gt;&lt;br&gt;
+메시지를 볼 수 있는데 이는 네임스페이스를 지정해주지 않을 시, 기본 네임스페이스를 사용한다는 것을 유추할 수 있습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;조금-더-자세히-알아보기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A1%B0%EA%B8%88-%EB%8D%94-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0&quot; aria-label=&quot;조금 더 자세히 알아보기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;조금 더 자세히 알아보기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[nginx.yaml] 파일로 만들기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
+&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
+&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mypod
+&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx
+      &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;yaml 파일로 실행 및 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;아무 옵션도 주지 않았으므로 default 네임스페이스에 생성됨&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create -f nginx.yaml
+$ kubectl get pods&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;blue 네임스페이스 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create namespace blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;orange 네임스페이스에 yaml 파일로 생성 &amp;#x26; 실행&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--dry-run&lt;/code&gt; 옵션은 실제로 실행하지 않고, 실행여부를 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create namespace orange --dry-run -o yaml &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; orange-ns.yaml
+$ kubectl create -f orange-ns.yaml -n orange&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;blue 네임스페이스에서 실행하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create -f nginx.yaml -n blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;yaml.metadata 에 네임스페이스를 지정해 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
+&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
+&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mypod
+  &lt;span class=&quot;token key atrule&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; orange &lt;span class=&quot;token comment&quot;&gt;# 네임스페이스 지정&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx
+      &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이처럼 CLI, yaml 2가지의 방식을 통해 실행할 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&quot;기본-네임스페이스를-변경하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8-%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0&quot; aria-label=&quot;기본 네임스페이스를 변경하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본 네임스페이스를 변경하기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;context를 사용자가 config에 등록하여 default 클러스터를 스위칭할 수 있습니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;config&lt;/code&gt; 명령어를 통해 기본 context 정보 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config view&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130321493-5d6d435a-4e72-456a-9cf9-9f9fb373a468.JPG&quot; alt=&quot;1  context 등록&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;config set-context&lt;/code&gt; 명령어를 통해 새로운 context를 추가&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blue : 이름&lt;/li&gt;
+&lt;li&gt;—cluster= 클러스터 이름&lt;/li&gt;
+&lt;li&gt;—user : 쿠버네티스 유저&lt;/li&gt;
+&lt;li&gt;—namespace : 지정할 네임스페이스&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config set-context blue --cluster&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kubernetes --user&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kubernetes-admin --namespace&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;기본 네임스페이스를 blue 네임스페이스로 변경&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config use-context blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;현재 지정된 네임스페이스 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파드들을 생성할 때 아무 옵션을 주지 않는다면, 이제 blue 네임스페이스에 생성됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config current-context&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;다시 원래 default 네임스페이스로 돌리기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config use-context kubernetes-admin@kubernetes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;네임스페이스 삭제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl delete namespace blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;주의사항!&lt;/p&gt;
+&lt;p&gt;하나의 네임스페이스 안에 여러 리소스가 존재하게 되는데, 네임스페이스를 지우게 된다면 안에 있는 리소스 모두 같이 삭제됩니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://kubernetes.io/ko/docs/concepts/overview/components/&quot;&gt;쿠버네티스 공홈 컴포넌트&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://bcho.tistory.com/1258&quot;&gt;쿠버네티스 아키텍처&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[따배도] - 도커 컴포즈 빌드에서 운영까지]]></title><description><![CDATA[도커 컴포즈를 사용해보고 익혀봅시다! 도커 컴포즈가 무엇인가 여러 컨테이너를 일괄적으로 정의하고 실행할 수 있는 툴 하나의 서비스를 운영하기 위해서는 여러 개의 애플리케이션이 동작해야 함 컨테이너화 된 애플리케이션들을 통합 관리할 수 있음 YAML…]]></description><link>https://nickhealthy.github.io/docker/[따배도] - 도커 컴포즈 빌드에서 운영까지/</link><guid isPermaLink="false">https://nickhealthy.github.io/docker/[따배도] - 도커 컴포즈 빌드에서 운영까지/</guid><pubDate>Sat, 21 Aug 2021 14:52:30 GMT</pubDate><content:encoded>&lt;p&gt;도커 컴포즈를 사용해보고 익혀봅시다!&lt;/p&gt;
+&lt;h2 id=&quot;도커-컴포즈가-무엇인가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80&quot; aria-label=&quot;도커 컴포즈가 무엇인가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도커 컴포즈가 무엇인가&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;여러 컨테이너를 일괄적으로 정의하고 실행할 수 있는 툴&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;하나의 서비스를 운영하기 위해서는 여러 개의 애플리케이션이 동작해야 함&lt;/li&gt;
+&lt;li&gt;컨테이너화 된 애플리케이션들을 통합 관리할 수 있음&lt;/li&gt;
+&lt;li&gt;YAML 파일 형식의 정의를 통해 도커 파일들을 정의하고 사용&lt;/li&gt;
+&lt;li&gt;또는 도커 컴포즈의 &lt;code class=&quot;language-text&quot;&gt;image&lt;/code&gt; 명령어를 통해 &lt;code class=&quot;language-text&quot;&gt;docker run&lt;/code&gt; 명령어처럼 바로 실행도 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;컴포즈-yaml-파일-명령어-정리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%8F%AC%EC%A6%88-yaml-%ED%8C%8C%EC%9D%BC-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC&quot; aria-label=&quot;컴포즈 yaml 파일 명령어 정리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴포즈 YAML 파일 명령어 정리&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;version&lt;/code&gt; : compose 버전.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;버전에 따라 지원 문법이 다름&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;services&lt;/code&gt; : 컴포즈를 이용해서 실행할 컨테이너 옵션을 정의&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;build&lt;/code&gt; : 빌드할 도커 파일의 위치&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;image&lt;/code&gt; : compose를 통해 실행할 이미지를 지정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 파일 정의 없이 &lt;code class=&quot;language-text&quot;&gt;run&lt;/code&gt; 명령어를 통해 image를 허브에서 바로 pull해서 돌리는 역할과 비슷&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;command&lt;/code&gt; : 컨테이너에서 실행될 명령어 지정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;port&lt;/code&gt; : 컨테이너가 공개하는 포트를 나열&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;link&lt;/code&gt; : 다른 컨테이너와 연계할 때 연계할 컨테이너를 지정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;expose&lt;/code&gt; : 포트를 링크로 연계된 컨테이너에게만 공개할 포트&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;volumes&lt;/code&gt; : 컨테이너에 볼륨을 마운드&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;environment&lt;/code&gt; : 컨테이너에 적용할 환경변수를 정의&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;restart&lt;/code&gt; : 컨테이너가 종료될 때 적용할 restart 정책&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;no&lt;/code&gt; : default 값 - 재시작 되지 않음&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;always&lt;/code&gt; : 컨테이너를 수동으로 끄기 전까지 항상 재시작&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;on-failure&lt;/code&gt; : 오류가 있을 시에 재시작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;depends_on&lt;/code&gt; : &lt;strong&gt;&lt;u&gt;컨테이너 간의 종속성을 정의, 정의한 컨테이너가 먼저 동작&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;도커-컴포즈-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;도커 컴포즈 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도커 컴포즈 설치&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공식 래퍼런스 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -L &lt;span class=&quot;token string&quot;&gt;&quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;uname&lt;/span&gt; -s&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;-&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;uname&lt;/span&gt; -m&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt; -o /usr/local/bin/docker-compose
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x /usr/local/bin/docker-compose
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+$ docker-compose --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;도커-컴포즈-실습-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88-%EC%8B%A4%EC%8A%B5-1&quot; aria-label=&quot;도커 컴포즈 실습 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도커 컴포즈 실습 1&lt;/h2&gt;
+&lt;p&gt;Flask, Redis 컨테이너를 도커 컴포즈를 통해 실행시켜 봅시다.&lt;/p&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;실습 전 알아두기!&lt;/p&gt;
+&lt;p&gt;도커 컴포즈는 yml파일 위치가 있는 곳에서 실행을 해주어야 합니다.&lt;br&gt;
+따라서 디렉토리 생성 후, 도커 파일 정의, 컴포즈 파일 정의 및 실행을 하는 순서를 추천합니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;프로젝트 디렉토리 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; composetest
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; composetest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬 [app.py] 파일 생성 - Flask 이용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;cat &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;py
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; time
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; redis
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; flask &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Flask
+
+app &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Flask&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;__name__&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+cache &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; redis&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Redis&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;host&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;redis&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; port&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6379&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;get_hit_count&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    retries &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; cache&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;incr&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hits&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;except&lt;/span&gt; redis&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exceptions&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ConnectionError &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; exc&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; retries &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;raise&lt;/span&gt; exc
+            retries &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+            time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sleep&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token decorator annotation punctuation&quot;&gt;@app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;route&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    count &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; get_hit_count&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Hello World! I have been seen {} times.\n&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬 라이브러리 관리 [requirements.txt] 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;cat &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; requirements&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;txt
+flask
+redis&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;dockerfile&quot;&gt;&lt;pre class=&quot;language-dockerfile&quot;&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; python&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;3.7&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;alpine
+&lt;span class=&quot;token keyword&quot;&gt;WORKDIR&lt;/span&gt; /code
+&lt;span class=&quot;token keyword&quot;&gt;ENV&lt;/span&gt; FLASK_APP=app.py
+&lt;span class=&quot;token keyword&quot;&gt;ENV&lt;/span&gt; FLASK_RUN_HOST=0.0.0.0
+&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; apk add &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;no&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;cache gcc musl&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;dev linux&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;headers
+&lt;span class=&quot;token keyword&quot;&gt;COPY&lt;/span&gt; requirements.txt requirements.txt
+&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; pip install &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;r requirements.txt
+&lt;span class=&quot;token keyword&quot;&gt;EXPOSE&lt;/span&gt; 5000
+&lt;span class=&quot;token keyword&quot;&gt;COPY&lt;/span&gt; . .
+&lt;span class=&quot;token keyword&quot;&gt;CMD&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;flask&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;run&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 컴포즈 [docker-compose.yml] 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;3.9&apos;&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;web&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; .
+    &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;5000:5000&apos;&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;redis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;redis:alpine&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 컴포즈 yaml 파일 문법 체크&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker-compose config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 컴포즈 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker-compose up&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312075-82a37b2f-8d2a-4235-b676-648112f4f785.JPG&quot; alt=&quot;1  docker-compose up 확인&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Flask, Redis 컨테이너를 통해 잘 실행된 모습입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 컴포즈 yaml 파일에 볼륨 마운트 추가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;version: &lt;span class=&quot;token string&quot;&gt;&quot;3.9&quot;&lt;/span&gt;
+services:
+  web:
+    build: &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+    ports:
+      - &lt;span class=&quot;token string&quot;&gt;&quot;5000:5000&quot;&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# ------추가--------&lt;/span&gt;
+    volumes:
+      - .:/code
+    environment:
+      FLASK_ENV: development
+    &lt;span class=&quot;token comment&quot;&gt;# -----------------&lt;/span&gt;
+  redis:
+    image: &lt;span class=&quot;token string&quot;&gt;&quot;redis:alpine&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;이번에는 도커 컴포즈를 백그라운드로 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker-compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;[app.py] 파일을 수정 시, 볼륨 마운트를 통해서 바로 컨테이너에 반영되는 모습을 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;$ vi app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;py
+&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; Hello Docker!
+&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312076-ebed45f5-ca43-4270-9332-f861515b7e93.JPG&quot; alt=&quot;2  volume 사용&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;scale&lt;/code&gt; 명령어를 통해 redis 컨테이너 늘리기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker-compose scale &lt;span class=&quot;token assign-left variable&quot;&gt;redis&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312077-a1156cd0-43a3-4a92-af14-28dbaf36b6ca.JPG&quot; alt=&quot;3  redis 스케일아웃&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;run&lt;/code&gt; 명령어를 통해 &lt;code class=&quot;language-text&quot;&gt;docker exec&lt;/code&gt; 명령어처럼 명령 결과를 받아오기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;web 컨테이너에 env 명령어를 날린 것과 동일&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312078-773a180b-8af6-4b96-af9c-39b2b0d3aa8d.JPG&quot; alt=&quot;4  docker-compose run&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;도커-컴포즈-실습-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88-%EC%8B%A4%EC%8A%B5-2&quot; aria-label=&quot;도커 컴포즈 실습 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도커 컴포즈 실습 2&lt;/h2&gt;
+&lt;p&gt;wordpress와 mysql 컨테이너를 도커 컴포즈를 통해 실행시켜 봅시다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;wordpress의 동작 방식과 구성 내용은 도커 network 포스팅 or 공식 래퍼런스 참고&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;프로젝트 디렉토리 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; wordpress
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; wordpress&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;도커 컴포즈 [docker-compose.yml] 파일 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;depends_on : db 컨테이너 이름을 가진 서비스가 실행된 후, wordpress 컨테이너 실행&lt;/li&gt;
+&lt;li&gt;volumes : mysql 데이터와 wordpress_data 볼륨 마운트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;3.9&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mysql&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5.7&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; db_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/var/lib/mysql
+    &lt;span class=&quot;token key atrule&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; always
+    &lt;span class=&quot;token key atrule&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;MYSQL_ROOT_PASSWORD&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; somewordpress
+      &lt;span class=&quot;token key atrule&quot;&gt;MYSQL_DATABASE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+      &lt;span class=&quot;token key atrule&quot;&gt;MYSQL_USER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+      &lt;span class=&quot;token key atrule&quot;&gt;MYSQL_PASSWORD&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+
+  &lt;span class=&quot;token key atrule&quot;&gt;wordpress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; db
+    &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;latest
+    &lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; wordpress_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/var/www/html
+    &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;8080:80&apos;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; always
+    &lt;span class=&quot;token key atrule&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;WORDPRESS_DB_HOST&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; db&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3306&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;WORDPRESS_DB_USER&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+      &lt;span class=&quot;token key atrule&quot;&gt;WORDPRESS_DB_PASSWORD&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+      &lt;span class=&quot;token key atrule&quot;&gt;WORDPRESS_DB_NAME&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+&lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;db_data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;wordpress_data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;도커 컴포즈 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker-compose up -d&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;wordpress가 생성된 것을 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312079-a23ce51f-2bcf-4ea1-8585-978510f587e4.JPG&quot; alt=&quot;5  wordpress 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;볼륨 마운트를 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;#39;/var/lib/docker/volumes/폴더명/볼륨명/_data&amp;#39;&lt;/code&gt; 형태로 표시가 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker volume inspect 볼륨 데이터 이름&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312080-4a760511-da7f-4dee-87d0-b492018ff13a.JPG&quot; alt=&quot;6  volume 확인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;해당 경로로 진입해서 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;root 계정 접속 필요&lt;/li&gt;
+&lt;li&gt;mysql과 wordpress의 데이터가 쌓여있는 것을 확인할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312081-324791e4-9b13-4d11-837a-a153c6e2f5c2.JPG&quot; alt=&quot;6-1  volume 확인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;도커 컴포즈 정리&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--volumes&lt;/code&gt; 추가 옵션을 통해 볼륨마운트까지 정리된 모습&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker-compose down --volume&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130312082-fe218b85-567d-481d-a253-8293f3372d85.JPG&quot; alt=&quot;7  최종&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.docker.com/compose/install/&quot;&gt;도커컴포즈 설치&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[리눅스 스토리지 마운트]]></title><description><![CDATA[리눅스 서버에 스토리지를 마운트 하는 방법에 대해 알아봅시다. 스토리지 상태 확인 및 추가 스토리지를 할당하기 전에  명령으로 디스크를 조회합니다. 실습 진행을 위해 NCP를 이용 SSH…]]></description><link>https://nickhealthy.github.io/linux/리눅스 스토리지 마운트/</link><guid isPermaLink="false">https://nickhealthy.github.io/linux/리눅스 스토리지 마운트/</guid><pubDate>Tue, 10 Aug 2021 21:25:50 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;리눅스 서버에 스토리지를 마운트 하는 방법에 대해 알아봅시다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;스토리지-상태-확인-및-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%83%81%ED%83%9C-%ED%99%95%EC%9D%B8-%EB%B0%8F-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;스토리지 상태 확인 및 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;스토리지 상태 확인 및 추가&lt;/h2&gt;
@@ -603,14 +1186,15 @@ $ kubectl get pod&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;검증 - &lt;em&gt;slavenod&lt;/em&gt;에 생성되는 것을 확인할 수 있습니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/128293094-97f80d04-7092-43b0-8a69-fc180a13789c.JPG&quot; alt=&quot;4  nodeselector 설정&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[따배도] - 컨테이너 네트워크]]></title><description><![CDATA[도커 네트워크 구성과 개념 그리고 명령어에 대해 알아봅시다. 컨테이너 통신 방법 docker0 virtual ethernet bridge: 외부 네트워크와 도커 컨테이너의 연결 다리 역할을 합니다. 기본 네트워크 대역:  / docker…]]></description><link>https://nickhealthy.github.io/docker/[따배도] - 컨테이너 네트워크/</link><guid isPermaLink="false">https://nickhealthy.github.io/docker/[따배도] - 컨테이너 네트워크/</guid><pubDate>Tue, 03 Aug 2021 23:32:30 GMT</pubDate><content:encoded>&lt;p&gt;도커 네트워크 구성과 개념 그리고 명령어에 대해 알아봅시다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/128293094-97f80d04-7092-43b0-8a69-fc180a13789c.JPG&quot; alt=&quot;4  nodeselector 설정&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[따배도] - 컨테이너 네트워크]]></title><description><![CDATA[도커 네트워크 구성과 개념 그리고 명령어에 대해 알아봅시다. 컨테이너 통신 방법 docker0 docker0는 간단히 말해 하나의 네트워크 인터페이스 virtual ethernet bridge…]]></description><link>https://nickhealthy.github.io/docker/[따배도] - 컨테이너 네트워크/</link><guid isPermaLink="false">https://nickhealthy.github.io/docker/[따배도] - 컨테이너 네트워크/</guid><pubDate>Tue, 03 Aug 2021 23:32:30 GMT</pubDate><content:encoded>&lt;p&gt;도커 네트워크 구성과 개념 그리고 명령어에 대해 알아봅시다.&lt;/p&gt;
 &lt;h2 id=&quot;컨테이너-통신-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%ED%86%B5%EC%8B%A0-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;컨테이너 통신 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너 통신 방법&lt;/h2&gt;
 &lt;h3 id=&quot;docker0&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker0&quot; aria-label=&quot;docker0 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;docker0&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;docker0는 간단히 말해 하나의 네트워크 인터페이스&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;virtual ethernet bridge: 외부 네트워크와 도커 컨테이너의 연결 다리 역할을 합니다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;virtual ethernet bridge&lt;/em&gt;: 외부 네트워크와 도커 컨테이너의 연결 &lt;strong&gt;&lt;u&gt;다리 역할을 하는 네트워크의 한 종류&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;기본 네트워크 대역: &lt;code class=&quot;language-text&quot;&gt;172.17.0.0/16&lt;/code&gt; / docker0는 &lt;code class=&quot;language-text&quot;&gt;172.17.0.1&lt;/code&gt;를 통해서 게이트웨이 역할을 해줌&lt;/li&gt;
+&lt;li&gt;기본 네트워크 대역: &lt;code class=&quot;language-text&quot;&gt;172.17.0.0/16&lt;/code&gt; / docker0는 &lt;code class=&quot;language-text&quot;&gt;172.17.0.1&lt;/code&gt;를 통해서 &lt;strong&gt;&lt;u&gt;게이트웨이 역할을 해줌&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;NAT(Network Address Translate), 포트포워딩 지원 - iptables를 통해서 지원해 줌&lt;/li&gt;
 &lt;li&gt;L2 통신기반&lt;/li&gt;
 &lt;li&gt;Container 생성 시 veth 인터페이스 생성(sandbox)&lt;/li&gt;
@@ -632,11 +1216,11 @@ $ kubectl get pod&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;container port를 외부로 노출시켜 외부 연결을 허용해줄 수 있습니다.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;iptalbes rule을 통한 포트 노출 - 포트포워딩&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;iptalbes rule을 통한 포트 노출 - 포트포워딩&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-p hostPort:containerPort&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-p containerPort&lt;/code&gt; : 이 경우 호스트 포트는 &lt;strong&gt;random&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-P&lt;/code&gt; : EXPOSE로 맞춰진 random 한 값을 도커 네트워크 대역에서 설정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-p hostPort:containerPort&lt;/code&gt; : 가장 기본적인 방식&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-p containerPort&lt;/code&gt; : 이 경우 호스트 포트는 random&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-P&lt;/code&gt; : EXPOSE로 맞춰진 수만큼 컨테이너의 포트를 열고, 호스트 포트는 random 한 값을 도커에서 자동 설정&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;포트포워딩 예시 및 &lt;code class=&quot;language-text&quot;&gt;iptables&lt;/code&gt; 명령어를 통해 확인&lt;/li&gt;
@@ -645,31 +1229,69 @@ $ kubectl get pod&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 $ iptables -t nat -L -nv&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/128034295-4d897963-021a-48b8-99c7-df36cd6b0807.JPG&quot; alt=&quot;3  iptables 명령어를 통해 확인&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;컨테이너-네트워크-추가하는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%B6%94%EA%B0%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;컨테이너 네트워크 추가하는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너 네트워크 추가하는 방법&lt;/h2&gt;
-&lt;h3 id=&quot;user-defined-bridge-network-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#user-defined-bridge-network-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;user defined bridge network 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;user-defined bridge network 생성&lt;/h3&gt;
+&lt;h3 id=&quot;사용자정의-bridge-network-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%9A%A9%EC%9E%90%EC%A0%95%EC%9D%98-bridge-network-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;사용자정의 bridge network 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사용자정의 bridge network 생성&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;네트워크 대역을 사용자 정의 네트워크로 만들어서 연결이 가능합니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;docker network create&lt;/code&gt; 명령어를 사용해서 만들 수 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;물론 docker0의 네트워크 대역도 변경 가능합니다.&lt;/u&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# --driver-brige : 네트워크 통신 방식 설정&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# --subnet : 서브넷 설정&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# --gateway : 게이트웨이 설정&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# mynet : 사용자 정의 네트워크 이름&lt;/span&gt;
-$ docker network create --driver-brige --subnet &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.0/24 --gateway &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.254 mynet&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# --driver : default값은 bridge / bridge로 설정하고 싶다면 생략 가능&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# --subnet : 사용자가 네트워크 대역을 정의&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# --gateway : gateway를 정의하지 않았다면 default 값은 192.168.100.1이 되었을 것임(docker0의 네트워크처럼)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# mynet : 네트워크 이름&lt;/span&gt;
+$ docker network create --driver bridge --subnet &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.0/24 --gateway &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.254 mynet&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;만들어진 네트워크를 사용하는 방법&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;만들어진 네트워크를 사용하는 방법&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 정의 네트워크 사용 시, 위에서 언급한대로 &lt;strong&gt;ip대역 설정이 가능합니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# --net : 사용할 네트워크 지정&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# --ip : 고정 ip주소 사용&lt;/span&gt;
-$ docker run -d --name appjs --net mynet --ip &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.100 -p &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;:8080 swjoo/appjs`&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+$ docker run -d -it --name c1 --net mynet --ip &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.100 -p &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;:8080 busybox
+$ &lt;span class=&quot;token function&quot;&gt;ip&lt;/span&gt; addr &lt;span class=&quot;token comment&quot;&gt;# 해당 명령어를 통해 ip가 192.168.100.100이라는 것을 확인할 수 있음&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;조금-더-자세히-알아보기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A1%B0%EA%B8%88-%EB%8D%94-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0&quot; aria-label=&quot;조금 더 자세히 알아보기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;조금 더 자세히 알아보기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;컨테이너 실행하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -p &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;:80 --name c1 -it busybox
+$ docker inspect c1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;자세히 알아보기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;위의 네트워크 구성도 참고&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308049-66215d08-72fb-45f3-9075-b5bbfb43b8ea.JPG&quot; alt=&quot;1  network inspect&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;iptables&lt;/code&gt; 명령어를 통해 네트워크 인터페이스 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ iptables -t nat -L -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308050-7972fcab-9aea-4866-9fd2-924919b251f5.JPG&quot; alt=&quot;2  아이피테이블스&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;MASQUERADE란&lt;/p&gt;
+&lt;p&gt;사설망의 IP를 외부IP와 통신이 가능하게 해주는 것을 의미한다. 즉, NAT의 역할을 해줌!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;컨테이너끼리-통신하는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EB%81%BC%EB%A6%AC-%ED%86%B5%EC%8B%A0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;컨테이너끼리 통신하는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너끼리 통신하는 방법&lt;/h2&gt;
-&lt;p&gt;컨테이너간 통신이 필요할 때가 있는데 예를 들어서 프론트 단과 백엔드 단이 구성되어 있는 멀티 티어 같은 구조입니다. 프론트에서 만들어진 데이터를 백엔드에 저장하고 또는 데이터를 가져와서 사용해할 때 사용하게 됩니다. 이때 각각의 컨테이너가 독립적으로 운용된다고 하였을 때 컨테이너 간의 통신이 필요하므로 컨테이너 간의 통신이 필요하게 됩니다.&lt;/p&gt;
-&lt;blockquote&gt;
+&lt;p&gt;컨테이너간 통신이 필요할 때가 있는데 예를 들어서 프론트 단과 백엔드 단이 구성되어 있는 멀티 티어 같은 구조입니다. 프론트에서 만들어진 데이터를 백엔드에 저장하고 또는 데이터를 가져와야 할 때 사용하게 됩니다. 이때 각각의 컨테이너가 독립적으로 운용된다고 하였을 때 컨테이너 간의 통신이 필요하므로 컨테이너 간의 통신이 필요하게 됩니다.&lt;/p&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;알고가기!&lt;/p&gt;
 &lt;p&gt;기본적으로 컨테이너는 서로 독립적인 격리 상태 구조입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;예시를-통해-알아봅시다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%88%EC%8B%9C%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4&quot; aria-label=&quot;예시를 통해 알아봅시다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;예시를 통해 알아봅시다.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;워드프레스는 기본적으로 아파치 웹서버를 내장하고 있고 워드프레스를 이용하여 웹을 제작하려고 할 때, 데이터베이스가(백엔드 단)이 필요하게 됩니다.&lt;/li&gt;
@@ -681,7 +1303,11 @@ $ docker run -d --name appjs --net mynet --ip &lt;span class=&quot;token number&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d --name mysql -v /dbdata:/var/lib/mysql -e &lt;span class=&quot;token assign-left variable&quot;&gt;MYSQL_ROOT_PASSWORD&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;wordpress -e &lt;span class=&quot;token assign-left variable&quot;&gt;MYSQL_PASSWORD&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;wordpress mysql:latest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d --name mysql -v /dbdata:/var/lib/mysql -e &lt;span class=&quot;token assign-left variable&quot;&gt;MYSQL_ROOT_PASSWORD&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;wordpress -e &lt;span class=&quot;token assign-left variable&quot;&gt;MYSQL_PASSWORD&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;wordpress mysql:5.7&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;/dbdata&lt;/em&gt; - volume 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308051-7e3447b8-bba7-4e40-bbb4-ba2ed7feec85.JPG&quot; alt=&quot;3  mysql volume&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;워드프레스 생성&lt;/p&gt;
@@ -692,9 +1318,87 @@ $ docker run -d --name appjs --net mynet --ip &lt;span class=&quot;token number&
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d --name wordpress --link mysql:mysql -e WORDPRESS_DB_PASSWORD -p &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;:80 wordpress:latest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# $ docker run -d --name wordpress --link mysql:mysql -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=wordpress -p 80:80 wordpress:latest&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 수정&lt;/span&gt;
+$ docker run -d --name wordpress --link mysql:mysql -p &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;:80 wordpress:latest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;해당 설정을 통해 호스트 &lt;code class=&quot;language-text&quot;&gt;/dbdata path&lt;/code&gt;에 데이터가 쌓이게 되고 프론트, 백엔드 단 설정이 완료됩니다.&lt;/p&gt;
-&lt;h2 id=&quot;실습&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%8A%B5&quot; aria-label=&quot;실습 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실습&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;WORDPRESS_DB_PASSWORD&lt;/code&gt; 환경변수 부분 문제로 오랜시간이 걸렸다.. mysql 대신 다른 db 사용 시 걸어주는 옵션(도커허브 공식 이미지 참조함)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308053-eef1f6ef-2df6-4769-9610-78016a1f2b1b.JPG&quot; alt=&quot;4  wordpress&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;연습문제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;연습문제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연습문제&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;genid 컨테이너 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 컨테이너는 shell-script를 통해 index.html의 데이터를 만들어 낸다.&lt;/li&gt;
+&lt;li&gt;해당 index.html 데이터를 볼륨을 통해 호스트 PC와 공유한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;nginx&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;genid 컨테이너 볼륨에서 만들어진 데이터와 nginx를 통해 웹 서비스를 진행한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;genid 컨테이너에 사용할 [genid.sh] 스크립트 생성&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; genid.sh
+
+&lt;span class=&quot;token comment&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -p /webdata
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+  /usr/bin/rig &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; /usr/bin/boxes -d boy &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /webdata/index.html
+  &lt;span class=&quot;token function&quot;&gt;sleep&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;genid 컨테이너에 사용할 [Dockerfile] 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; Dockerfile
+
+FROM ubuntu:18.04
+RUN &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; update&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; -y &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; rig boxes
+ADD genid.sh /bin/genid.sh
+RUN &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x /bin/genid.sh
+ENTRYPOINT &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/bin/genid.sh&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;nginx는 genid가 만들어 내는 데이터를 사용해야 하기 때문에 데이터를 쌓기 위해선 &lt;u&gt;genid 먼저 실행 시켜야 합니다.&lt;/u&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;genid 컨테이너 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d -v ./webdata:/webdata --name genid genid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;컨테이너 실행 후, 볼륨 경로에 데이터가 쌓이는지 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308054-19752111-bc2f-47e3-829a-0fa6c93db429.JPG&quot; alt=&quot;5  volume데이터&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;nginx 실행&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;genid가 만들어내는 데이터 index.html를 nginx가 사용하므로, &lt;strong&gt;volume 경로를 설정&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ docker run -d -v /webdata:/usr/share/nginx/html -p &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;:80 --name nignx nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;웹 사이트에서 검증&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;나오긴하는데 UI가 맞춰서 나오지는 않았습니다…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308055-d06a8dfa-8551-43b8-8630-ef8f1cbee305.JPG&quot; alt=&quot;6  최종확인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;curl&lt;/code&gt; 명령어를 통해 재검증&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;nginx의 포트포워딩 주소인 &lt;code class=&quot;language-text&quot;&gt;localhost:8080&lt;/code&gt; 입력 시 잘 나오는 것을 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/130308056-52c17379-ca69-455f-87d3-592e33fa342e.JPG&quot; alt=&quot;6-1  최종확인&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://joont92.github.io/docker/network-%EA%B5%AC%EC%A1%B0/&quot;&gt;도커 네트워크 구성&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;https://linuxstory1.tistory.com/entry/iptables-%EA%B8%B0%EB%B3%B8-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%B0%8F-%EC%98%B5%EC%85%98-%EB%AA%85%EB%A0%B9%EC%96%B4&quot;&gt;iptables 명령어&lt;/a&gt;&lt;br&gt;
@@ -7105,179 +7809,7 @@ Youtube에서 원하는 노래(구간)을 플레이리스트에 저장 및 상�
         indices &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;skill&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;index&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; j &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; j &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; skill&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; indices &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;k &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; k &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;indices&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
             answer &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; answer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[따배쿠]쿠버네티스 yaml, API version]]></title><description><![CDATA[yaml 템플릿  방식이 아니고, 통째로 쿠버네티스가 API에 맞게 문법이 잘 되어있는지 확인한다.  가 하나로 된 형식은 스칼라 문법이다. 를 붙여 여러 개를 만들면 배열 문법이라고 불린다. API version CNCF 재단에 의해 alpha…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 yaml, API version/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 yaml, API version/</guid><pubDate>Tue, 23 Feb 2021 20:38:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;yaml-템플릿&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#yaml-%ED%85%9C%ED%94%8C%EB%A6%BF&quot; aria-label=&quot;yaml 템플릿 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;yaml 템플릿&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;TOP-DOWN&lt;/code&gt; 방식이 아니고, 통째로 쿠버네티스가 API에 맞게 문법이 잘 되어있는지 확인한다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;key : value&lt;/code&gt; 가 하나로 된 형식은 &lt;strong&gt;스칼라 문법&lt;/strong&gt;이다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-&lt;/code&gt;를 붙여 여러 개를 만들면 &lt;strong&gt;배열 문법이라고 불린다.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img width=&quot;348&quot; alt=&quot;캡처&quot; src=&quot;https://user-images.githubusercontent.com/66216102/108838429-f7949500-7616-11eb-9176-f138dad6fcf9.PNG&quot;&gt;
-&lt;h2 id=&quot;api-version&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#api-version&quot; aria-label=&quot;api version permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;API version&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;CNCF 재단에 의해 alpha, beta, stable 버전 과정을 수많은 컨트리뷰터에 의해 만들어지고, 발표된다.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;많은 버전들이 있고 &lt;code class=&quot;language-text&quot;&gt;explain&lt;/code&gt; 명령어를 통해 정보를 확인 가능하다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;쿠버네티스 버전 정보에 따라 api version이 다를 수 있으므로 조심&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;리소스의 정보(Documentation) 출력 (버전 정보 확인)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl explain pod&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;오브젝트명&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;img width=&quot;433&quot; alt=&quot;API version&quot; src=&quot;https://user-images.githubusercontent.com/66216102/108838434-f8c5c200-7616-11eb-8416-1850241795cd.PNG&quot;&gt;</content:encoded></item><item><title><![CDATA[[따배쿠]쿠버네티스 아키텍처 - k8s 동작원리]]></title><description><![CDATA[쿠버네티스 동작과정(원리) 컨테이너 이미지 저장소에 이미지 push 및 pull 컨테이너 이미지 저장소는 사내망이 될 수도, 도커허브처럼 퍼블릭 공간도 될 수 있다. 개발자나 운영자가의 yaml 형태든, CLI…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 아키텍처 - k8s 동작원리/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] 쿠버네티스 아키텍처 - k8s 동작원리/</guid><pubDate>Mon, 22 Feb 2021 19:38:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;쿠버네티스-동작과정원리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95%EC%9B%90%EB%A6%AC&quot; aria-label=&quot;쿠버네티스 동작과정원리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;쿠버네티스 동작과정(원리)&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;컨테이너 이미지 저장소에 이미지 push 및 pull&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;컨테이너 이미지 저장소는 사내망이 될 수도, 도커허브처럼 퍼블릭 공간도 될 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;개발자나 운영자가&lt;code class=&quot;language-text&quot;&gt;kubectl&lt;/code&gt;의 yaml 형태든, CLI 형태든 명령어를 입력하게 되면,&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;마스터 노드 즉, control-plane 노드의 &lt;code class=&quot;language-text&quot;&gt;REST API Server&lt;/code&gt;가 명령어를 받아서 명령어에 맞게 요청을 받아준다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;etcd의 상태 정보를 확인한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;이때 어느 노드에 배치하는 것이 가장 좋은지 판단 및 배치 해주는 것이 &lt;code class=&quot;language-text&quot;&gt;Scheduler&lt;/code&gt; 이다. 스케줄러는 REST API Server에게 적절하게 판단해 응답해준다.&lt;/li&gt;
-&lt;li&gt;그럼 REST API Server는 적절한 node의 &lt;code class=&quot;language-text&quot;&gt;kubelet&lt;/code&gt;에게 요청을 한다.&lt;/li&gt;
-&lt;li&gt;요청을 받은 kubelet은 해당 명령어를 &lt;code class=&quot;language-text&quot;&gt;docker&lt;/code&gt; 명령어로 변환한다.&lt;/li&gt;
-&lt;li&gt;도커 데몬은 최종적으로 이미지 저장소에서 컨테이너를 적절히 불러와 실행시켜 준다.&lt;/li&gt;
-&lt;li&gt;컨트롤러는 지속적으로 감시해 파드 개수를 보장해준다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;컴포넌트-종류와-구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%A2%85%EB%A5%98%EC%99%80-%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;컴포넌트 종류와 구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컴포넌트 종류와 구성&lt;/h2&gt;
-&lt;img width=&quot;509&quot; alt=&quot;캡처&quot; src=&quot;https://user-images.githubusercontent.com/66216102/108697082-b8e2da00-7545-11eb-8d07-41a7c6ed4987.PNG&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;etcd 저장소는 하드웨어의 상태, 이미지 정보 등을 저장하고 관리하고 있다. 이러한 정보를 REST API Server가 kubectl 명령어와 비교하고 확인해 적절한 형태로 만들어준다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;애드온&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%EC%98%A8&quot; aria-label=&quot;애드온 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드온&lt;/h2&gt;
-&lt;img width=&quot;454&quot; alt=&quot;캡처1&quot; src=&quot;https://user-images.githubusercontent.com/66216102/108697078-b7b1ad00-7545-11eb-8120-4a3d5208b72b.PNG&quot;&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;대시보드, 클러스터 로깅 같은 경우에는 기본적으로 설치되어 있지 않다. 따로 설치를 해야함&lt;/li&gt;
-&lt;li&gt;클러스터 로깅 같은 경우, 여러 개의 노드를 관리해야하는 쿠버네티스의 특성상 한곳에 로그에서 관리할 수 있다는 점에서 아주 유용하다.&lt;/li&gt;
-&lt;li&gt;컨테이너 자원 모니터링(cAdvisor)는 kubelet에 포함되어 있다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&quot;이런-식의-구성을-하게-되면-운영-서비스-로깅-등을-한번에-할-수-있게-된다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%9F%B0-%EC%8B%9D%EC%9D%98-%EA%B5%AC%EC%84%B1%EC%9D%84-%ED%95%98%EA%B2%8C-%EB%90%98%EB%A9%B4-%EC%9A%B4%EC%98%81-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A1%9C%EA%B9%85-%EB%93%B1%EC%9D%84-%ED%95%9C%EB%B2%88%EC%97%90-%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%EB%90%9C%EB%8B%A4&quot; aria-label=&quot;이런 식의 구성을 하게 되면 운영 서비스 로깅 등을 한번에 할 수 있게 된다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이런 식의 구성을 하게 되면 운영, 서비스, 로깅 등을 한번에 할 수 있게 된다.&lt;/h4&gt;
-&lt;h2 id=&quot;namespace란-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#namespace%EB%9E%80-&quot; aria-label=&quot;namespace란  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Namespace란 ?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;K8S API 종류 중 하나&lt;/li&gt;
-&lt;li&gt;클러스터 하나를 &lt;strong&gt;여러 개의 논리적인 단위로 나눠서 사용&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;쿠버네티스 클러스터 하나를 &lt;strong&gt;여러 팀이나 사용자가 함께 공유&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;용도에 따라 실행해야 하는 앱&lt;/strong&gt;을 구분할 때 사용&lt;/li&gt;
-&lt;li&gt;클러스터를 구성하게 되면 기본적으로 4개의 네임스페이스가 존재하고, &lt;code class=&quot;language-text&quot;&gt;default&lt;/code&gt; 네임스페이스를 이용한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;물리적으로-하나의-클러스터서버가-있더라도-네임스페이스를-통해-논리적으로-구분해-줄-수-있다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%BC%EB%A6%AC%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%82%98%EC%9D%98-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EC%84%9C%EB%B2%84%EA%B0%80-%EC%9E%88%EB%8D%94%EB%9D%BC%EB%8F%84-%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC-%ED%86%B5%ED%95%B4-%EB%85%BC%EB%A6%AC%EC%A0%81%EC%9C%BC%EB%A1%9C-%EA%B5%AC%EB%B6%84%ED%95%B4-%EC%A4%84-%EC%88%98-%EC%9E%88%EB%8B%A4&quot; aria-label=&quot;물리적으로 하나의 클러스터서버가 있더라도 네임스페이스를 통해 논리적으로 구분해 줄 수 있다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;물리적으로 하나의 클러스터(서버)가 있더라도 네임스페이스를 통해 논리적으로 구분해 줄 수 있다.&lt;/h4&gt;
-&lt;h3 id=&quot;네임스페이스-만드는-법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B2%95&quot; aria-label=&quot;네임스페이스 만드는 법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;네임스페이스 만드는 법&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;CLI 방식&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create namespace blue
-$ kubectl get namespaces&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;yam 방식&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create namespace green --dry-run -o yaml &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; green-ns.yaml
-$ &lt;span class=&quot;token function&quot;&gt;vim&lt;/span&gt; green-ns.yaml
-$ kubectl create -f green-ns.yaml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;실습&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%8A%B5&quot; aria-label=&quot;실습 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실습&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;yaml 파일로 만들기&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
-&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
-&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mypod
-&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
-      &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx
-      &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;yaml 파일로 실행 및 확인&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create -f nginx.yaml
-$ kubectl get pods -n default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;아무 옵션도 주지 않았으므로 default 네임스페이스에 생성됨&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;blue 네임스페이스 생성&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create namespace blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;orange 네임스페이스에 yaml 파일로 생성 &amp;#x26; 실행&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create namespace orange --dry-run -o yaml &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; orange-ns.yaml
-$ kubectl create -f orange-ns.yaml -n orange&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;—dry-run 옵션은 실제로 실행하지 않고, 실행여부를 확인&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start=&quot;5&quot;&gt;
-&lt;li&gt;blue 네임스페이스에서 실행하기&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create -f nginx.yaml -n blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;6&quot;&gt;
-&lt;li&gt;yaml 파일 안에 네임스페이스를 지정해 실행&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
-&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
-&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mypod
-  &lt;span class=&quot;token key atrule&quot;&gt;namespace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; orange &lt;span class=&quot;token comment&quot;&gt;# 오렌지 네임스페이스에 지정했다.&lt;/span&gt;
-&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
-      &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx
-      &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;cli-yaml-yaml-파일-안에-정의-등을-통해서-다양하게-실행할-수-있다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cli-yaml-yaml-%ED%8C%8C%EC%9D%BC-%EC%95%88%EC%97%90-%EC%A0%95%EC%9D%98-%EB%93%B1%EC%9D%84-%ED%86%B5%ED%95%B4%EC%84%9C-%EB%8B%A4%EC%96%91%ED%95%98%EA%B2%8C-%EC%8B%A4%ED%96%89%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4&quot; aria-label=&quot;cli yaml yaml 파일 안에 정의 등을 통해서 다양하게 실행할 수 있다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CLI, yaml, yaml 파일 안에 정의 등을 통해서 다양하게 실행할 수 있다.&lt;/h4&gt;
-&lt;h2 id=&quot;base-네임스페이스-변경하기switch&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#base-%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0switch&quot; aria-label=&quot;base 네임스페이스 변경하기switch permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Base 네임스페이스 변경하기(switch)&lt;/h2&gt;
-&lt;p&gt;하나의 context를 config에 등록하여 default 클러스터를 스위칭할 수 있다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;기존의 config 확인&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config view&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;새로운 context를 추가&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config set-context blue@kubernetes --cluster&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kubernetes --user&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;kubernetes-admin --namespace&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;blue@kubernetes : 이름&lt;/p&gt;
-&lt;p&gt;—cluster= 클러스터 이름&lt;/p&gt;
-&lt;p&gt;—user : 쿠버네티스 유저&lt;/p&gt;
-&lt;p&gt;—namespace : 지정할 네임스페이스&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;default 네임스페이스에서 blue 네임스페이스를 기본으로 스위칭&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config use-context blue@kubernetes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;현재 지정된 네임스페이스 확인&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config current-context&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol start=&quot;5&quot;&gt;
-&lt;li&gt;파드들을 생성할 때 아무 옵션을 주지 않는다면, 이제 blue 네임스페이스에 생성된다.&lt;/li&gt;
-&lt;li&gt;다시 원래 default 클러스터로 돌리기&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl config use-context kubernetes-admin@kubernetes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;네임스페이스-삭제하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%84%A4%EC%9E%84%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0&quot; aria-label=&quot;네임스페이스 삭제하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;네임스페이스 삭제하기&lt;/h2&gt;
-&lt;p&gt;하나의 네임스페이스 안에 여러 리소스가 존재하게 되는데, 네임스페이스를 지우게 된다면 안에 있는 리소스 모두 같이 삭제된다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl delete namespace blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[따배쿠] kubectl 명령어 사용하기]]></title><description><![CDATA[kubectl 이란? 내가 원하는 걸 요청할 때 사용하는 명령어 기본구조는  : 자원(object)에 실행할 명령(createm getm delete, edit…) : 자원의 타입(node, pod, service…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] kubectl 실습/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] kubectl 실습/</guid><pubDate>Mon, 22 Feb 2021 17:34:30 GMT</pubDate><content:encoded>&lt;div class=&quot;quote-block&quot;&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; answer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[따배쿠] kubectl 명령어 사용하기]]></title><description><![CDATA[kubectl 이란? 내가 원하는 걸 요청할 때 사용하는 명령어 기본구조는  : 자원(object)에 실행할 명령(createm getm delete, edit…) : 자원의 타입(node, pod, service…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] kubectl 실습/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] kubectl 실습/</guid><pubDate>Mon, 22 Feb 2021 17:34:30 GMT</pubDate><content:encoded>&lt;div class=&quot;quote-block&quot;&gt;
 &lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
 &lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
 &lt;p&gt;kubectl 이란?&lt;/p&gt;
