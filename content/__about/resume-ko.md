@@ -134,8 +134,8 @@ Youtube에서 원하는 노래(구간)을 플레이리스트에 저장 및 상�
 매주 정해진 주제로 월, 목 데브옵스 및 인프라 관련 기술스택을 각자 공부 후 실습 및 스터디  
 `2021.07 - ing` by **Youtube 이성미 강사님**
 
-### Naver Clooud Platform 특강
+### Naver Cloud Platform 특강
 
 교육 수강✍  
-NCP 강사님과 함께 4일간 NCP 전반적인 서비스 소개 && 강의 및 LAB 진행  
-`2021.08 - 2021.08` by **Naver Cloud Platform**
+총 8일간 Naver Cloud Professional 자격증 취득을 위한 NCP 교육 수강 및 LAB 진행  
+`2021.08.10 - 2021.08.13, 2021.09.06 - 2021.09.09` by **Naver Cloud Platform**
