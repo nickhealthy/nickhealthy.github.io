@@ -5,11 +5,23 @@ category: ⛓️ devops
 draft: false
 ---
 
-- `gather_facts` : 관리할 수 있는 정보들 중(ip정보, mac 정보, 호스트네임 등) 인벤토리 서버의 정보를 변수로 활용 가능한 것들
+- 멀티플레이북을 실행하기
+- gather_facts를 사용해 변수를 사용하고 ansible-playbook를 최적화 작업 시키기
 
 ## LAB 1 - playbook의 when 조건과 변수 사용하기
 
-#### `action`, `when` 조건과 인벤토리 정보를 담고 있는 _fact.txt_ 파일을 이용해 동적으로 playbook 작성하기
+<div class="quote-block">
+<div class="quote-block__emoji">💡</div>
+<div class="quote-block__content" markdown=1>
+
+알고가기!
+
+해야할 task를 정의하는 `action`과 조건문인 `when`를 이용해 동적으로 플레이북을 작성할 수 있습니다.
+
+</div>
+</div>
+
+#### 인벤토리 정보를 담고 있는 _fact.txt_ 파일을 이용해 동적으로 playbook 작성하기
 
 - 애드혹 방식으로 `setup` 모듈을 이용해 인벤토리 서버에 대한 정보 가져오기
 
@@ -18,7 +30,7 @@ $ ansible all -m setup >> facts.txt
 ```
 
 - 플레이북에 사용할 yaml 파일 작성
-  - 중괄호에 들어가 있는 것이 `gather_facts`에서 활용하는 변수를 의미함
+  - 중괄호에 들어가 있는 것이 _facts.txt_ 파일에서 활용하는 변수를 의미함
 
 ```bash
 $ vi test.yml
