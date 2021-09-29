@@ -7,13 +7,14 @@ draft: false
 
 ### 학습목표
 
-- AWS CLI를 이용하여 자원(서비스) 다뤄보기
+- 앞장에서 AWS의 콘솔로 진행한 LAB를 AWS CLI를 이용하여 자원(서비스) 다뤄보기
+- AWS와 Ansible를 이용해 자원 구축 및 서버의 환경을 스크립트화 시키기
 
 ## AWS CLI 설치와 설정
 
 - AWS 명령줄 인터페이스(CLI)는 AWS 서비스를 관리하는 통합 도구입니다.
   - 편한 방식으로 OpenStack이 있는데 이는 웹 UI에서 서비스를 관리할 수 있는 것을 제공해줍니다. 하지만 클라우드 자원을 다룰 수 있는 범위가 대략 80% 정도입니다.
-- 도구 하나만 다운로드하여 구성하면 여<u>러 AWS 서비스를 명령줄에서 제어하고 스크립트를 통해 자동화</u>할 수 있습니다.
+- <u>여러 AWS 서비스를 명령줄에서 제어하고 스크립트를 통해 자동화</u>할 수 있습니다.
   - AWS CLI를 사용하여 서비스의 기능을 살펴보고 리소스를 관리할 셀 스크립트를 개발할 수 있습니다.
 
 ### CLI 설치 및 CLI 로그인
@@ -51,7 +52,7 @@ $ Default output format [None]: 데이터 포맷을 결정
 
 ![1  aws 로그인](https://user-images.githubusercontent.com/66216102/133728195-10115cef-043c-4af2-a353-3dba7d2f3060.JPG)
 
-- CLI를 이용하여 S3 버킷 조회
+- 검증 - CLI를 이용하여 S3 버킷 조회
 
 ![2  s3 버킷조회](https://user-images.githubusercontent.com/66216102/133728198-293f2580-270f-4371-b6a3-9b04dec1ffd1.JPG)
 
@@ -331,11 +332,20 @@ $ aws ec2 delete-internet-gateway --internet-gateway-id $MY_IGW
 $ aws ec2 delete-vpc --vpc-id $MY_VPC
 ```
 
-## LAB 5 - Ansible을 활용한 EC2 인스턴스와 AWS 도커 관리
+## LAB 6 - Ansible을 활용한 EC2 인스턴스와 AWS 도커 관리
 
-> **<u>EC2의 클라우드 환경에서는 인벤토리를 관리할 필요가 없습니다.</u>**
->
-> 온프레미스처럼 기존에 가지고 있는 서버가 없기 때문입니다. 따라서 hosts는 localhost로 작업을 진행하면 됩니다.
+<div class="quote-block">
+<div class="quote-block__emoji">💡</div>
+<div class="quote-block__content" markdown=1>
+
+제목쓰기
+
+**<u>EC2의 클라우드 환경에서는 인벤토리를 관리할 필요가 없습니다.</u>**  
+온프레미스처럼 기존에 가지고 있는 서버가 없기 때문입니다.  
+따라서 **hosts는 localhost**로 작업을 진행하면 됩니다.
+
+</div>
+</div>
 
 - 앤서블 설치
   - epel-release 레포를 사용해도 무방합니다.
