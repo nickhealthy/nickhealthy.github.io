@@ -129,7 +129,42 @@ draft: false
 - VPC 생성 시 자동 생성되는 항목
   - 기본 라우팅 테이블
   - 기본 네트워크 ACL
-  - 보안그룹
+  - 보안그룹(생성 후 상세화면 페이지에선 안보임)
+
+1. VPC 네트워크 생성
+
+![1  브이피시생성](https://user-images.githubusercontent.com/66216102/135949486-1e86925d-c5fa-4798-beb7-5514b6bbbc33.JPG)
+
+2. 서브넷 생성
+   - CIDR 값은 상황에 맞게 필요한대로 설정
+
+![2  SUBNET-create](https://user-images.githubusercontent.com/66216102/135949493-239081f1-1e7a-447a-8f1b-cbef7de74995.JPG)
+
+3. 인터넷 게이트웨이 생성
+
+![3  internetGateway-create](https://user-images.githubusercontent.com/66216102/135949494-dfe76da2-2c61-44f8-b1ba-b45199bfdb63.JPG)
+
+4. 인터넷 게이트웨이 생성 후, VPC에 연결해주어야 함
+
+![3-1  internetGateway-create](https://user-images.githubusercontent.com/66216102/135949495-d298e1e3-7cb4-4793-9c1d-7ed02824b426.JPG)
+
+5. 라우팅 테이블 설정
+   - 인터넷 게이트웨이를 추가
+
+![4  RoutingTable](https://user-images.githubusercontent.com/66216102/135949496-9dda41a8-61cf-4add-a42e-497f1e263da9.JPG)
+
+![4-1  RoutingTable](https://user-images.githubusercontent.com/66216102/135949501-57f95517-fa0e-4c81-8679-3dcdcb226c6b.JPG)
+
+<div class="quote-block">
+<div class="quote-block__emoji">💡</div>
+<div class="quote-block__content" markdown=1>
+
+알고가기!
+
+라우팅 테이블 생성시 기본의 "예" 와 "아니요"로 표시가 되는데, 이것은 <u>명시적 서브넷를 할당하지 않아도 자동으로 생성한 VPC의 서브넷과 연결된 것을 의미</u>합니다.("예 일때")
+
+</div>
+</div>
 
 #### 번외 - 사용자 VPC 생성 시, 기본 VPC와 동일하게 공인 IP 자동 할당을 활성화 시키는 방법
 
@@ -137,11 +172,17 @@ draft: false
 - 이를 자동 할당으로 변경하기 위해선
   1. 새롭게 만든 서브넷의 <u>작업 - 자동 할당 IP 설정 수정 - 자동 할당 IPv4 정보 체크</u> 하면 됩니다.
 
+![1  자동할당 아이피 추가](https://user-images.githubusercontent.com/66216102/135949492-923b362a-b22a-4509-8d6c-735d3ec2d6cd.JPG)
+
 #### 번외 - DNS 호스트 이름 활성화 하는 방법
 
 - AWS는 서버를 만들게 되면 무료로 DNS를 하나 만들어주게 되는데, 새로운 VPC를 만들고 별다른 설정 없이 서버에 이용하게 되면 DNS가 생성되지 않습니다.
   1. 무료로 제공해주는 DNS의 기능을 사용하기 위해 새로운 VPC 생성 후,
   2. 해당 VPC의 <u>작업 - DNS호스트 이름 편집 - DNS 호스트 이름 활성화 체크</u> 하면 됩니다.
+
+![1  dns-host](https://user-images.githubusercontent.com/66216102/135941302-cf344d16-47a2-4a31-b18a-8b4c71de7ada.JPG)
+
+![1-1  dns-host](https://user-images.githubusercontent.com/66216102/135941304-3e69dfc7-6a56-4546-99f3-2e8910321e7a.JPG)
 
 ## EBS(Elastic Block Store)
 
@@ -178,7 +219,7 @@ draft: false
 
 - AWS 서비스에 대한 액세스를 안전하게 제어하는 웹 서비스입니다.
   - IAM을 통해 사용자, 액세스 키와 같은 보안 자격 증명, <u>사용자와 애플리케이션이 어떤 AWS 리소스에 액세스 할 수 있는지 제어하는 권한을 한 곳에서 관리</u>할 수 있습니다.
--
+  -
 
 ## LAB 4 - IAM 그룹 및 사용자 추가
 
