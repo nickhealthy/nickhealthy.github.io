@@ -193,9 +193,103 @@ draft: false
   - 동일한 인스턴스에 여러 볼륨을 탑재하고, 한 번에 여러 인스턴스에 볼륨을 탑재할 수 있습니다.
   - **<u>볼륨 연결은 인스턴스와 동일한 가용 영역에 만들어줘야 편합니다.</u>**
 
+### 클라우드의 대표적인 스토리지 서비스
+
+- 블록 스토리지
+- 파일시스템(NFS)
+- 오브젝트 스토리지(S3)
+
 ## LAB 2 - EBS 생성 및 서버 마운트
 
-- 나중에 작성
+1. EC2 생성은 생략
+   - 유저데이터 스크립트
+
+```bash
+#!/bin/bash
+apt update
+apt install -y apache2
+echo "web02" > /var/www/html/index.html
+```
+
+2. EBS 볼륨생성
+   - **<u>가용영역은 서버의 가용영역과 맞춰주는게 설정하기 편하고 좋음</u>**
+
+![1  volume 생성](https://user-images.githubusercontent.com/66216102/135963573-482d7743-1410-4c1c-bc7b-2df7a678d6e2.JPG)
+
+![1-1  volume 생성](https://user-images.githubusercontent.com/66216102/135963574-7b3ce5ab-32ff-4be7-ad59-2f3a175ac4fb.JPG)
+
+3. 볼륨 연결
+
+![2  볼륨연결](https://user-images.githubusercontent.com/66216102/135963561-94c39641-ae20-463e-bcae-4ff3dd53da36.JPG)
+
+![2-1  볼륨연결](https://user-images.githubusercontent.com/66216102/135963566-ecc6671a-598c-4ae1-bea1-637597004a5e.JPG)
+
+3. EBS 마운트 후, 서버 접속 및 디스크 확인
+
+```bash
+$ lsblk
+```
+
+![3  디스크확인](https://user-images.githubusercontent.com/66216102/135963567-a02fc1fa-c296-47bb-ad1e-16c2db5bca1d.JPG)
+
+4. 디스크 포맷 및 마운트 하려는 폴더 생성
+
+```bash
+$ sudo mkfs -t ext4 /dev/xvdf
+$ sudo mkdir /data
+```
+
+![4  볼륨 포맷](https://user-images.githubusercontent.com/66216102/135963568-b68d6956-53f9-4b88-acfc-63c419f2888e.JPG)
+
+5. 마운트하기
+   - mount [마운트 할 디스크][마운트 시킬 폴더]
+
+```bash
+$ sudo mount /dev/xvdf /data/
+```
+
+6. 검증
+   - _/data_ 폴더에 잘 마운트 된 모습
+
+![5  마운트 확인](https://user-images.githubusercontent.com/66216102/135963569-8f3b26c1-0c81-4238-858b-e341f650dcec.JPG)
+
+#### 번외 - 재부팅 후에도 마운트 될 수 있도록 설정
+
+<div class="quote-block">
+<div class="quote-block__emoji">💡</div>
+<div class="quote-block__content" markdown=1>
+
+_fstab_ 파일이란?
+
+_/etc/fstab_ 파일은 파일 초반 탭 정보를 저장하고 있는 파일입니다.  
+[파일 시스템 장치명][마운트 포인트] [파일 시스템 종류][옵션] [덤프관련][파일 점검 옵션] 순으로 작성
+
+</div>
+</div>
+
+1. 기존 _fstab_ 파일을 안전하게 백업
+
+```bash
+$ sudo cp /etc/fstab /etc/fstab.orig
+```
+
+2. 블록 스토리지 ID 확인
+
+```bash
+$ sudo blkid
+```
+
+3. _fstab_ 파일에 스토리지 정보 추가
+
+```bash
+UUID=ac3013e0-6970-4148-9397-eac8cbe20dae /data         ext4 defaults,nofail 0 2
+```
+
+![6  파일설정](https://user-images.githubusercontent.com/66216102/135963571-d8817948-fd9c-4c5c-8453-3903871cef11.JPG)
+
+4. 검증 - 재부팅 후 `df -h` 명령어로 확인
+
+![1  검증](https://user-images.githubusercontent.com/66216102/135963846-ec5db1f4-375b-4057-8a57-f11690cbcbfa.JPG)
 
 ## EBS Snapshot
 
@@ -390,3 +484,7 @@ $ sudo systemctl enable httpd
   - 아래는 업로드 한 이미지 사진
 
 ![6  검증](https://user-images.githubusercontent.com/66216102/133725627-7a49b2ce-cab4-4d1e-a78d-0dd5e140a829.JPG)
+
+## Reference
+
+[/etc/fstab 설정](https://storyerp.tistory.com/41)
