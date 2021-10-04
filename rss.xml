@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Aug 2021 15:08:06 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</link><guid isPermaLink="false">https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</guid><content:encoded>&lt;h1 id=&quot;연결리스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;연결리스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연결리스트&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Oct 2021 08:19:59 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</link><guid isPermaLink="false">https://nickhealthy.github.io/algorithm/[파이썬알고리즘인터뷰]8.연결 리스트/</guid><content:encoded>&lt;h1 id=&quot;연결리스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;연결리스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;연결리스트&lt;/h1&gt;
 &lt;div class=&quot;quote-block&quot;&gt;
 &lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
 &lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
@@ -280,7 +280,1506 @@ end_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;spa
 start_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 end_time &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;기본정렬&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end_time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[따배쉘] - bash shell Script]]></title><description><![CDATA[Shell Script 란 ? 리눅스 command들을 모아 놓은 아스키 텍스트 파일 실행 퍼미션을 할당해야 실행 가능 Bash shell script에서 특별히 의미가 정해진 기능  - comment…]]></description><link>https://nickhealthy.github.io/linux/[따배쉘] - bash shell Script/</link><guid isPermaLink="false">https://nickhealthy.github.io/linux/[따배쉘] - bash shell Script/</guid><pubDate>Sun, 22 Aug 2021 17:30:50 GMT</pubDate><content:encoded>&lt;h2 id=&quot;shell-script-란-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#shell-script-%EB%9E%80-&quot; aria-label=&quot;shell script 란  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Shell Script 란 ?&lt;/h2&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;기본정렬&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end_time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; start_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-4]]></title><description><![CDATA[학습목표 앞장에서 AWS의 콘솔로 진행한 LAB를 AWS CLI를 이용하여 자원(서비스) 다뤄보기 AWS와 Ansible를 이용해 자원 구축 및 서버의 환경을 스크립트화 시키기 AWS CLI 설치와 설정 AWS 명령줄 인터페이스(CLI)는 AWS…]]></description><link>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-4/</link><guid isPermaLink="false">https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-4/</guid><pubDate>Fri, 17 Sep 2021 16:41:13 GMT</pubDate><content:encoded>&lt;h3 id=&quot;학습목표&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%99%EC%8A%B5%EB%AA%A9%ED%91%9C&quot; aria-label=&quot;학습목표 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;학습목표&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;앞장에서 AWS의 콘솔로 진행한 LAB를 AWS CLI를 이용하여 자원(서비스) 다뤄보기&lt;/li&gt;
+&lt;li&gt;AWS와 Ansible를 이용해 자원 구축 및 서버의 환경을 스크립트화 시키기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;aws-cli-설치와-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aws-cli-%EC%84%A4%EC%B9%98%EC%99%80-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;aws cli 설치와 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AWS CLI 설치와 설정&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AWS 명령줄 인터페이스(CLI)는 AWS 서비스를 관리하는 통합 도구입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;편한 방식으로 OpenStack이 있는데 이는 웹 UI에서 서비스를 관리할 수 있는 것을 제공해줍니다. 하지만 클라우드 자원을 다룰 수 있는 범위가 대략 80% 정도입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;u&gt;여러 AWS 서비스를 명령줄에서 제어하고 스크립트를 통해 자동화&lt;/u&gt;할 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS CLI를 사용하여 서비스의 기능을 살펴보고 리소스를 관리할 셀 스크립트를 개발할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;cli-설치-및-cli-로그인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cli-%EC%84%A4%EC%B9%98-%EB%B0%8F-cli-%EB%A1%9C%EA%B7%B8%EC%9D%B8&quot; aria-label=&quot;cli 설치 및 cli 로그인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CLI 설치 및 CLI 로그인&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS-SDK boto3 및 AWS-CLI 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; python-pip
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; boto
+$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip&quot;&lt;/span&gt; -o &lt;span class=&quot;token string&quot;&gt;&quot;awscliv2.zip&quot;&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt; awscliv2.zip
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; ./aws/install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CLI를 다루기 위한 서버 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;complete -C &amp;#39;/usr/local/bin/aws_completer&amp;#39; aws&lt;/code&gt; : bash 쉘 자동완성 하기 위한 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; ~/.bash_profile
+&lt;span class=&quot;token comment&quot;&gt;# .bash_profile에 해당 명령어 넣기 &gt;&gt; complete -C &apos;/usr/local/bin/aws_completer&apos; aws&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# PATH=$PATH:$HOME/bin&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# export PATH&lt;/span&gt;
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.bash_profile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;CLI를 사용하기 위한 AWS 계정 로그인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# aws에 로그인하기 위한 명령어&lt;/span&gt;
+$ aws configure
+$ 엑세스 키, 시크릿 키 입력
+$ Default region name &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;None&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: 리전 네임입력
+$ Default output &lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;None&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;: 데이터 포맷을 결정&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133728195-10115cef-043c-4af2-a353-3dba7d2f3060.JPG&quot; alt=&quot;1  aws 로그인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;검증 - CLI를 이용하여 S3 버킷 조회&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133728198-293f2580-270f-4371-b6a3-9b04dec1ffd1.JPG&quot; alt=&quot;2  s3 버킷조회&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;lab-1---cli-를-활용하여-vpc와-서브넷-생성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-1---cli-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-vpc%EC%99%80-%EC%84%9C%EB%B8%8C%EB%84%B7-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;lab 1   cli 를 활용하여 vpc와 서브넷 생성하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 1 - CLI 를 활용하여 VPC와 서브넷 생성하기&lt;/h2&gt;
+&lt;h4 id=&quot;aws-cli를-이용하여-vpc와-서브넷-자원을-생성해-봅시다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aws-cli%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-vpc%EC%99%80-%EC%84%9C%EB%B8%8C%EB%84%B7-%EC%9E%90%EC%9B%90%EC%9D%84-%EC%83%9D%EC%84%B1%ED%95%B4-%EB%B4%85%EC%8B%9C%EB%8B%A4&quot; aria-label=&quot;aws cli를 이용하여 vpc와 서브넷 자원을 생성해 봅시다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AWS-CLI를 이용하여 VPC와 서브넷 자원을 생성해 봅시다.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VPC를 CIDR 값을 정해 만들기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--output&lt;/code&gt; 옵션 : 결과물을 테이블 형식으로 보기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 create-vpc --cidr-block &lt;span class=&quot;token number&quot;&gt;172.16&lt;/span&gt;.0.0/16 --output table
+$ aws ec2 describe-vpcs --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732739-67aa606a-0241-479a-878e-2fea073d4478.JPG&quot; alt=&quot;1  vpc 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;서브넷 만들기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AZ - a, c 두 개의 서브넷 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 변수 선언&lt;/span&gt;
+$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_VPC&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;vpc-035eb45dd473aa061
+&lt;span class=&quot;token comment&quot;&gt;# 서브넷 생성&lt;/span&gt;
+$ aws ec2 create-subnet --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt; --cidr-block &lt;span class=&quot;token number&quot;&gt;172.16&lt;/span&gt;.0.0/20 --availability-zone ap-northeast-2a --output table
+$ aws ec2 create-subnet --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt; --cidr-block &lt;span class=&quot;token number&quot;&gt;172.16&lt;/span&gt;.32.0/20 --availability-zone ap-northeast-2c --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732748-a91cf6ef-9d75-4f90-9211-69c7bedba268.JPG&quot; alt=&quot;2  서브넷 설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;상세 정보 보기 (필터링 포함)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MY_VPC의 서브넷 두개가 생성된 것을 확인할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732749-c2927641-3969-4c6d-b497-4192c33e1191.JPG&quot; alt=&quot;3  상세정보보기&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;lab-2---서브넷을-퍼블릭-서브넷으로-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-2---%EC%84%9C%EB%B8%8C%EB%84%B7%EC%9D%84-%ED%8D%BC%EB%B8%94%EB%A6%AD-%EC%84%9C%EB%B8%8C%EB%84%B7%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;lab 2   서브넷을 퍼블릭 서브넷으로 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 2 - 서브넷을 퍼블릭 서브넷으로 만들기&lt;/h2&gt;
+&lt;h4 id=&quot;앞서-만들었던-프라이빗-서브넷을-퍼블릭-서브넷으로-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%9E%EC%84%9C-%EB%A7%8C%EB%93%A4%EC%97%88%EB%8D%98-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EC%84%9C%EB%B8%8C%EB%84%B7%EC%9D%84-%ED%8D%BC%EB%B8%94%EB%A6%AD-%EC%84%9C%EB%B8%8C%EB%84%B7%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;앞서 만들었던 프라이빗 서브넷을 퍼블릭 서브넷으로 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;앞서 만들었던 프라이빗 서브넷을 퍼블릭 서브넷으로 만들기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;인터넷 게이트웨이 만들기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 create-internet-gateway --output table
+&lt;span class=&quot;token comment&quot;&gt;# 상세 정보 확인&lt;/span&gt;
+$ aws ec2 describe-internet-gateways --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;인터넷 게이트웨이를 VPC에 연결하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 attach-internet-gateway --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt; --internet-gateway-id &lt;span class=&quot;token variable&quot;&gt;$MY_IGW&lt;/span&gt;
+$ aws ec2 describe-internet-gateways --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732751-a53599dc-fd8c-4fb3-b13b-7a00893c2bcf.JPG&quot; alt=&quot;4  인터넷게이트웨이 생성 및 어태치&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;라우팅 테이블 만들기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 create-route-table --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt; --output table
+$ aws ec2 describe-route-tables --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732753-d5cf2278-ac53-4d9f-9e0a-5562ec0e401a.JPG&quot; alt=&quot;5  라우팅 테이블 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;라우팅 테이블에 인터넷 게이트웨이를 추가&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;리턴 결과 true 출력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 변수 설정&lt;/span&gt;
+$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_RTB&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;rtb-0ff265e3570259a34
+$ aws ec2 create-route --route-table-id &lt;span class=&quot;token variable&quot;&gt;$MY_RTB&lt;/span&gt; --destination-cidr-block &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0/0 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--gateway-id &lt;span class=&quot;token variable&quot;&gt;$MY_IGW&lt;/span&gt; --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732754-9cd0aa24-db3f-4b86-8f65-825406ab4502.JPG&quot; alt=&quot;6  인터넷 게이트웨이 라우팅에 연결&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;라우팅 테이블 안에 인터넷 게이트웨이가 추가 된 것을 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 상세정보 확인&lt;/span&gt;
+$ aws ec2 describe-route-tables --route-table-id &lt;span class=&quot;token variable&quot;&gt;$MY_RTB&lt;/span&gt; --output table
+$ aws ec2 describe-subnets --filters &lt;span class=&quot;token string&quot;&gt;&quot;Name=vpc-id,Values=&lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--query &lt;span class=&quot;token string&quot;&gt;&apos;Subnets[*].{ID:SubnetId,CIDR:CidrBlock}&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732757-02a28c48-acbd-4032-83f2-73eb9d7c1252.JPG&quot; alt=&quot;6-1  인터넷 게이트웨이 라우팅에 연결&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;서브넷을 라우팅에 테이블 연결&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 변수 설정&lt;/span&gt;
+$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_SID1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;subnet-0775ed14f85759e14
+$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_SID2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;subnet-08c42a258a37d56e1
+
+$ aws ec2 associate-route-table --subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID1&lt;/span&gt; --route-table-id &lt;span class=&quot;token variable&quot;&gt;$MY_RTB&lt;/span&gt;
+$ aws ec2 associate-route-table --subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID2&lt;/span&gt; --route-table-id &lt;span class=&quot;token variable&quot;&gt;$MY_RTB&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133732758-4d56ddb7-c99b-4ed6-9f3b-4d04092a23cf.JPG&quot; alt=&quot;7  서브넷과 라우팅 테이블 연결&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VPC-Subnet에 &lt;u&gt;자동 할당 IP&lt;/u&gt; 수정을 해주는 것&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;앞 수업 시간에 설명했던 “공인 IP 활성화” 부분을 뜻함&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 modify-subnet-attribute --subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID1&lt;/span&gt; --map-public-ip-on-launch
+$ aws ec2 modify-subnet-attribute --subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID2&lt;/span&gt; --map-public-ip-on-launch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VPC-DNS 호스트 이름 편집&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;공인 IP 생성 시 자동으로 생성해주는 DNS 설정을 하는 것임&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 modify-vpc-attribute --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt; --enable-dns-hostnames&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;lab-3---키페어-보안그룹-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-3---%ED%82%A4%ED%8E%98%EC%96%B4-%EB%B3%B4%EC%95%88%EA%B7%B8%EB%A3%B9-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;lab 3   키페어 보안그룹 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 3 - 키페어, 보안그룹 만들기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;키페어 생성 후, 키를 해당 서버에 저장하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;--output&lt;/code&gt;를 text 형식으로 만들어서 *&lt;em&gt;.pem&lt;/em&gt; 파일을 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 create-key-pair --key-name MyKeyPair --query &lt;span class=&quot;token string&quot;&gt;&apos;KeyMaterial&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--output text &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; MyKeyPair.pem&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;키 페어에 대한 권한 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;400&lt;/span&gt; MyKeyPair.pem&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;보안그룹 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 create-security-group --group-name HTTP_SSH_Access &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--description &lt;span class=&quot;token string&quot;&gt;&quot;Security group for HTTP_SSH access&quot;&lt;/span&gt; --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt;
+$ aws ec2 describe-security-groups --output table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133739462-d7019b0b-5eba-433a-a155-2b9d0d06a441.JPG&quot; alt=&quot;8  보안그룹 생성 및 설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EC2 서버의 아이피 추출하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_IP&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; http://checkip.amazonaws.com/&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 서버의 아이피 - 13.125.xxx.133&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; http://checkip.amazonaws.com/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133739454-9715687b-f922-48b2-97fd-81b7a1c2a74a.JPG&quot; alt=&quot;9  나의 아이피 추출&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;보안 그룹 인바운드 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인바운드는 &lt;code class=&quot;language-text&quot;&gt;ingress&lt;/code&gt;, 아웃바운드는 &lt;code class=&quot;language-text&quot;&gt;egress&lt;/code&gt; 명령어&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_SG&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;sg-05b321deb1c4e237d
+&lt;span class=&quot;token comment&quot;&gt;# SSH 포트와 HTTP 포트를 설정&lt;/span&gt;
+$ aws ec2 authorize-security-group-ingress --group-id &lt;span class=&quot;token variable&quot;&gt;$MY_SG&lt;/span&gt; --protocol tcp &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--port &lt;span class=&quot;token number&quot;&gt;22&lt;/span&gt; --cidr &lt;span class=&quot;token variable&quot;&gt;$MY_IP&lt;/span&gt;/32
+$ aws ec2 authorize-security-group-ingress --group-id &lt;span class=&quot;token variable&quot;&gt;$MY_SG&lt;/span&gt; --protocol tcp &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--port &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt; --cidr &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0/0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133739456-f9e6a69b-42a1-452d-9329-c79c4c0d17a0.JPG&quot; alt=&quot;10  보안그룹 인바운드 설정&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;lab-4---볼륨-및-인스턴스-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-4---%EB%B3%BC%EB%A5%A8-%EB%B0%8F-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;lab 4   볼륨 및 인스턴스 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 4 - 볼륨 및 인스턴스 만들기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;추가 볼륨을 생성할 json 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;$ vi mapping.json
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;token property&quot;&gt;&quot;DeviceName&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/dev/xvda&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+     &lt;span class=&quot;token property&quot;&gt;&quot;Ebs&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;token property&quot;&gt;&quot;VolumeSize&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;
+     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;token property&quot;&gt;&quot;DeviceName&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/dev/sdh&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+     &lt;span class=&quot;token property&quot;&gt;&quot;Ebs&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;token property&quot;&gt;&quot;VolumeSize&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;
+     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;AMI 이미지 검색하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 describe-images &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--owners amazon &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--filters &lt;span class=&quot;token string&quot;&gt;&apos;Name=name,Values=amzn2-ami-hvm-2.0.????????.?-x86_64-gp2&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Name=state,Values=available&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--query &lt;span class=&quot;token string&quot;&gt;&apos;reverse(sort_by(Images, &amp;amp;CreationDate))[:1].ImageId&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--output text&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133739457-32b39321-3a59-40f2-817d-341ff163ec4b.JPG&quot; alt=&quot;11  ami 이미지 추출&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;EC2 생성하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 &lt;code class=&quot;language-text&quot;&gt;--image-id&lt;/code&gt; 옵션의 값은 &lt;u&gt;&lt;strong&gt;자주 바뀌니 주의&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 run-instances --image-id ami-08c64544f5cfcddd0 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--count &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; --instance-type t2.micro --key-name MyKeyPair &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--security-group-ids &lt;span class=&quot;token variable&quot;&gt;$MY_SG&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--block-device-mappings file://mapping.json&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;EC2 상세 정보 조회&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;새롭게 만들어진 EC2 서버의 상세 정보에서 퍼블릭 IP 확인하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token assign-left variable&quot;&gt;MY_IID&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;i-0c463c0c5951523b1
+$ aws ec2 describe-instances --instance-id &lt;span class=&quot;token variable&quot;&gt;$MY_IID&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;SSH 프로토콜을 통하여 새롭게 만들어진 EC2 접속&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; -i &lt;span class=&quot;token string&quot;&gt;&quot;MyKeyPair.pem&quot;&lt;/span&gt; ec2-user@3.36.99.213&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133739460-8b6d3c9c-2f88-4ddf-b1d7-34930416be7b.JPG&quot; alt=&quot;12  ssh 서버 접속&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;EC2에 웹 서버 설치 및 구동&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -y httpd
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; --now httpd
+$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3.36&lt;/span&gt;.99.213
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;exit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;lab-5---자원-정리하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-5---%EC%9E%90%EC%9B%90-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;lab 5   자원 정리하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 5 - 자원 정리하기&lt;/h2&gt;
+&lt;h4 id=&quot;현재까지-만든-자원을-cli-을-이용하여-지워봅시다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%98%84%EC%9E%AC%EA%B9%8C%EC%A7%80-%EB%A7%8C%EB%93%A0-%EC%9E%90%EC%9B%90%EC%9D%84-cli-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%A7%80%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4&quot; aria-label=&quot;현재까지 만든 자원을 cli 을 이용하여 지워봅시다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;현재까지 만든 자원을 CLI 을 이용하여 지워봅시다.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;EC2 자원 삭제하기 및 상세 조회&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 terminate-instances --instance-id &lt;span class=&quot;token variable&quot;&gt;$MY_IID&lt;/span&gt;
+$ aws ec2 describe-instances --instance-ids &lt;span class=&quot;token variable&quot;&gt;$MY_IID&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;서브넷 삭제하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 delete-subnet --subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID1&lt;/span&gt;
+$ aws ec2 delete-subnet --subnet-id &lt;span class=&quot;token variable&quot;&gt;$MY_SID2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;라우팅 테이블 삭제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 delete-route-table --route-table-id &lt;span class=&quot;token variable&quot;&gt;$MY_RTB&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;VPC와 인터넷 게이트웨이 detach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 detach-internet-gateway --internet-gateway-id &lt;span class=&quot;token variable&quot;&gt;$MY_IGW&lt;/span&gt; --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;인터넷 게이트웨이 삭제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 delete-internet-gateway --internet-gateway-id &lt;span class=&quot;token variable&quot;&gt;$MY_IGW&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;VPC 삭제하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 delete-vpc --vpc-id &lt;span class=&quot;token variable&quot;&gt;$MY_VPC&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;lab-6---ansible을-활용한-ec2-인스턴스와-aws-도커-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-6---ansible%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-ec2-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%99%80-aws-%EB%8F%84%EC%BB%A4-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;lab 6   ansible을 활용한 ec2 인스턴스와 aws 도커 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 6 - Ansible을 활용한 EC2 인스턴스와 AWS 도커 관리&lt;/h2&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;제목쓰기&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;EC2의 클라우드 환경에서는 인벤토리를 관리할 필요가 없습니다.&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;
+온프레미스처럼 기존에 가지고 있는 서버가 없기 때문입니다.&lt;br&gt;
+따라서 &lt;strong&gt;hosts는 localhost&lt;/strong&gt;로 작업을 진행하면 됩니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;앤서블 설치&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;epel-release 레포를 사용해도 무방합니다.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;알아서 다른 레포를 추천해줌&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; amazon-linux-extras &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; ansible2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS 이미지 검색&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ aws ec2 describe-images &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--owners amazon &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--filters &lt;span class=&quot;token string&quot;&gt;&apos;Name=name,Values=amzn2-ami-hvm-2.0.????????.?-x86_64-gp2&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Name=state,Values=available&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--query &lt;span class=&quot;token string&quot;&gt;&apos;reverse(sort_by(Images, &amp;amp;CreationDate))[:1].ImageId&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--output text&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;플레이북에 활용한 yaml 파일 만들기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;hosts: localhost&lt;/code&gt; 옵션은 EC2 서버가 앤서블의 코어로 동작하는 것을 의미합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;wait&lt;/code&gt; 옵션 : &lt;u&gt;수행 결과를 기다리는 것임&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;$ vi ec2.yml
+
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; launch webservers instance
+  &lt;span class=&quot;token key atrule&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; localhost
+  &lt;span class=&quot;token key atrule&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; start the instance
+    &lt;span class=&quot;token key atrule&quot;&gt;ec2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;region&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ap&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;northeast&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ami&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;08c64544f5cfcddd0
+      &lt;span class=&quot;token key atrule&quot;&gt;instance_type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; t2.micro
+      &lt;span class=&quot;token key atrule&quot;&gt;exact_count&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;count_tag&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; web &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;vpc_subnet_id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; subnet&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;3ec34455
+      &lt;span class=&quot;token key atrule&quot;&gt;assign_public_ip&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;True&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;user_data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;{{ lookup(&apos;file&apos;, &apos;user_data.sh&apos;) }}&quot;&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;instance_tags&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; WEB &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; SG&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;WEB
+      &lt;span class=&quot;token key atrule&quot;&gt;key_name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0916&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;wait&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; yes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;유저 데이터 만들기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; user_data.sh
+
+&lt;span class=&quot;token comment&quot;&gt;#!/bin/bash&lt;/span&gt;
+yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -y httpd
+systemctl start httpd &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; httpd
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;WEB&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /var/www/html/index.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;플레이북 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible-playbook ec2.ym&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133746396-7e53732e-fd9c-4480-a0c3-c4da3da0074d.JPG&quot; alt=&quot;1  앤서블 서버 생성&quot;&gt;
+fdsaf&lt;/p&gt;</content:encoded></item><item><title><![CDATA[KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-3]]></title><description><![CDATA[학습목표 AWS의 핵심 서비스 기능을 이해하기 AWS 인스턴스(VM)의 라이프사이클을 관리하기 AWS 인스턴스로 마이그레이션 하기 AWS…]]></description><link>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-3/</link><guid isPermaLink="false">https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-3/</guid><pubDate>Thu, 16 Sep 2021 18:41:13 GMT</pubDate><content:encoded>&lt;h3 id=&quot;학습목표&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%99%EC%8A%B5%EB%AA%A9%ED%91%9C&quot; aria-label=&quot;학습목표 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;학습목표&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS의 핵심 서비스 기능을 이해하기&lt;/li&gt;
+&lt;li&gt;AWS 인스턴스(VM)의 라이프사이클을 관리하기&lt;/li&gt;
+&lt;li&gt;AWS 인스턴스로 마이그레이션 하기&lt;/li&gt;
+&lt;li&gt;AWS 서비스를 효율적으로 요금 설계하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;클라우드란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EB%9E%80&quot; aria-label=&quot;클라우드란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;클라우드란?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;관리 노력과 서비스 공급자의 상호 작용을 최소화하면서 신속하게 제공하거나 해제할 수 있는 구성 가능한 &lt;strong&gt;컴퓨팅 리소스(CPU, RAM, 네트워크, 서버, 스토리지, 애플리케이션, 서비스 등)&lt;/strong&gt;의 공유 폴에 어디서나 편리하게 필요한 시점에 네트워크(인터넷)로 접근할 수 있게 하는 모델입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;클라우드-서비스-모델&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%AA%A8%EB%8D%B8&quot; aria-label=&quot;클라우드 서비스 모델 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;클라우드 서비스 모델&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Infrastructure as a Service&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인프라 자원(서버, 네트워크, 스토리지, 가상화 등)을 구축해주는 것이 IaaS 입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Platform as a Service&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;필요한 인프라 자원과 미들웨어, OS, 런타임 등까지 구축&lt;/u&gt;해주는 것을 PaaS 서비스입니다. 즉, 애플리케이션과 데이터만 사용자 영역입니다.&lt;/li&gt;
+&lt;li&gt;AWS - beanstalk 서비스가 대표적인 PaaS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Software as a Service&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소스코드까지 모든 작업을 완료된 상태로 제공하는 것이 SaaS 서비스입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;aws-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aws-%EB%9E%80&quot; aria-label=&quot;aws 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AWS 란?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;세계적으로 가장 포괄적이며, 널리 채택되고 있는 클라우드 플랫폼입니다.&lt;/li&gt;
+&lt;li&gt;현재 한국의 AWS의 가용 영역은 4개. 즉, 데이터 센터가 4개 있는 것입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;aws-특장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aws-%ED%8A%B9%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;aws 특장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AWS 특장점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;초기 비용 없이 사용한 만큼만 지불하는 &lt;u&gt;종량 과금제 방식&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;온프레미스 서버 구축 기관과 비교하여 &lt;u&gt;빠른 인프라 구축 속도&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;온프레미스 서버 환경의 리소스 확장 시와 달리 &lt;u&gt;사전 리소스 확보 불필요&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;인스턴스(가상 서버) &lt;u&gt;라이프사이클의 손쉬운 관리&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;고가용성&lt;/u&gt;&lt;/strong&gt; 및 무정지 장애허용 시스템 구축에 필요한 서비스 제공&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;API 제공으로 서비스 관리 자동화 용이&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;aws-ec2의-비용---ec2-인스턴스-시작-유형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aws-ec2%EC%9D%98-%EB%B9%84%EC%9A%A9---ec2-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%8B%9C%EC%9E%91-%EC%9C%A0%ED%98%95&quot; aria-label=&quot;aws ec2의 비용   ec2 인스턴스 시작 유형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AWS EC2의 비용 - EC2 인스턴스 시작 유형&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;온디맨드 인스턴스 : 짧은 워크로드, 예측 가능한 가격&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;예약 인스턴스: 긴 워크로드에 적합(최소 1년)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;가변 예약 인스턴스 : 유연한 인스턴스가 있는 긴 워크로드&lt;/li&gt;
+&lt;li&gt;스케줄 예약 인스턴스 : 예 - 매주 목요일 오후 3시에서 6시 사이&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;스팟 인스턴스: 짧은 워크로드, 저렴하지만 인스턴스를 잃을 수도 있음&lt;/li&gt;
+&lt;li&gt;전용 호스트: 전체 물리적 서버를 예약하고 인스턴스 배치를 제어합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;조금-더-자세히-알아봅시다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A1%B0%EA%B8%88-%EB%8D%94-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4&quot; aria-label=&quot;조금 더 자세히 알아봅시다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;조금 더 자세히 알아봅시다.&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;온디맨드 인스턴스(주문형 - 실습용)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용한 만큼 지불하십시오&lt;/li&gt;
+&lt;li&gt;비용은 가장 높지만 &lt;u&gt;선불 결제는 없습니다&lt;/u&gt;.&lt;/li&gt;
+&lt;li&gt;장기 약정이 없습니다.&lt;/li&gt;
+&lt;li&gt;애플리케이션의 작동 방식을 예측할 수 없는 &lt;u&gt;단기 및 중단 없는 워크로드에 권장&lt;/u&gt;됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;예약 인스턴스(실무용)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;주문형에 비해 &lt;u&gt;최대 75% 할인&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;장기 약정으로 사용한 것에 대해 &lt;u&gt;선결제&lt;/u&gt;합니다.(공통)&lt;/li&gt;
+&lt;li&gt;예약 기간은 &lt;u&gt;1년 또는 3년&lt;/u&gt;입니다.&lt;/li&gt;
+&lt;li&gt;특정 &lt;u&gt;인스턴스 유형을 예약&lt;/u&gt;으로 선택 하십시오.&lt;/li&gt;
+&lt;li&gt;정상 상태 사용 응용 프로그램(데이터베이스)에 권장됩니다.&lt;/li&gt;
+&lt;li&gt;2가지의 종류가 존재함&lt;/li&gt;
+&lt;li&gt;종류 1: 가변 예약 인스턴스&lt;/li&gt;
+&lt;li&gt;EC2 인스턴스 유형을 변경할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;최대 54% 할인&lt;/li&gt;
+&lt;li&gt;종류 2 : 스케줄된 예약 인스턴스&lt;/li&gt;
+&lt;li&gt;예약 한 시간 내에 시작하십시오.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;스팟 인스턴스&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;주문형에 비해 &lt;u&gt;최대 90% 할인&lt;/u&gt;을 받을 수 있습니다.&lt;/li&gt;
+&lt;li&gt;최대 가격이 현재 스팟 가격보다 낮은 경우 언제든지 ”&lt;u&gt;손실&lt;/u&gt;“할 수 있는 인스턴스&lt;/li&gt;
+&lt;li&gt;즉, 경매에 의해 언제든지 다른 사용자에게 뺏길 수 있는 인스턴스&lt;/li&gt;
+&lt;li&gt;AWS에서 &lt;u&gt;가장 비용 효율적인 인스턴스&lt;/u&gt;입니다.&lt;/li&gt;
+&lt;li&gt;장애에 탄력적인 워크로드에 유용합니다. - 장애가 나도 상관이 없는 작업들&lt;/li&gt;
+&lt;li&gt;Batch 작업&lt;/li&gt;
+&lt;li&gt;데이터 분석&lt;/li&gt;
+&lt;li&gt;이미지 처리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;중요한 작업이나 데이터베이스에는 적합하지 않습니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;주로 EKS, ECS 상품에 많이 사용됨&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;그레이트 콤보: 기준선 + 예약 주문형 및 피크에 대한 스팟 예약 인스턴스&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;전용 호스트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;한 사용자를 위한 &lt;u&gt;물리적 전용 EC2 서버&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;EC2 인스턴스 배치를 완전히 제어합니다.&lt;/li&gt;
+&lt;li&gt;3년 동안 사용자의 계정에 할당됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;복잡한 라이선싱 모델(BYOL : 기존 보유 라이선스 사용)이 있는 소프트웨어에 유용&lt;/u&gt;합니다.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;또는 강력한 규제 또는 규정 준수 요구가 있는 회사의 경우 유용&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;amazon-vpc&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#amazon-vpc&quot; aria-label=&quot;amazon vpc permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Amazon VPC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자가 정의한 가상 네트워크로 AWS 리소스를 시작할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;Virtual Private Cloud(VPC) : &lt;u&gt;사용자의 AWS 계정 전용 가상 네트워크&lt;/u&gt;입니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;전체 네트워크 주소 범위는 &lt;u&gt;172.31.0.0/16&lt;/u&gt;입니다. (리전 단위)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;서브넷: &lt;strong&gt;&lt;u&gt;각각의 AZ에 1개씩 네트워크 주소가 할당된 VPC의 IP 주소 범위&lt;/u&gt;&lt;/strong&gt;입니다.&lt;/li&gt;
+&lt;li&gt;AZ 단위: 172.31.0.0/20=a, 172.31.16.0/20=b, 172.31.32.0/20=c, 172.31.48.0/20=d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;용어-정리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%A9%EC%96%B4-%EC%A0%95%EB%A6%AC&quot; aria-label=&quot;용어 정리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;용어 정리&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;라우팅 테이블&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;네트워크 트래픽을 전달할 위치를 결정&lt;/u&gt;하는데 사용되는 라우팅이라는 &lt;u&gt;규칙 집합&lt;/u&gt;입니다.&lt;/li&gt;
+&lt;li&gt;172.31.0.0/16(서브넷 단위)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;인터넷 게이트웨이&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;VPC의 리소스와 인터넷 간의 통신을 활성화&lt;/u&gt;하기 위해 VPC에 연결하는 게이트웨이입니다.&lt;/li&gt;
+&lt;li&gt;라우팅 테이블에 할당됩니다.(VPC 단위)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Network ACL&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인바운드(내부로의 통신) , 아웃바운드(외부로의 통신)를 기반으로 모든 통신을 허가합니다.(서브넷 단위)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security Group&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인바운드의 기본 값은 모든 통신을 거부합니다.&lt;/li&gt;
+&lt;li&gt;아웃바운드는 모든 통신을 허가합니다.(인스턴스 단위)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-1---vpc를-이용해서-네트워크-대역대를-바꾸기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-1---vpc%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EB%8C%80%EC%97%AD%EB%8C%80%EB%A5%BC-%EB%B0%94%EA%BE%B8%EA%B8%B0&quot; aria-label=&quot;lab 1   vpc를 이용해서 네트워크 대역대를 바꾸기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 1 - VPC를 이용해서 네트워크 대역대를 바꾸기&lt;/h2&gt;
+&lt;h4 id=&quot;172310016의-기본-네트워크-대역대를-1921680016-대역으로-바꾸기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#172310016%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EB%8C%80%EC%97%AD%EB%8C%80%EB%A5%BC-1921680016-%EB%8C%80%EC%97%AD%EC%9C%BC%EB%A1%9C-%EB%B0%94%EA%BE%B8%EA%B8%B0&quot; aria-label=&quot;172310016의 기본 네트워크 대역대를 1921680016 대역으로 바꾸기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;172.31.0.0/16의 기본 네트워크 대역대를 192.168.0.0/16 대역으로 바꾸기&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;정의 순서&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;vpc 네트워크 생성&lt;/li&gt;
+&lt;li&gt;서브넷 생성&lt;/li&gt;
+&lt;li&gt;인터넷 게이트웨이 생성&lt;/li&gt;
+&lt;li&gt;라우팅 테이블 생성&lt;/li&gt;
+&lt;li&gt;네트워크 ACL 설정&lt;/li&gt;
+&lt;li&gt;보안그룹 설정&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VPC 생성 시 자동 생성되는 항목&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;기본 라우팅 테이블&lt;/li&gt;
+&lt;li&gt;기본 네트워크 ACL&lt;/li&gt;
+&lt;li&gt;보안그룹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;번외---사용자-vpc-생성-시-기본-vpc와-동일하게-공인-ip-자동-할당을-활성화-시키는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8---%EC%82%AC%EC%9A%A9%EC%9E%90-vpc-%EC%83%9D%EC%84%B1-%EC%8B%9C-%EA%B8%B0%EB%B3%B8-vpc%EC%99%80-%EB%8F%99%EC%9D%BC%ED%95%98%EA%B2%8C-%EA%B3%B5%EC%9D%B8-ip-%EC%9E%90%EB%8F%99-%ED%95%A0%EB%8B%B9%EC%9D%84-%ED%99%9C%EC%84%B1%ED%99%94-%EC%8B%9C%ED%82%A4%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;번외   사용자 vpc 생성 시 기본 vpc와 동일하게 공인 ip 자동 할당을 활성화 시키는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 - 사용자 VPC 생성 시, 기본 VPC와 동일하게 공인 IP 자동 할당을 활성화 시키는 방법&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;서버 생성 시 기본 VPC를 사용하게 되면 &lt;u&gt;퍼블릭 IP 자동 할당&lt;/u&gt;이 활성화가 되어 있지만 &lt;u&gt;새롭게 생성되는 VPC를 사용하게 되면 따로 활성화 버튼을 눌러줘야합니다.&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이를 자동 할당으로 변경하기 위해선&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;새롭게 만든 서브넷의 &lt;u&gt;작업 - 자동 할당 IP 설정 수정 - 자동 할당 IPv4 정보 체크&lt;/u&gt; 하면 됩니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;번외---dns-호스트-이름-활성화-하는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8---dns-%ED%98%B8%EC%8A%A4%ED%8A%B8-%EC%9D%B4%EB%A6%84-%ED%99%9C%EC%84%B1%ED%99%94-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;번외   dns 호스트 이름 활성화 하는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 - DNS 호스트 이름 활성화 하는 방법&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AWS는 서버를 만들게 되면 무료로 DNS를 하나 만들어주게 되는데, 새로운 VPC를 만들고 별다른 설정 없이 서버에 이용하게 되면 DNS가 생성되지 않습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;무료로 제공해주는 DNS의 기능을 사용하기 위해 새로운 VPC 생성 후,&lt;/li&gt;
+&lt;li&gt;해당 VPC의 &lt;u&gt;작업 - DNS호스트 이름 편집 - DNS 호스트 이름 활성화 체크&lt;/u&gt; 하면 됩니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebselastic-block-store&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebselastic-block-store&quot; aria-label=&quot;ebselastic block store permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;EBS(Elastic Block Store)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인스턴스에 사용할 수 있는 &lt;u&gt;블록 수준 스토리지&lt;/u&gt; 볼륨을 제공합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;블록 수준 스토리지 : 일정 수준의 블록 단위로 나누어 놓는 것을 의미함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EBS 볼륨은 형식이 지정되지 않은 원시 블록 디바이스처럼 동작합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인스턴스에 &lt;u&gt;디바이스로 마운트할 수 있습니다.&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;동일한 인스턴스에 여러 볼륨을 탑재하고, 한 번에 여러 인스턴스에 볼륨을 탑재할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;볼륨 연결은 인스턴스와 동일한 가용 영역에 만들어줘야 편합니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-2---ebs-생성-및-서버-마운트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-2---ebs-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%84%9C%EB%B2%84-%EB%A7%88%EC%9A%B4%ED%8A%B8&quot; aria-label=&quot;lab 2   ebs 생성 및 서버 마운트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 2 - EBS 생성 및 서버 마운트&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;나중에 작성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ebs-snapshot&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ebs-snapshot&quot; aria-label=&quot;ebs snapshot permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;EBS Snapshot&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;EBS 볼륨의 특정 시점 스냅샷을 생성하여 &lt;u&gt;새 볼륨이나 데이터 백업의 기준으로 사용&lt;/u&gt;할 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;다른 리전에서 활용이 가능합니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;볼륨의 스냅샷이 주기적으로 생성되는 경우 스냅샷은 증분식 이어서 &lt;strong&gt;&lt;u&gt;새 스냅샷은 마지막 스냅샷 이후 변경된 블록만 저장&lt;/u&gt;&lt;/strong&gt;합니다.&lt;/li&gt;
+&lt;li&gt;연결되어 사용중인 볼륨의 스냅샷을 만들 수 있습니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 스냅샷은 snapshot 명령을 실행할 때 Amazon EBS 볼륨에 기록된 데이터만 캡처합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이때 애플리케이션이나 운영체제에 의해 캐시된 데이터가 제외될 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-3---ebs-snapshot-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-3---ebs-snapshot-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;lab 3   ebs snapshot 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 3 - EBS Snapshot 생성&lt;/h2&gt;
+&lt;h4 id=&quot;스냅샷을-활용하는-3가지-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8A%A4%EB%83%85%EC%83%B7%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;스냅샷을 활용하는 3가지 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;스냅샷을 활용하는 3가지 방법&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;아래 3가지 내용은 조금씩 성격이 다르지만, 모두 &lt;u&gt;복원&lt;/u&gt;에 초점이 맞춰져 있음&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;스냅샷을 이용한 볼륨 생성 - 인스턴스의 볼륨 마운트&lt;/li&gt;
+&lt;li&gt;스냅샷을 이용한 이미지 생성 - 새로운 인스턴스를 생성할 때&lt;/li&gt;
+&lt;li&gt;다른 리전으로 스냅샷 복사 - 리전 간 이동&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;iamidentity-and-access-management&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#iamidentity-and-access-management&quot; aria-label=&quot;iamidentity and access management permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;IAM(identity and Access Management)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AWS 서비스에 대한 액세스를 안전하게 제어하는 웹 서비스입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IAM을 통해 사용자, 액세스 키와 같은 보안 자격 증명, &lt;u&gt;사용자와 애플리케이션이 어떤 AWS 리소스에 액세스 할 수 있는지 제어하는 권한을 한 곳에서 관리&lt;/u&gt;할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-4---iam-그룹-및-사용자-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-4---iam-%EA%B7%B8%EB%A3%B9-%EB%B0%8F-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;lab 4   iam 그룹 및 사용자 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 4 - IAM 그룹 및 사용자 추가&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;IAM 진입 및 사용자 그룹 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;그룹의 권한 정책은 &lt;em&gt;AdministratorAccess&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;사용자 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;엑세스 유형은 &lt;u&gt;엑세스 키, 관리 콘솔로 나뉘어 집니다.&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713294-68d0a8dc-0c10-4b98-bf70-d48b3f5d4427.JPG&quot; alt=&quot;1  iam 사용자추가&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;그룹에 사용자 추가&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;위에서 만든 &lt;em&gt;admin그룹의 - AdministratorAccess&lt;/em&gt;을 자동으로 할당 받습니다.&lt;/li&gt;
+&lt;li&gt;따로 기존 사용자에 권한을 복사할 수도 있고,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;그룹 권한 이외에, 해당 사용자만 따로 정책을 추가해줄 수 있습니다.&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713299-b7830035-5b93-430a-b198-540a8611a4b3.JPG&quot; alt=&quot;1-1  iam 사용자추가&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;*&lt;em&gt;.csv&lt;/em&gt; 확장자의 파일을 다운로드 해주세요.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 파일은 새롭게 만든 사용자의 정보를 담고 있는 엑셀 파일입니다.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;유저 이름, 엑세스 키, 비밀번호, 관리 콘솔 링크&lt;/u&gt;의 정보를 담고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713300-35ba1e61-773e-4e92-8d7d-72e72840bdfb.JPG&quot; alt=&quot;1-2  iam 사용자추가&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;IAM 사용자를 이용해서 접속하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IAM 사용자로 라디오 박스를 바꿔주신 후,&lt;/li&gt;
+&lt;li&gt;계정(12자리)는 root 사용자의 계정 ID 정보를 입력해주시면 됩니다.&lt;/li&gt;
+&lt;li&gt;해당 내용은 엑셀 파일에서 &lt;u&gt;콘솔 관리 링크 탭의 숫자 12자리 입니다.&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713302-3c428918-309d-49b4-95b4-b978f859f13b.JPG&quot; alt=&quot;2  iam 사용자 접속&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;IAM 사용자 아이디, 비밀번호를 통해 로그인하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 ID, 비밀번호를 입력 후 로그인하면 정상적으로 로그인이 완료됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713305-ad7a016c-1773-4c7a-b8c2-d1f7fa7a8b98.JPG&quot; alt=&quot;2-1  iam 사용자 접속&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;번외---mfa-설정을-통해-보안을-강화할-수-있습니다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8---mfa-%EC%84%A4%EC%A0%95%EC%9D%84-%ED%86%B5%ED%95%B4-%EB%B3%B4%EC%95%88%EC%9D%84-%EA%B0%95%ED%99%94%ED%95%A0-%EC%88%98-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4&quot; aria-label=&quot;번외   mfa 설정을 통해 보안을 강화할 수 있습니다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 - MFA 설정을 통해 보안을 강화할 수 있습니다.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;암호 정책 설정 - 정형화 된 암호 설정을 의미함&lt;/li&gt;
+&lt;li&gt;OTP - 2차 인증 등&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rdsrelational-database-service&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rdsrelational-database-service&quot; aria-label=&quot;rdsrelational database service permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RDS(Relational Database Service)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;관계형 데이터베이스를 더 쉽게 설치, 운영 및 확장할 수 있는 웹서비스입니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DB 인스턴스는 AWS에 있는 격리된 데이터베이스 환경입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DB 인스턴스에 사용자가 만든 여러 개의 데이터베이스가 포함될 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;독립 실행형 DB 인스턴스와 함께 사용하는 것과 동일한 도구 및 애플리케이션을 사용하여 DB 인스턴스에 액세스 할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-5---rds를-활용하여-워드프레스-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-5---rds%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;lab 5   rds를 활용하여 워드프레스 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 5 - RDS를 활용하여 워드프레스 만들기&lt;/h2&gt;
+&lt;h4 id=&quot;rds와-워드프레스를-설정-및-구동하여-웹-서비스-하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rds%EC%99%80-%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EB%A5%BC-%EC%84%A4%EC%A0%95-%EB%B0%8F-%EA%B5%AC%EB%8F%99%ED%95%98%EC%97%AC-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%95%98%EA%B8%B0&quot; aria-label=&quot;rds와 워드프레스를 설정 및 구동하여 웹 서비스 하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RDS와 워드프레스를 설정 및 구동하여 웹 서비스 하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL에 접속하기 위한 서버에 DB 클라이언트를 설치하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -y mysql&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;RDS에 접속하기 전, &lt;u&gt;보안그룹을 수정&lt;/u&gt;해 주어야 함&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;자동으로 &lt;u&gt;나의 PC의 IP주소&lt;/u&gt;로 설정되어 있지만, 서버의 IP주소로 접속해야 하기 때문에 &lt;u&gt;&lt;strong&gt;서버 IP주소를 해당 보안그룹의 인바운드에 추가&lt;/strong&gt;&lt;/u&gt;해 주어야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;RDS mysql 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# RDS 접속&lt;/span&gt;
+mysql -h &lt;span class=&quot;token string&quot;&gt;&quot;접속 호스트명&quot;&lt;/span&gt; -u &lt;span class=&quot;token string&quot;&gt;&quot;userID&quot;&lt;/span&gt; -p
+&lt;span class=&quot;token comment&quot;&gt;# DB 외부 접속 가능한 사용자 만들기&lt;/span&gt;
+CREATE &lt;span class=&quot;token environment constant&quot;&gt;USER&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;nickhealthy&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;%&apos;&lt;/span&gt; IDENTIFIED BY &lt;span class=&quot;token string&quot;&gt;&apos;비밀번호&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+CREATE DATABASE IF NOT EXISTS wordpress&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# wordpress-DB의 사용자 권한 설정 - 아래는 모든 권한을 다 줌&lt;/span&gt;
+GRANT ALL PRIVILEGES ON wordpress.* TO &lt;span class=&quot;token string&quot;&gt;&apos;nickhealthy&apos;&lt;/span&gt;@&lt;span class=&quot;token string&quot;&gt;&apos;%&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+quit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;워드프레스 설치 및 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 워드프레스 설치(WEB01)&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -y httpd php php-mysql php-gd php-mbstring &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;wget&lt;/span&gt; https://ko.wordpress.org/wordpress-4.8.2-ko_KR.zip
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; /var/www/html
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;unzip&lt;/span&gt; /home/ec2-user/wordpress-4.8.2-ko_KR.zip
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R apache:apache wordpress
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl restart httpd
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; httpd
+&lt;span class=&quot;token comment&quot;&gt;# 웹브라우저 http://ip.shop/wordpress&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;정상 작동 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133717228-a6032bb5-aa4a-4a66-ada2-29c20b969a13.JPG&quot; alt=&quot;1  wordpress&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;s3simple-storage-service&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#s3simple-storage-service&quot; aria-label=&quot;s3simple storage service permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;S3(Simple Storage Service)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;확장성과 데이터 가용성 및 보안과 성능을 제공하는 &lt;u&gt;객체 스토리지 서비스&lt;/u&gt;입니다.&lt;/li&gt;
+&lt;li&gt;조직 및 규정 준수 요구 사항에 따라 &lt;u&gt;데이터를 조직화하고 세부적인 액세스 제어&lt;/u&gt;를 구성할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-6---s3-웹-호스팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-6---s3-%EC%9B%B9-%ED%98%B8%EC%8A%A4%ED%8C%85&quot; aria-label=&quot;lab 6   s3 웹 호스팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 6 - S3 웹 호스팅&lt;/h2&gt;
+&lt;h4 id=&quot;s3-버킷-생성-및-객체-암호화-후-정적-웹-호스팅-서비스를-통해-웹-서비스-해보기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#s3-%EB%B2%84%ED%82%B7-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EA%B0%9D%EC%B2%B4-%EC%95%94%ED%98%B8%ED%99%94-%ED%9B%84-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%95%B4%EB%B3%B4%EA%B8%B0&quot; aria-label=&quot;s3 버킷 생성 및 객체 암호화 후 정적 웹 호스팅 서비스를 통해 웹 서비스 해보기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;S3 버킷 생성 및 객체 암호화 후 정적 웹 호스팅 서비스를 통해 웹 서비스 해보기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;버킷 설정 - 객체 퍼블릭 액세스 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 버튼을 체크 해제하면 모든 객체는 &lt;u&gt;자동으로 퍼블릭으로 설정됨&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725612-df479ae9-96ca-4c67-b2a3-b49b599abd67.JPG&quot; alt=&quot;1  s3 퍼블릭&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;버킷 버전 관리, 태그, 기본 암호화&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;버전관리를 통해 &lt;strong&gt;&lt;u&gt;복원&lt;/u&gt;&lt;/strong&gt;을 실현할 수 있음&lt;/li&gt;
+&lt;li&gt;태그 - 객체에 대한 태그&lt;/li&gt;
+&lt;li&gt;기본 암호화 - 객체에 대한 암호화 설정&lt;/li&gt;
+&lt;li&gt;S3는 S3 버킷 자체에서 암호화 하는 방식&lt;/li&gt;
+&lt;li&gt;KMS - 서버 단에서 암호화 하는 방식&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725615-d4a8490b-8aa8-4b9f-95c0-f2d3336dc9a7.JPG&quot; alt=&quot;2  s3 상세설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;객체가 &lt;u&gt;일정 시간 또는 무기한으로 삭제 및 덮어쓰는 것을 방지&lt;/u&gt;하기 위한 설정 부분&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725617-3ce22afe-a438-41b0-b87d-0b7ff625cf41.JPG&quot; alt=&quot;2-1  s3 상세설정&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;S3 버킷 내에서 폴더 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725619-aa86a3da-6428-4d08-aee6-c228ef5feac5.JPG&quot; alt=&quot;3  폴더 생성&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;폴더 내에 사진 업로드&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725621-45d970d2-bbcd-41c3-9511-9eaa18f1bcf8.JPG&quot; alt=&quot;4  업로드&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이미지 객체에 대한 퍼블릭 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725622-0bab4533-c485-4aba-8244-1971e827774e.JPG&quot; alt=&quot;4-1  업로드&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;정적 웹 호스팅에 사용할 HTML 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;아래에 이미지 태그 &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt;는 방금 전 업로드 한 이미지의 URL주소&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;html &lt;span class=&quot;token assign-left variable&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://www.w3.org/1999/xhtml&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;title&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;My Website Home Page&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/title&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/head&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;1&lt;/span&gt;&gt;&lt;/span&gt;Welcome to my website&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/h&lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;1&lt;/span&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Now hosted on Amazon S3&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;I Love AWS&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;I Love AWS&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;img &lt;span class=&quot;token assign-left variable&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;https://nickhealthy20210917.s3.ap-northeast-2.amazonaws.com/images/two-rabbit.jpg&quot;&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;my test image&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/body&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/html&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;index.html 파일 업로드&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정적 웹 호스팅을 하기 위해선 &lt;code class=&quot;language-text&quot;&gt;root&lt;/code&gt; 에 위치시켜야 합니다. 즉, S3 폴더의 최상위 디렉토리&lt;/li&gt;
+&lt;li&gt;해당 파일도 호스팅 하기 위한 퍼블릭으로 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725624-3d5990d0-d1a9-4aa8-ba2c-af2d466d6cda.JPG&quot; alt=&quot;4-2  업로드&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;정적 웹 호스팅 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“속성” 탭 하단에 존재함&lt;/li&gt;
+&lt;li&gt;정적 웹 호스팅 활성화 후, 정적 웹 사이트 호스팅 체크&lt;/li&gt;
+&lt;li&gt;“인덱스 문서” 란에 가장 먼저 보여질 파일을 추가해야 주소 입력 시, &lt;em&gt;/index.html&lt;/em&gt; 주소가 보이지 않게 할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725625-92cf6c2a-c269-4b54-b0b6-6fb70a835409.JPG&quot; alt=&quot;5  정적웹사이트호스팅&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;정적 웹 사이트 정보 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정적 웹 사이트 호스팅이 &lt;u&gt;활성화&lt;/u&gt; 되어 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725626-ec62d0b6-ab17-4142-aaf5-451d0adca4e0.JPG&quot; alt=&quot;5-1  정적웹사이트호스팅&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;검증 - 홈페이지 접속&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;주소에 index.html 이 없고, 정상적으로 나오는 모습&lt;/li&gt;
+&lt;li&gt;아래는 업로드 한 이미지 사진&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133725627-7a49b2ce-cab4-4d1e-a78d-0dd5e140a829.JPG&quot; alt=&quot;6  검증&quot;&gt;
+fdafa&lt;/p&gt;</content:encoded></item><item><title><![CDATA[KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-2]]></title><description><![CDATA[멀티플레이북을 실행하기 gather_facts를 사용해 변수를 사용하고 ansible-playbook를 최적화 작업 시키기 LAB 1 - playbook의 when 조건과 변수 사용하기 알고가기! 해야할 task…]]></description><link>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-2/</link><guid isPermaLink="false">https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-2/</guid><pubDate>Thu, 16 Sep 2021 17:41:13 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;멀티플레이북을 실행하기&lt;/li&gt;
+&lt;li&gt;gather_facts를 사용해 변수를 사용하고 ansible-playbook를 최적화 작업 시키기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-1---playbook의-when-조건과-변수-사용하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-1---playbook%EC%9D%98-when-%EC%A1%B0%EA%B1%B4%EA%B3%BC-%EB%B3%80%EC%88%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot; aria-label=&quot;lab 1   playbook의 when 조건과 변수 사용하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 1 - playbook의 when 조건과 변수 사용하기&lt;/h2&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;알고가기!&lt;/p&gt;
+&lt;p&gt;해야할 task를 정의하는 &lt;code class=&quot;language-text&quot;&gt;action&lt;/code&gt;과 조건문인 &lt;code class=&quot;language-text&quot;&gt;when&lt;/code&gt;를 이용해 동적으로 플레이북을 작성할 수 있습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;인벤토리-정보를-담고-있는-facttxt-파일을-이용해-동적으로-playbook-작성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%AC-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EB%8B%B4%EA%B3%A0-%EC%9E%88%EB%8A%94-facttxt-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%8F%99%EC%A0%81%EC%9C%BC%EB%A1%9C-playbook-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;인벤토리 정보를 담고 있는 facttxt 파일을 이용해 동적으로 playbook 작성하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;인벤토리 정보를 담고 있는 &lt;em&gt;fact.txt&lt;/em&gt; 파일을 이용해 동적으로 playbook 작성하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;애드혹 방식으로 &lt;code class=&quot;language-text&quot;&gt;setup&lt;/code&gt; 모듈을 이용해 인벤토리 서버에 대한 정보 가져오기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m setup &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; facts.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;플레이북에 사용할 yaml 파일 작성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;중괄호에 들어가 있는 것이 &lt;em&gt;facts.txt&lt;/em&gt; 파일에서 활용하는 변수를 의미함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; test.yml
+
+&lt;span class=&quot;token comment&quot;&gt;# [test.yml]&lt;/span&gt;
+---
+- name: Install nginx on the nodes
+  hosts: all
+  become: &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+
+  tasks:
+    - name: &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; epel-release &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; CentOS
+      action: &lt;span class=&quot;token string&quot;&gt;&quot;{{ ansible_pkg_mgr }} name=epel-release state=latest&quot;&lt;/span&gt;
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CentOS&apos;&lt;/span&gt;
+
+    - name: &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx web server &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; CentOS
+      action: &lt;span class=&quot;token string&quot;&gt;&quot;{{ ansible_pkg_mgr }} name=nginx state=present&quot;&lt;/span&gt;
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CentOS&apos;&lt;/span&gt;
+
+    - name: upload default index.html &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; web server
+      get_url: &lt;span class=&quot;token assign-left variable&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https://www.nginx.com &lt;span class=&quot;token assign-left variable&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/share/nginx/html/ &lt;span class=&quot;token assign-left variable&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;0644
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CentOS&apos;&lt;/span&gt;
+
+    - name: start nginx web server
+      service: &lt;span class=&quot;token assign-left variable&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;nginx &lt;span class=&quot;token assign-left variable&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;started
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CentOS&apos;&lt;/span&gt;
+
+    - name: &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx web server &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; Ubuntu
+      action: &lt;span class=&quot;token string&quot;&gt;&quot;{{ ansible_pkg_mgr }} name=nginx state=present update_cache=yes&quot;&lt;/span&gt;
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Ubuntu&apos;&lt;/span&gt;
+
+    - name: upload default index.html &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; web server
+      get_url: &lt;span class=&quot;token assign-left variable&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;https://www.nginx.com &lt;span class=&quot;token assign-left variable&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/share/nginx/html/
+               &lt;span class=&quot;token assign-left variable&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;0644 &lt;span class=&quot;token assign-left variable&quot;&gt;validate_certs&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;no
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Ubuntu&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;작성한 플레이북 구동&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible-playbook test.yml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;검증&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;gather_facts&lt;/code&gt; 의 기본 값은 yes이며, 위에서 정보를 표시해줍니다. 빠른 성능과 정보가 필요 없다면 no로 설정하는 것이 좋습니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;when&lt;/code&gt; 조건에 맞지 않는 것은 skipping 된 것을 확인할 수 있습니다. 아래 예제에선 centos 조건문을 걸었는데 스킵 된 인벤토리 서버는 ubuntu임&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713417-63f482b3-8d8d-47b5-a185-920765b50a9b.JPG&quot; alt=&quot;1  플레이북 변수정보 활용하기&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;플레이북을 이용해 삭제하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; test_remove.yml
+&lt;span class=&quot;token comment&quot;&gt;# [test_remove.yml]&lt;/span&gt;
+
+---
+- name: Remove nginx on the nodes
+  hosts: all
+  become: &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+
+  tasks:
+    - name: remove epel-release &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; CentOS
+      action: &lt;span class=&quot;token string&quot;&gt;&quot;{{ ansible_pkg_mgr }} name=epel-release state=absent&quot;&lt;/span&gt;
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CentOS&apos;&lt;/span&gt;
+
+    - name: remove nginx web server &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; CentOS
+      action: &lt;span class=&quot;token string&quot;&gt;&quot;{{ ansible_pkg_mgr }} name=nginx state=absent&quot;&lt;/span&gt;
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;CentOS&apos;&lt;/span&gt;
+
+    - name: remove nginx web server
+      action: &lt;span class=&quot;token string&quot;&gt;&quot;{{ ansible_pkg_mgr }} name=nginx state=absent autoremove=yes&quot;&lt;/span&gt;
+      when: ansible_distribution &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Ubuntu&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;작성된 플레이북 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible-playbook test_remove.yml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;lab-2---playbook을-이용해-nfs-구축-및-multi-play-구현&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-2---playbook%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-nfs-%EA%B5%AC%EC%B6%95-%EB%B0%8F-multi-play-%EA%B5%AC%ED%98%84&quot; aria-label=&quot;lab 2   playbook을 이용해 nfs 구축 및 multi play 구현 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 2 - playbook을 이용해 nfs 구축 및 multi-play 구현&lt;/h2&gt;
+&lt;h4 id=&quot;nfs를-localhost에-만들고-인벤토리-서버들을-해당-nfs에-마운트하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nfs%EB%A5%BC-localhost%EC%97%90-%EB%A7%8C%EB%93%A4%EA%B3%A0-%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%AC-%EC%84%9C%EB%B2%84%EB%93%A4%EC%9D%84-%ED%95%B4%EB%8B%B9-nfs%EC%97%90-%EB%A7%88%EC%9A%B4%ED%8A%B8%ED%95%98%EA%B8%B0&quot; aria-label=&quot;nfs를 localhost에 만들고 인벤토리 서버들을 해당 nfs에 마운트하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;nfs를 localhost에 만들고, 인벤토리 서버들을 해당 nfs에 마운트하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;플레이북에 사용할 yaml 파일 작성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mode: 0777&lt;/code&gt; 옵션 : chmod 777과 동일&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;/etc/exports&lt;/code&gt; 옵션 : 접속이 허용된 대역을 추가하기 위한 설정&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;설치할 유틸리티나 버전 등의 작성 등, 우분투와 센트OS는 조금씩 다릅니다.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; nfs.yml
+
+&lt;span class=&quot;token comment&quot;&gt;# [nfs.yml]&lt;/span&gt;
+- name: Setup &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; nfs server
+  hosts: localhost &lt;span class=&quot;token comment&quot;&gt;# ansible 서버인 localhost에 설치&lt;/span&gt;
+  gather_facts: no
+
+  tasks:
+    - name: &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; nfs_shared directory
+      file:  &lt;span class=&quot;token comment&quot;&gt;# file 모듈&lt;/span&gt;
+        path: /root/nfs_shared
+        state: directory
+        mode: 0777 &lt;span class=&quot;token comment&quot;&gt;# chmod 777과 동일&lt;/span&gt;
+    - name: configure /etc/exports &lt;span class=&quot;token comment&quot;&gt;# 접속이 허용된 대역을 추가하기 위한 설정&lt;/span&gt;
+      lineinfile:
+        path: /etc/exports
+        line: /root/nfs_shared &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.56.0/24&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;rw,sync&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    - name: &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; NFS
+      yum:
+        name: nfs-utils &lt;span class=&quot;token comment&quot;&gt;# nfs 서버 설치&lt;/span&gt;
+        state: present
+    - name: nfs &lt;span class=&quot;token function&quot;&gt;service&lt;/span&gt; start
+      service:
+        name: nfs-server
+        state: restarted
+        enabled: &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt;
+
+- name: Setup &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; nfs clients
+  hosts: centos
+  gather_facts: no
+
+  tasks:
+    - name: &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; nfs_client directory
+      file:
+        path: /root/nfs
+        state: directory
+    - name: &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; NFS
+      yum:
+        name: nfs-utils
+        state: present
+    - name: &lt;span class=&quot;token function&quot;&gt;mount&lt;/span&gt; point directory as client
+      mount:
+        path: /root/nfs
+        src: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.56.105:/root/nfs_shared &lt;span class=&quot;token comment&quot;&gt;# ansible의 ip를 할당&lt;/span&gt;
+        fstype: nfs
+        state: mounted
+
+- name: Setup &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; nfs clients Ubuntu
+  hosts: ubuntu
+  gather_facts: no
+
+  tasks:
+    - name: &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; nfs_client directory
+      file:
+        path: /root/nfs
+        state: directory
+
+    - name: Install NFS-Utils
+      apt:
+        pkg: nfs-common
+        state: present
+        update_cache: &lt;span class=&quot;token function&quot;&gt;yes&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# apt update -y&lt;/span&gt;
+
+    - name: &lt;span class=&quot;token function&quot;&gt;mount&lt;/span&gt; point directory as client
+      mount:
+        path: /root/nfs
+        src: &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.56.105:/root/nfs_shared
+        fstype: nfs
+        opts: &lt;span class=&quot;token assign-left variable&quot;&gt;nfsvers&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+        state: mounted&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;작성된 플레이북 실행하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible-playbook nfs.yml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;확인하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133713419-720df8bf-f5aa-4666-a425-22f731a58d8c.JPG&quot; alt=&quot;2  nfs 마운트정보&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-1]]></title><description><![CDATA[Ansible의 기본적인 개념과 용어 애드혹, 플레이북의 사용 방법에 대해 알아봅시다. Ansible 소개 IaC(Ansible…]]></description><link>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-1/</link><guid isPermaLink="false">https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-1/</guid><pubDate>Thu, 16 Sep 2021 16:41:13 GMT</pubDate><content:encoded>&lt;p&gt;Ansible의 기본적인 개념과 용어 애드혹, 플레이북의 사용 방법에 대해 알아봅시다.&lt;/p&gt;
+&lt;h2 id=&quot;ansible-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ansible-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot;ansible 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ansible 소개&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;IaC(Ansible) - 코드로써 인프라를 다루는 도구입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;u&gt;환경의 배포와 구성을 규격화 된 코드로 정의해 사용하는 것을 의미&lt;/u&gt;&lt;/strong&gt;합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;여러 개의 서버를 효율적으로 관리할 수 있게 해주는 환경 구성 자동화 도구입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인프라의 상태를 코드로 작성하고, 이를 &lt;u&gt;&lt;strong&gt;모든 서버에 배포함으로써 특정 환경을 동일하게 유지할 수 있도록 돕는 도구&lt;/strong&gt;&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;앤서블은 플레이북이라는 파일에 실행할 구성을 선언해 놓으면, 필요할 때 마다 자동으로 실행시킬 수 있는 것이 가장 큰 특징입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;예를 들어, 웹 서버의 구성과, DB 서버의 구성을 선언해 놓으면 관리자들은 필요할 때마다 그 구성대로 서버의 설정을 배포할 수 있게 해주는 것입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AWS에서의 비슷한 자동화 도구로 &lt;em&gt;OpsWorks&lt;/em&gt; 서비스가 존재하고,&lt;br&gt;
+이는 chef, puppet(openstack - packstack) 기술로 이루어져 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;용어-정리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%A9%EC%96%B4-%EC%A0%95%EB%A6%AC&quot; aria-label=&quot;용어 정리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;용어 정리&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;앤서블은 크게 3가지인 &lt;u&gt;인벤토리, 플레이북, 모듈&lt;/u&gt;로 이루어져 있습니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 : 어디서 수행할 것인지?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;관리해야 되는 서버 리스트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;플레이북 : 무엇을 수행할 것인지?&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;모듈 : 어떻게 수행할 것인지? 를 정의합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;즉, 보다 효율적으로 운영하기 위한 앤서블이 정의한 모듈이 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;인벤토리inventory&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%ACinventory&quot; aria-label=&quot;인벤토리inventory permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;인벤토리(inventory)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리는 앤서블에 의해 &lt;u&gt;제어될 대상&lt;/u&gt;을 정의합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인벤토리를 만들어 놓지 않으면 관리할 대상이 없기 때문에 앤서블을 사용할 수 없습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;일반으로 &lt;u&gt;hosts.ini&lt;/u&gt; 파일에 정의해 사용합니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;여러 서버들의 &lt;u&gt;SSH 접근 IP, 포트, 사용자와 같은 접속 정보를 정의&lt;/u&gt;합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;또한 관리할 그룹, 제어할 서버 이름을 정의해서 사용할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;플레이북playbook&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%8C%EB%A0%88%EC%9D%B4%EB%B6%81playbook&quot; aria-label=&quot;플레이북playbook permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;플레이북(playbook)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;플레이북(각본)은 인벤토리 파일에서 정의한 대상들이 &lt;u&gt;무엇을 수행할 것인지 정의하는 역할&lt;/u&gt;입니다.&lt;/li&gt;
+&lt;li&gt;데이터 정의 형식은 &lt;code class=&quot;language-text&quot;&gt;yaml&lt;/code&gt; 포맷으로 설정합니다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;플레이북은 앤서블의 핵심 역할을 하는 것이며, 단독으로 사용하는 것이 아닌, &lt;u&gt;인벤토리와 플레이북의 조합으로 사용&lt;/u&gt;됩니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;name&lt;/code&gt;: 플레이명&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;hosts&lt;/code&gt; : 인벤토리에 정의한 그룹명 지정 또는 관리할 서버의 대상을 작성&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;become&lt;/code&gt; : 권한 상승 역할(sudo)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tasks&lt;/code&gt; : 실제 어떤 일을 수행할 것인지 해야할 일들을 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;모듈module&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AA%A8%EB%93%88module&quot; aria-label=&quot;모듈module permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;모듈(Module)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;묘듈은 플레이북에서 &lt;code class=&quot;language-text&quot;&gt;task&lt;/code&gt;가 &lt;u&gt;어떻게 수행될지를 정의하는 요소&lt;/u&gt;입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;타켓 호스트로 실제 작업을 처리하는 단위로 이 Module이라는 개념을 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;앤서블은 많은 모듈을 보유하고 있고 해당 모듈을 이용해 사용하는 것입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;예를 들어, yum 명령어를 통해 패키지를 설치할 때 앤서블에서는 &lt;u&gt;yum 모듈&lt;/u&gt;을 정의하고 사용하면 되는 방식입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;참고하기&lt;/p&gt;
+&lt;p&gt;앤서블에서 &lt;u&gt;Agent의 역할을 수행하는 것은 python 입니다.&lt;/u&gt;&lt;br&gt;
+즉, python 설치는 필수적으로 필요하지만 리눅스 환경에서는 파이썬이 기본적으로 설치되어 있기 때문에 앤서블은 agent가 없다고도 말합니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;lab-1---앤서블-코어-설치-및-애드혹-명령어-실습&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-1---%EC%95%A4%EC%84%9C%EB%B8%94-%EC%BD%94%EC%96%B4-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%95%A0%EB%93%9C%ED%98%B9-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%8B%A4%EC%8A%B5&quot; aria-label=&quot;lab 1   앤서블 코어 설치 및 애드혹 명령어 실습 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 1 - 앤서블 코어 설치 및 애드혹 명령어 실습&lt;/h2&gt;
+&lt;h4 id=&quot;ansible-core-server01centos-server02우분투-총-3대의-서버-환경을-구축-후-앤서블-다뤄보기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ansible-core-server01centos-server02%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%B4%9D-3%EB%8C%80%EC%9D%98-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%9D%84-%EA%B5%AC%EC%B6%95-%ED%9B%84-%EC%95%A4%EC%84%9C%EB%B8%94-%EB%8B%A4%EB%A4%84%EB%B3%B4%EA%B8%B0&quot; aria-label=&quot;ansible core server01centos server02우분투 총 3대의 서버 환경을 구축 후 앤서블 다뤄보기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ANSIBLE-CORE, server01(Centos), server02(우분투) 총 3대의 서버 환경을 구축 후 앤서블 다뤄보기&lt;/h4&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;애드혹이란?&lt;/p&gt;
+&lt;p&gt;애드혹은 라틴어로서 “이것을 위해”라는 뜻을 가지고 있고, &lt;u&gt;명령어 한줄 단위로 작업하는 것을 말합니다.&lt;/u&gt;&lt;br&gt;
+한줄로 처리하기 번거롭고, &lt;strong&gt;자주 있을 반복적인 작업은 playbook 을 활용해야 합니다.&lt;/strong&gt;&lt;br&gt;
+애드혹의 명령어 사용법은 &lt;code class=&quot;language-text&quot;&gt;ansible &amp;quot;all 또는 인벤토리&amp;quot; -m &amp;quot;모듈명&amp;quot; [-a] [구문 명령어]&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;실습 환경에 맞게 호스트 이름 변경&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ hostnamectl set-hostname &lt;span class=&quot;token string&quot;&gt;&quot;호스트명 지정&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;epel repo 등록하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yum repo에서 직접 관리하는 곳 외에 &lt;em&gt;epel repo&lt;/em&gt;에 ensible이 존재하기 때문에 레포를 등록해줌&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; epel-release -y&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;epel repo에서 ansible 패키지 다운로드&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ yum --enablerepo&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;epel -y &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; ansible&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;앤서블 버전 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;관리할 서버의 리스트를 맨 하단에 추가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; /etc/ansible/hosts
+
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+ansible-ip 등록 &lt;span class=&quot;token comment&quot;&gt;# 현재는 실습상 ansible도 하나의 관리할 서버로 가정하고 넣었음&lt;/span&gt;
+server01-ip 등록
+server02-ip 등록&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;애드혹---ping-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---ping-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   ping 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - ping 모듈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;등록한 서버의 ping 모듈을 통한 테스트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-m&lt;/code&gt; 옵션은 모듈을 뜻하고, 여기서 &lt;code class=&quot;language-text&quot;&gt;ping&lt;/code&gt; 자체가 모듈 이름임(즉, &lt;u&gt;ICMP 프로토콜을 이용하는 것이 아닙니다.&lt;/u&gt;)&lt;/li&gt;
+&lt;li&gt;첫 SSH 접속을 위한 fingerprint을 한 뒤, &lt;u&gt;Permission Denied&lt;/u&gt;가 나오는데 &lt;u&gt;비밀번호를 입력하지 않아서&lt;/u&gt; 그렇습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;비밀번호를 입력하기 위해 &lt;code class=&quot;language-text&quot;&gt;-k&lt;/code&gt; 옵션 부여 후, 비밀번호 입력&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-k&lt;/code&gt; 옵션은 ask를 뜻함&lt;/li&gt;
+&lt;li&gt;정상적으로 잘 작동된 모습&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; -k&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497722-c2075551-73bc-4063-bd35-e68c22afedff.JPG&quot; alt=&quot;1  핑테스트&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;번외-1---비밀번호-인가-절차-없이-키를-등록해-인벤토리의-서버에-진입하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8-1---%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EC%9D%B8%EA%B0%80-%EC%A0%88%EC%B0%A8-%EC%97%86%EC%9D%B4-%ED%82%A4%EB%A5%BC-%EB%93%B1%EB%A1%9D%ED%95%B4-%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%AC%EC%9D%98-%EC%84%9C%EB%B2%84%EC%97%90-%EC%A7%84%EC%9E%85%ED%95%98%EA%B8%B0&quot; aria-label=&quot;번외 1   비밀번호 인가 절차 없이 키를 등록해 인벤토리의 서버에 진입하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 1 - 비밀번호 인가 절차 없이 키를 등록해 인벤토리의 서버에 진입하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;RSA key 만들기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ssh-keygen&lt;/code&gt; : key generate&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-t&lt;/code&gt; : 타입을 뜻함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ssh-keygen -t rsa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;만들어진 키를 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -al .ssh/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;만들어진 키를 인벤토리 서버에 복사&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ssh-copy-id root@&lt;span class=&quot;token string&quot;&gt;&quot;서버ip&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;검증 - 패스워드 없이 키 방식으로 접속이 되는 것을 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;패스워드 치지 않고 접속이 잘 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497727-568023ea-438d-4f5e-bc8f-639122e034ed.JPG&quot; alt=&quot;2  알에스에이 키&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;번외-2---hosts-파일의-인벤토리에-등록하지-않고-따로-인벤토리-정보를-가진-파일을-만들어-관리하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8-2---hosts-%ED%8C%8C%EC%9D%BC%EC%9D%98-%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%AC%EC%97%90-%EB%93%B1%EB%A1%9D%ED%95%98%EC%A7%80-%EC%95%8A%EA%B3%A0-%EB%94%B0%EB%A1%9C-%EC%9D%B8%EB%B2%A4%ED%86%A0%EB%A6%AC-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EA%B0%80%EC%A7%84-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;번외 2   hosts 파일의 인벤토리에 등록하지 않고 따로 인벤토리 정보를 가진 파일을 만들어 관리하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 2 - &lt;em&gt;hosts&lt;/em&gt; 파일의 인벤토리에 등록하지 않고, 따로 인벤토리 정보를 가진 파일을 만들어 관리하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;인벤토리 서버의 ip주소 정보가 있는 파일 만들기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;192.168.56.101&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; inventory.list
+$ &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;192.168.56.113&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; inventory.list
+
+&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; inventory.list&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;해당 파일에 있는 정보를 가지고 ping 모듈 테스트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-i&lt;/code&gt; 옵션 :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -i inventory.list -m &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 인벤토리의 서버ip만 가지고 테스트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.56.113 -i inventory.list -m &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;번외-3---code-classlanguage-text--list-hostscode-명령어를-통해-관리하고-있는-호스트의-ip주소를-확인하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8-3---code-classlanguage-text--list-hostscode-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A5%BC-%ED%86%B5%ED%95%B4-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B3%A0-%EC%9E%88%EB%8A%94-%ED%98%B8%EC%8A%A4%ED%8A%B8%EC%9D%98-ip%EC%A3%BC%EC%86%8C%EB%A5%BC-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0&quot; aria-label=&quot;번외 3   code classlanguage text  list hostscode 명령어를 통해 관리하고 있는 호스트의 ip주소를 확인하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 3 - &lt;code class=&quot;language-text&quot;&gt;--list-hosts&lt;/code&gt; 명령어를 통해 관리하고 있는 호스트의 ip주소를 확인하기&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.56.113 -i inventory.list -m &lt;span class=&quot;token function&quot;&gt;ping&lt;/span&gt; --list-hosts&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;애드혹---shell-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---shell-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   shell 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - Shell 모듈&lt;/h3&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;참고하기&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;CHANGE&lt;/code&gt; 표시가 뜨는 것은 &lt;u&gt;&lt;strong&gt;어떤 변화가 있을 때&lt;/strong&gt;&lt;/u&gt;를 나타냅니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;uptime&lt;/code&gt; 명령어를 통해 인벤토리 서버의 시간 확인하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-a&lt;/code&gt; 옵션 : &lt;u&gt;리눅스 명령어 구문 입력을 의미함&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m shell -a &lt;span class=&quot;token string&quot;&gt;&quot;uptime&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;df -h&lt;/code&gt; 명령어를 통해 현재 인벤토리 서버의 디스크 사용량 확인하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m shell -a &lt;span class=&quot;token string&quot;&gt;&quot;df -h&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497732-2486cf97-ea67-4f5c-927e-d702aa8c20f3.JPG&quot; alt=&quot;3  shell 모듈 명령어&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;위에서 &lt;code class=&quot;language-text&quot;&gt;key-keygen&lt;/code&gt; 명령어를 통해 만들어진 키가 잘 들어있는지 확인하는 등 응용이 가능합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;authorized&lt;/em&gt;keys_ 는 public 키입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497729-c0fca993-dd19-421a-985b-b5ad723be857.JPG&quot; alt=&quot;2-1  확인&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;애드혹---user-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---user-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   user 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - User 모듈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;인벤토리 서버에 유저 추가하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m user -a &lt;span class=&quot;token string&quot;&gt;&quot;name=kosta&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;검증 - 사용자 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m shell -a &lt;span class=&quot;token string&quot;&gt;&quot;tail -n 1 /etc/passwd&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 서버에 추가한 유저 삭제하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;&lt;code class=&quot;language-text&quot;&gt;absent&lt;/code&gt; 명령어는 삭제하는 명령어임&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m user -a &lt;span class=&quot;token string&quot;&gt;&quot;name=kosta state=absent&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 확인&lt;/span&gt;
+$ ansible all -m shell -a &lt;span class=&quot;token string&quot;&gt;&quot;tail -n 1 /etc/passwd&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;애드혹---yum-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---yum-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   yum 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - yum 모듈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 서버에 yum 모듈을 사용해 설치하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;&lt;code class=&quot;language-text&quot;&gt;present&lt;/code&gt; 명령어는 추가하는 명령어&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m yum -a &lt;span class=&quot;token string&quot;&gt;&quot;name=httpd state=present&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;curl&lt;/code&gt; 명령어를 통해 &lt;em&gt;index.html&lt;/em&gt; 파일을 만들기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-o&lt;/code&gt; 옵션은 output의 의미&lt;/li&gt;
+&lt;li&gt;해당 명령어를 통해 index.html 파일이 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; https://www.nginx.com -o index.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;애드혹---copy-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---copy-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   copy 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - copy 모듈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 서버에 위에서 만든 &lt;em&gt;index.html&lt;/em&gt; 파일을 copy 하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; 옵션 : source를 의미함&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;dest&lt;/code&gt; 옵션 : destination를 의미함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m copy -a &lt;span class=&quot;token string&quot;&gt;&quot;src=index.html dest=/var/www/html/index.html&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;애드혹---service-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---service-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   service 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - service 모듈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 서버에서 httpd 웹 서버를 위에서 만든 &lt;em&gt;index.html&lt;/em&gt;로 구동시키기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;started&lt;/code&gt; 옵션 : 서비스를 실행하는 명령어&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;stopped&lt;/code&gt; 옵션 : 서비스를 중지하는 명령&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m &lt;span class=&quot;token function&quot;&gt;service&lt;/span&gt; -a &lt;span class=&quot;token string&quot;&gt;&quot;name=httpd state=started&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;검증&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497733-d07f8cdb-c979-40e7-998c-011d76e5624d.JPG&quot; alt=&quot;4  웹서버 구동&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인벤토리 httpd 웹서버 종료&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m &lt;span class=&quot;token function&quot;&gt;service&lt;/span&gt; -a &lt;span class=&quot;token string&quot;&gt;&quot;name=httpd state=stopped&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;인벤토리 htppd 웹서버 remove 하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible all -m yum -a &lt;span class=&quot;token string&quot;&gt;&quot;name=httpd state=absent&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;애드혹---apt-모듈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%95%A0%EB%93%9C%ED%98%B9---apt-%EB%AA%A8%EB%93%88&quot; aria-label=&quot;애드혹   apt 모듈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;애드혹 - apt 모듈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;인벤토리 서버 중 &lt;u&gt;우분투 [ubuntu]로 이름 지정된 서버만&lt;/u&gt; 구동시키기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pkg&lt;/code&gt; 옵션 : package를 의미함 (yum에서는 name으로 지정했었음)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# cat 명령어를 통해 확인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /etc/ansible/hosts
+&lt;span class=&quot;token comment&quot;&gt;# ubuntu로 지정된 이름의 서버만 apt로 아파치2를 설치&lt;/span&gt;
+$ ansible ubuntu -m &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; -a &lt;span class=&quot;token string&quot;&gt;&quot;pkg=apache2 state=present&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497735-2f1a4428-b1ee-4ac4-8f02-6098a68edd94.JPG&quot; alt=&quot;5  우분투 이름의 서버만 설치하기&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;COPY 모듈을 사용해 우분투 웹서버에 반영 시키기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible ubuntu -m copy -a &lt;span class=&quot;token string&quot;&gt;&quot;src=index.html dest=/var/www/html/index.html&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;인벤토리 서버의 웹서버 구동 종료 및 지우기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible ubuntu -m &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; -a &lt;span class=&quot;token string&quot;&gt;&quot;name=apache2 state=stopped&quot;&lt;/span&gt;
+$ ansible ubuntu -m &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; -a &lt;span class=&quot;token string&quot;&gt;&quot;name=apache2 state=absent&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;lab-2---멱등성-알아보기-및-테스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-2---%EB%A9%B1%EB%93%B1%EC%84%B1-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-%EB%B0%8F-%ED%85%8C%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;lab 2   멱등성 알아보기 및 테스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 2 - 멱등성 알아보기 및 테스트&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;같은 일을 반복하는 작업을 &lt;strong&gt;&lt;u&gt;멱등성이 없다&lt;/u&gt;&lt;/strong&gt;라고 합니다. 즉, 멱등성은 &lt;u&gt;&lt;strong&gt;동일한 작업은 건너띄고 수행하지 않는 것을 의미합니다.&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;모듈마다 멱등성이 있는 것도, 없는 것도 존재합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하나의 파일 안에 같은 내용이 있는지 파악 및 내용 추가하기. 즉, &lt;code class=&quot;language-text&quot;&gt;lineinfile&lt;/code&gt; 모듈의 멱등성 테스트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;localhost&lt;/code&gt; 옵션 : 현재 작업하고 있는 앤서블 코어의 로컬을 의미&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;-c&lt;/code&gt; 옵션 : &lt;u&gt;ssh 프로토콜을 이용하지 않겠다는 의미&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;lineinfile&lt;/code&gt; 옵션 : 파일 안에서 &lt;u&gt;라인 한줄을 추가하겠다는 의미&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;현재 192.168.56.113 라인이 3개 존재하고 있음&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible localhost -c &lt;span class=&quot;token builtin class-name&quot;&gt;local&lt;/span&gt; -m lineinfile -a &lt;span class=&quot;token string&quot;&gt;&quot;path=inventory.list line=192.168.56.113&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;검증 - 똑같이 3라인만 존재하는 것을 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;해당 LAB을 통해 &lt;code class=&quot;language-text&quot;&gt;lineinfile&lt;/code&gt; 모듈은 멱등성이 있는 모듈이라고 판단할 수 있습니다.&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/133497737-d98cc455-9eae-4286-8e45-e10aa59e979f.JPG&quot; alt=&quot;5-1 멱등성확인&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;lab-3---playbook을-활용해-nginx-설치-및-삭제하기centos-ubuntu&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-3---playbook%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%B4-nginx-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0centos-ubuntu&quot; aria-label=&quot;lab 3   playbook을 활용해 nginx 설치 및 삭제하기centos ubuntu permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 3 - playbook을 활용해 nginx 설치 및 삭제하기(centos, ubuntu)&lt;/h2&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;참고하기&lt;/p&gt;
+&lt;p&gt;플레이북은 한줄씩 명령어를 실행한 앞선 애드혹과 다르게&lt;br&gt;
+&lt;u&gt;한번에 스크립트를 작성해 자동화 하는 것을 의미합니다.&lt;/u&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;centos---nginx-설치-구동-및-삭제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#centos---nginx-%EC%84%A4%EC%B9%98-%EA%B5%AC%EB%8F%99-%EB%B0%8F-%EC%82%AD%EC%A0%9C&quot; aria-label=&quot;centos   nginx 설치 구동 및 삭제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CentOS - nginx 설치, 구동 및 삭제&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;플레이북 작업에 사용할 디렉토리 생성 및 진입&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;_&lt;/code&gt; 옵션 : 직전에 생성한 디렉토리 진입&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; playbook &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$_&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;플레이북에 사용할 yaml 파일 작성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;gather_facts&lt;/code&gt; 옵션 : 관리할 수 있는 정보들 중(ip정보, mac 정보, 호스트네임 등) 인벤토리 서버의 정보를 변수로 활용 가능한 것들&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;$ vi nginx_install.yaml
+&lt;span class=&quot;token comment&quot;&gt;# [nginx_install.yaml]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Install nginx on CentOS
+  &lt;span class=&quot;token key atrule&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; centos
+  &lt;span class=&quot;token key atrule&quot;&gt;gather_facts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; no
+
+  &lt;span class=&quot;token key atrule&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; install epel&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;release
+      &lt;span class=&quot;token comment&quot;&gt;# ansible centos -m yum -a &quot;name=epel-release state=latest&quot; 와 의미가 같음&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;yum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; name=epel&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;release state=latest
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; install nginx web server
+      &lt;span class=&quot;token key atrule&quot;&gt;yum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; name=nginx state=present
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; upload default index.html for web server
+      &lt;span class=&quot;token comment&quot;&gt;# get_url : 해당 url를 가져옴 / mode : chmod 644 명령어와 동일&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;get_url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; url=https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//www.nginx.com dest=/usr/share/nginx/html mode=0644
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; start nginx web server
+      &lt;span class=&quot;token key atrule&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; name=nginx state=started&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;작성한 플레이북을 실행하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;로그를 보고 싶다면 뒤에 &lt;code class=&quot;language-text&quot;&gt;-v&lt;/code&gt; 옵션을 부여하면 됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible-playbook nginx_install.yaml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;제거하는 플레이북을 yaml 파일 만들기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;$ vi remove_nginx
+&lt;span class=&quot;token comment&quot;&gt;# [remove_nginx.yaml]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Remove nginx on CentOS
+  &lt;span class=&quot;token key atrule&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; centos
+  &lt;span class=&quot;token key atrule&quot;&gt;gather_facts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; no
+
+  &lt;span class=&quot;token key atrule&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; remove epel&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;release
+      &lt;span class=&quot;token key atrule&quot;&gt;yum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; name=epel&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;release state=absent
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; remove nginx web server
+      &lt;span class=&quot;token key atrule&quot;&gt;yum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; name=nginx state=absent&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;제거하는 플레이북 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ ansible-playbook remove_nginx.yaml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;ubuntu---nginx-설치-구동-및-삭제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ubuntu---nginx-%EC%84%A4%EC%B9%98-%EA%B5%AC%EB%8F%99-%EB%B0%8F-%EC%82%AD%EC%A0%9C&quot; aria-label=&quot;ubuntu   nginx 설치 구동 및 삭제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ubuntu - nginx 설치, 구동 및 삭제&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;플레이북에 사용할 yaml 파일 작성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# ansible f&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;번외--필드온프레미스-환경에서-가상화-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%88%EC%99%B8--%ED%95%84%EB%93%9C%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B0%80%EC%83%81%ED%99%94-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;번외  필드온프레미스 환경에서 가상화 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;번외 : 필드(온프레미스 환경)에서 가상화 관리&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;궁금해서 물어본 내용 - 클라우드 환경이 아닌 가상화 관리 방식&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;베어메탈-방식의-하이퍼바이저--type1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B2%A0%EC%96%B4%EB%A9%94%ED%83%88-%EB%B0%A9%EC%8B%9D%EC%9D%98-%ED%95%98%EC%9D%B4%ED%8D%BC%EB%B0%94%EC%9D%B4%EC%A0%80--type1&quot; aria-label=&quot;베어메탈 방식의 하이퍼바이저  type1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;베어메탈 방식의 하이퍼바이저 : TYPE1&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;KVM : 리눅스 베이스로 무료&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;아래는 VMWare 베이스로 유료&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ESXI - Vcenter&lt;/li&gt;
+&lt;li&gt;XEN - Xcenter&lt;/li&gt;
+&lt;li&gt;Hyper-v&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[따배쉘] - bash shell Script]]></title><description><![CDATA[Shell Script 란 ? 리눅스 command들을 모아 놓은 아스키 텍스트 파일 실행 퍼미션을 할당해야 실행 가능 Bash shell script에서 특별히 의미가 정해진 기능  - comment…]]></description><link>https://nickhealthy.github.io/linux/[따배쉘] - bash shell Script/</link><guid isPermaLink="false">https://nickhealthy.github.io/linux/[따배쉘] - bash shell Script/</guid><pubDate>Sun, 22 Aug 2021 17:30:50 GMT</pubDate><content:encoded>&lt;h2 id=&quot;shell-script-란-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#shell-script-%EB%9E%80-&quot; aria-label=&quot;shell script 란  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Shell Script 란 ?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;u&gt;리눅스 command들을 모아 놓은 아스키 텍스트 파일&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;u&gt;실행 퍼미션을 할당해야 실행 가능&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
@@ -8047,10 +9546,18 @@ Youtube에서 원하는 노래(구간)을 플레이리스트에 저장 및 상�
 &lt;p&gt;스터디 팀원✍&lt;br&gt;
 매주 정해진 주제로 월, 목 데브옵스 및 인프라 관련 기술스택을 각자 공부 후 실습 및 스터디&lt;br&gt;
 &lt;code class=&quot;language-text&quot;&gt;2021.07 - ing&lt;/code&gt; by &lt;strong&gt;Youtube 이성미 강사님&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;naver-clooud-platform-특강&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#naver-clooud-platform-%ED%8A%B9%EA%B0%95&quot; aria-label=&quot;naver clooud platform 특강 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Naver Clooud Platform 특강&lt;/h3&gt;
+&lt;h3 id=&quot;naver-cloud-platform-특강&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#naver-cloud-platform-%ED%8A%B9%EA%B0%95&quot; aria-label=&quot;naver cloud platform 특강 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Naver Cloud Platform 특강&lt;/h3&gt;
 &lt;p&gt;교육 수강✍&lt;br&gt;
-NCP 강사님과 함께 4일간 NCP 전반적인 서비스 소개 &amp;#x26;&amp;#x26; 강의 및 LAB 진행&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;2021.08 - 2021.08&lt;/code&gt; by &lt;strong&gt;Naver Cloud Platform&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[programmers]스킬트리]]></title><description><![CDATA[Algorithm, Python…]]></description><link>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_스킬트리/</link><guid isPermaLink="false">https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_스킬트리/</guid><pubDate>Wed, 24 Feb 2021 14:14:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+총 8일간 Naver Cloud Professional 자격증 취득을 위한 NCP 교육 수강 및 LAB 진행&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;2021.08.10 - 2021.08.13, 2021.09.06 - 2021.09.09&lt;/code&gt; by &lt;strong&gt;Naver Cloud Platform&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;tmax-아파치-톰캣-파트너사-교육-수강&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tmax-%EC%95%84%ED%8C%8C%EC%B9%98-%ED%86%B0%EC%BA%A3-%ED%8C%8C%ED%8A%B8%EB%84%88%EC%82%AC-%EA%B5%90%EC%9C%A1-%EC%88%98%EA%B0%95&quot; aria-label=&quot;tmax 아파치 톰캣 파트너사 교육 수강 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tmax 아파치, 톰캣 파트너사 교육 수강&lt;/h3&gt;
+&lt;p&gt;교육 수강✍&lt;br&gt;
+전략적 비즈니스를 위한 파트너사(Tmax) 오프라인 교육 수강&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;2021.09.13 - 2021.09.14&lt;/code&gt; by &lt;strong&gt;Tmax&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;kosta-재직자-교육-특강&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kosta-%EC%9E%AC%EC%A7%81%EC%9E%90-%EA%B5%90%EC%9C%A1-%ED%8A%B9%EA%B0%95&quot; aria-label=&quot;kosta 재직자 교육 특강 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;KOSTA 재직자 교육 특강&lt;/h3&gt;
+&lt;p&gt;교육 수강✍&lt;br&gt;
+Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;2021.09.15 - 2021.09.17&lt;/code&gt; by &lt;strong&gt;KOSTA&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[programmers]스킬트리]]></title><description><![CDATA[Algorithm, Python…]]></description><link>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_스킬트리/</link><guid isPermaLink="false">https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_스킬트리/</guid><pubDate>Wed, 24 Feb 2021 14:14:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Algorithm, Python&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;문제-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C-%EC%84%A4%EB%AA%85&quot; aria-label=&quot;문제 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제 설명&lt;/h2&gt;

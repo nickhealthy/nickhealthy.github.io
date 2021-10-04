@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/linux/[따배쉘] - bash shell Script/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/linux/[따배쉘] - bash shell의 기능/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] - 쿠버네티스 pod(Single Multi container)/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
