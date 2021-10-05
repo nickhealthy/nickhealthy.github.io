@@ -319,10 +319,96 @@
 </ul>
 </li>
 </ul>
-<h2 id="lab-2---ebs-생성-및-서버-마운트" style="position:relative;"><a href="#lab-2---ebs-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%84%9C%EB%B2%84-%EB%A7%88%EC%9A%B4%ED%8A%B8" aria-label="lab 2   ebs 생성 및 서버 마운트 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LAB 2 - EBS 생성 및 서버 마운트</h2>
+<h3 id="클라우드의-대표적인-스토리지-서비스" style="position:relative;"><a href="#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%9D%98-%EB%8C%80%ED%91%9C%EC%A0%81%EC%9D%B8-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%84%9C%EB%B9%84%EC%8A%A4" aria-label="클라우드의 대표적인 스토리지 서비스 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>클라우드의 대표적인 스토리지 서비스</h3>
 <ul>
-<li>나중에 작성</li>
+<li>블록 스토리지</li>
+<li>파일시스템(NFS)</li>
+<li>오브젝트 스토리지(S3)</li>
 </ul>
+<h2 id="lab-2---ebs-생성-및-서버-마운트" style="position:relative;"><a href="#lab-2---ebs-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%84%9C%EB%B2%84-%EB%A7%88%EC%9A%B4%ED%8A%B8" aria-label="lab 2   ebs 생성 및 서버 마운트 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LAB 2 - EBS 생성 및 서버 마운트</h2>
+<h4 id="ebs를-사용하여-서버에-볼륨을-마운트-해봅시다" style="position:relative;"><a href="#ebs%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%84%9C%EB%B2%84%EC%97%90-%EB%B3%BC%EB%A5%A8%EC%9D%84-%EB%A7%88%EC%9A%B4%ED%8A%B8-%ED%95%B4%EB%B4%85%EC%8B%9C%EB%8B%A4" aria-label="ebs를 사용하여 서버에 볼륨을 마운트 해봅시다 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>EBS를 사용하여 서버에 볼륨을 마운트 해봅시다.</h4>
+<ol>
+<li>
+<p>EC2 생성은 생략</p>
+<ul>
+<li>유저데이터 스크립트</li>
+</ul>
+</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+<span class="token function">apt</span> update
+<span class="token function">apt</span> <span class="token function">install</span> -y apache2
+<span class="token builtin class-name">echo</span> <span class="token string">"web02"</span> <span class="token operator">></span> /var/www/html/index.html</code></pre></div>
+<ol start="2">
+<li>
+<p>EBS 볼륨생성</p>
+<ul>
+<li><strong><u>가용영역은 서버의 가용영역과 맞춰주는게 설정하기 편하고 좋음</u></strong></li>
+</ul>
+</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963573-482d7743-1410-4c1c-bc7b-2df7a678d6e2.JPG" alt="1  volume 생성"></p>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963574-7b3ce5ab-32ff-4be7-ad59-2f3a175ac4fb.JPG" alt="1-1  volume 생성"></p>
+<ol start="3">
+<li>볼륨 연결</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963561-94c39641-ae20-463e-bcae-4ff3dd53da36.JPG" alt="2  볼륨연결"></p>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963566-ecc6671a-598c-4ae1-bea1-637597004a5e.JPG" alt="2-1  볼륨연결"></p>
+<ol start="3">
+<li>EBS 마운트 후, 서버 접속 및 디스크 확인</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ lsblk</code></pre></div>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963567-a02fc1fa-c296-47bb-ad1e-16c2db5bca1d.JPG" alt="3  디스크확인"></p>
+<ol start="4">
+<li>디스크 포맷 및 마운트 하려는 폴더 생성</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">mkfs</span> -t ext4 /dev/xvdf
+$ <span class="token function">sudo</span> <span class="token function">mkdir</span> /data</code></pre></div>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963568-b68d6956-53f9-4b88-acfc-63c419f2888e.JPG" alt="4  볼륨 포맷"></p>
+<ol start="5">
+<li>
+<p>마운트하기</p>
+<ul>
+<li>mount [마운트 할 디스크][마운트 시킬 폴더]</li>
+</ul>
+</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">mount</span> /dev/xvdf /data/</code></pre></div>
+<ol start="6">
+<li>
+<p>검증</p>
+<ul>
+<li><em>/data</em> 폴더에 잘 마운트 된 모습</li>
+</ul>
+</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963569-8f3b26c1-0c81-4238-858b-e341f650dcec.JPG" alt="5  마운트 확인"></p>
+<h4 id="번외---재부팅-후에도-마운트-될-수-있도록-설정" style="position:relative;"><a href="#%EB%B2%88%EC%99%B8---%EC%9E%AC%EB%B6%80%ED%8C%85-%ED%9B%84%EC%97%90%EB%8F%84-%EB%A7%88%EC%9A%B4%ED%8A%B8-%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8F%84%EB%A1%9D-%EC%84%A4%EC%A0%95" aria-label="번외   재부팅 후에도 마운트 될 수 있도록 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>번외 - 재부팅 후에도 마운트 될 수 있도록 설정</h4>
+<div class="quote-block">
+<div class="quote-block__emoji">💡</div>
+<div class="quote-block__content" markdown=1>
+<p><em>fstab</em> 파일이란?</p>
+<p><em>/etc/fstab</em> 파일은 파일 초반 탭 정보를 저장하고 있는 파일입니다.<br>
+[파일 시스템 장치명][마운트 포인트] [파일 시스템 종류][옵션] [덤프관련][파일 점검 옵션] 순으로 작성</p>
+</div>
+</div>
+<ol>
+<li>기존 <em>fstab</em> 파일을 안전하게 백업</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">cp</span> /etc/fstab /etc/fstab.orig</code></pre></div>
+<ol start="2">
+<li>블록 스토리지 ID 확인</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">sudo</span> blkid</code></pre></div>
+<ol start="3">
+<li><em>fstab</em> 파일에 스토리지 정보 추가</li>
+</ol>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token assign-left variable">UUID</span><span class="token operator">=</span>ac3013e0-6970-4148-9397-eac8cbe20dae /data         ext4 defaults,nofail <span class="token number">0</span> <span class="token number">2</span></code></pre></div>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963571-d8817948-fd9c-4c5c-8453-3903871cef11.JPG" alt="6  파일설정"></p>
+<ol start="4">
+<li>검증 - 재부팅 후 <code class="language-text">df -h</code> 명령어로 확인</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135963846-ec5db1f4-375b-4057-8a57-f11690cbcbfa.JPG" alt="1  검증"></p>
 <h2 id="ebs-snapshot" style="position:relative;"><a href="#ebs-snapshot" aria-label="ebs snapshot permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>EBS Snapshot</h2>
 <ul>
 <li>
@@ -340,18 +426,40 @@
 </ul>
 </li>
 </ul>
-<h2 id="lab-3---ebs-snapshot-생성" style="position:relative;"><a href="#lab-3---ebs-snapshot-%EC%83%9D%EC%84%B1" aria-label="lab 3   ebs snapshot 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LAB 3 - EBS Snapshot 생성</h2>
-<h4 id="스냅샷을-활용하는-3가지-방법" style="position:relative;"><a href="#%EC%8A%A4%EB%83%85%EC%83%B7%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95" aria-label="스냅샷을 활용하는 3가지 방법 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>스냅샷을 활용하는 3가지 방법</h4>
+<h3 id="스냅샷을-활용하는-3가지-방법" style="position:relative;"><a href="#%EC%8A%A4%EB%83%85%EC%83%B7%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95" aria-label="스냅샷을 활용하는 3가지 방법 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>스냅샷을 활용하는 3가지 방법</h3>
 <ul>
 <li>
 <p>아래 3가지 내용은 조금씩 성격이 다르지만, 모두 <u>복원</u>에 초점이 맞춰져 있음</p>
 <ul>
-<li>스냅샷을 이용한 볼륨 생성 - 인스턴스의 볼륨 마운트</li>
-<li>스냅샷을 이용한 이미지 생성 - 새로운 인스턴스를 생성할 때</li>
-<li>다른 리전으로 스냅샷 복사 - 리전 간 이동</li>
+<li>스냅샷을 이용한 볼륨 생성 - <strong>인스턴스의 볼륨 마운트</strong></li>
+<li>스냅샷을 이용한 이미지 생성 - <strong>새로운 인스턴스를 생성할 때</strong></li>
+<li>다른 리전으로 스냅샷 복사 - <strong>리전 간 이동</strong></li>
 </ul>
 </li>
 </ul>
+<h2 id="lab-3---ebs-snapshot-생성" style="position:relative;"><a href="#lab-3---ebs-snapshot-%EC%83%9D%EC%84%B1" aria-label="lab 3   ebs snapshot 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LAB 3 - EBS Snapshot 생성</h2>
+<h4 id="스냅샷을-생성하여-새로운-이미지를-생성해-인스턴스를-만들어-봅시다" style="position:relative;"><a href="#%EC%8A%A4%EB%83%85%EC%83%B7%EC%9D%84-%EC%83%9D%EC%84%B1%ED%95%98%EC%97%AC-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%B4-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B4%85%EC%8B%9C%EB%8B%A4" aria-label="스냅샷을 생성하여 새로운 이미지를 생성해 인스턴스를 만들어 봅시다 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>스냅샷을 생성하여 새로운 이미지를 생성해 인스턴스를 만들어 봅시다.</h4>
+<ol>
+<li>스냅샷 생성</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135968602-1d0d5516-a596-4b4d-81ab-7e41c59def05.JPG" alt="1  스냅샷 생성"></p>
+<ol start="2">
+<li>이미지 생성 버튼 클릭</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135968605-d4c063b0-9427-4b46-9a0d-cc262c7ef87e.JPG" alt="1-1  스냅샷 생성"></p>
+<ol start="3">
+<li>이미지 생성하기</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135968609-674a38a5-c31f-4b90-b030-0cf4aa7369e3.JPG" alt="2  이미지 생성"></p>
+<ol start="4">
+<li>
+<p>검증 - 내가 만든 이미지 확인</p>
+<ul>
+<li>해당 이미지를 통해 인스턴스를 새롭게 만들 수 있습니다.</li>
+</ul>
+</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/66216102/135968610-954a2448-8049-4d5a-8fb2-9ad406221c80.JPG" alt="3  검증"></p>
 <h2 id="iamidentity-and-access-management" style="position:relative;"><a href="#iamidentity-and-access-management" aria-label="iamidentity and access management permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IAM(identity and Access Management)</h2>
 <ul>
 <li>AWS 서비스에 대한 액세스를 안전하게 제어하는 웹 서비스입니다.</li>
@@ -573,7 +681,9 @@ $ <span class="token function">sudo</span> systemctl <span class="token builtin 
 </ul>
 </li>
 </ul>
-<p><img src="https://user-images.githubusercontent.com/66216102/133725627-7a49b2ce-cab4-4d1e-a78d-0dd5e140a829.JPG" alt="6  검증"></p></div><div class="social-share"></div><hr class="custom-hr"/><div class="bio"><div class="author"><div class="author-description"><div class="author-image gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:72px;height:72px;border-radius:100%"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAELUlEQVQ4y2WU/U9TVxjH+18sm2DQCfJSCy2llDlghTiQ8KKbmRoTozNE5hwuM8bthy3uBxOnMdlLJhMdYciIoBlDFIOgMoa8WAzgBgrIi1hoBdqKFai0vZ+de6GlzZ7k5px77vl+7vN2jkqSJORHtp07PiAyIpz0FAOauFj25pqwdf0Or3vE13/44uBu4sV6ij4BfbyaVGMSCXHRdJvvK3qv14vK5/MpL2Ojo6Qk6TDq4tHFa/goKw177xWY78Zt/UuB/vjdUdauCcMg9iSoY3g3WU9s5Hrq6/78P3DSYiEtJVnZvFmn4UlruVgdgBcdeGfawHUfS38dBVmpJG+KJmp9BO9tNhKx5k3OnjmtMDwezypwdmYGU+o7RISFsUuE2tNSzuWyk4z11cLLLnB2MPnoOpXnT/D91wcxCGhyopYokaLzJSWrHsr5kyeyHSkuxqSPo7r0BDUVZzj5zWHa68/hfS5CftFJ27WfOfXtERpqz/GgoYRUnZp1a8MZHhpU9LJzKj9ZtvprdXz12W5806001V3i2OEDTD2+w9zQdQFtxTrYzPHiQhprf0OytvDlvjw+LSoKwGTnVMFVdtptdDWWsiTEzHUh2dvF2Ilvth3JcV/xUp4ro/0erVfPMj31NACULQCUpOWFAXMTY12V8MqMNCuK4WzHMdTAgrVVmSNAuMxYemswN10NgQU89L/ItrD4mqHeZnAImKMD17PbzE/eYWnmb1yW23imxfpcOyMPG3G5FgJaWa4ACTJp5U8u1xzO8duiuh0sTLUwM9yAfeQmrwSYl53Yx27hsD8P0fgdCgrZ7+nyBqfDhnWoScmV3NxyCuT2mRBtNG2bCNkbrFeFwqSVBl1SRtv4Y3qqTzHeVsGEuZoHNafpvVmxkjdviM7/BIBer0+AvIEW8nh8XCovY37kBs+aL9AvKuoZrqe57iJ/1DYGGnlZ41sF+gHBZrVaObD/KMcOFQpVH5KzUzkpLPUy3H2VLNOHdHf3hYokFLjKn4uB/sdcvFDJ/r2fo4k1Ef6Gnge3fgW3WfRemwL0yWf61T0O7Ssk/C0jH4u9pb9U8rBvIMBV/fRDGTu2HyRRkyPOZTpR69LQqrPFtbSVmqoynj+6xUtRVbftLvbBBsb/vcueXUWoN74vbhoTG9eb0G3KYc/OwwpcFbMhA01MFgZtPsm6PJK0ueK+205cZCZVVbXYHQ5GnzzixewENquFsfEJcW9+QnxsNsbEAqHLVbSborOIfjsDlVG/TYAKlEWdZqviqTFRAKMyuVHfvFIgL9JKSIuLi+Rl7xNR5JCUkCtGvzMFwpFtqAwJ+eJDnvLIH+RwDdo88TcTFeVXAtWU22T5In4qxPnKj9UbMwI6/6hK0oYuyPmIiUxHHbWFosLjSvncbnfgvJaXXRa5yxQhbyFmQ7riWbBD/wHw8NESKpF8uQAAAABJRU5ErkJggg==" alt="nickhealthy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/dd05f3f408ceb4c9d58251b9bb415dde/e5b88/profile.png 1x,
+<p><img src="https://user-images.githubusercontent.com/66216102/133725627-7a49b2ce-cab4-4d1e-a78d-0dd5e140a829.JPG" alt="6  검증"></p>
+<h2 id="reference" style="position:relative;"><a href="#reference" aria-label="reference permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reference</h2>
+<p><a href="https://storyerp.tistory.com/41">/etc/fstab 설정</a></p></div><div class="social-share"></div><hr class="custom-hr"/><div class="bio"><div class="author"><div class="author-description"><div class="author-image gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:72px;height:72px;border-radius:100%"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAELUlEQVQ4y2WU/U9TVxjH+18sm2DQCfJSCy2llDlghTiQ8KKbmRoTozNE5hwuM8bthy3uBxOnMdlLJhMdYciIoBlDFIOgMoa8WAzgBgrIi1hoBdqKFai0vZ+de6GlzZ7k5px77vl+7vN2jkqSJORHtp07PiAyIpz0FAOauFj25pqwdf0Or3vE13/44uBu4sV6ij4BfbyaVGMSCXHRdJvvK3qv14vK5/MpL2Ojo6Qk6TDq4tHFa/goKw177xWY78Zt/UuB/vjdUdauCcMg9iSoY3g3WU9s5Hrq6/78P3DSYiEtJVnZvFmn4UlruVgdgBcdeGfawHUfS38dBVmpJG+KJmp9BO9tNhKx5k3OnjmtMDwezypwdmYGU+o7RISFsUuE2tNSzuWyk4z11cLLLnB2MPnoOpXnT/D91wcxCGhyopYokaLzJSWrHsr5kyeyHSkuxqSPo7r0BDUVZzj5zWHa68/hfS5CftFJ27WfOfXtERpqz/GgoYRUnZp1a8MZHhpU9LJzKj9ZtvprdXz12W5806001V3i2OEDTD2+w9zQdQFtxTrYzPHiQhprf0OytvDlvjw+LSoKwGTnVMFVdtptdDWWsiTEzHUh2dvF2Ilvth3JcV/xUp4ro/0erVfPMj31NACULQCUpOWFAXMTY12V8MqMNCuK4WzHMdTAgrVVmSNAuMxYemswN10NgQU89L/ItrD4mqHeZnAImKMD17PbzE/eYWnmb1yW23imxfpcOyMPG3G5FgJaWa4ACTJp5U8u1xzO8duiuh0sTLUwM9yAfeQmrwSYl53Yx27hsD8P0fgdCgrZ7+nyBqfDhnWoScmV3NxyCuT2mRBtNG2bCNkbrFeFwqSVBl1SRtv4Y3qqTzHeVsGEuZoHNafpvVmxkjdviM7/BIBer0+AvIEW8nh8XCovY37kBs+aL9AvKuoZrqe57iJ/1DYGGnlZ41sF+gHBZrVaObD/KMcOFQpVH5KzUzkpLPUy3H2VLNOHdHf3hYokFLjKn4uB/sdcvFDJ/r2fo4k1Ef6Gnge3fgW3WfRemwL0yWf61T0O7Ssk/C0jH4u9pb9U8rBvIMBV/fRDGTu2HyRRkyPOZTpR69LQqrPFtbSVmqoynj+6xUtRVbftLvbBBsb/vcueXUWoN74vbhoTG9eb0G3KYc/OwwpcFbMhA01MFgZtPsm6PJK0ueK+205cZCZVVbXYHQ5GnzzixewENquFsfEJcW9+QnxsNsbEAqHLVbSborOIfjsDlVG/TYAKlEWdZqviqTFRAKMyuVHfvFIgL9JKSIuLi+Rl7xNR5JCUkCtGvzMFwpFtqAwJ+eJDnvLIH+RwDdo88TcTFeVXAtWU22T5In4qxPnKj9UbMwI6/6hK0oYuyPmIiUxHHbWFosLjSvncbnfgvJaXXRa5yxQhbyFmQ7riWbBD/wHw8NESKpF8uQAAAABJRU5ErkJggg==" alt="nickhealthy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/dd05f3f408ceb4c9d58251b9bb415dde/e5b88/profile.png 1x,
 /static/dd05f3f408ceb4c9d58251b9bb415dde/e7bd6/profile.png 1.5x,
 /static/dd05f3f408ceb4c9d58251b9bb415dde/a12fc/profile.png 2x" /><img loading="lazy" width="72" height="72" srcset="/static/dd05f3f408ceb4c9d58251b9bb415dde/e5b88/profile.png 1x,
 /static/dd05f3f408ceb4c9d58251b9bb415dde/e7bd6/profile.png 1.5x,
