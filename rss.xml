@@ -1,4 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 08:42:52 GMT</lastBuildDate><item><title><![CDATA[쿠버네티스 work-node 서버 종료 이후 rejoin]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/error/쿠버네티스 work-node 서버 종료 이후 rejoin/</link><guid isPermaLink="false">https://nickhealthy.github.io/error/쿠버네티스 work-node 서버 종료 이후 rejoin/</guid><pubDate>Tue, 05 Oct 2021 17:40:13 GMT</pubDate><content:encoded>&lt;h2 id=&quot;문제발생&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C%EB%B0%9C%EC%83%9D&quot; aria-label=&quot;문제발생 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제발생&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Woo's Dev Log]]></title><description><![CDATA[Devlog]]></description><link>https://nickhealthy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Oct 2021 08:37:42 GMT</lastBuildDate><item><title><![CDATA[[따배쿠] - livenessProbe란]]></title><description><![CDATA[livenessProbe의 개념을 익히고, 연습해 봅시다. 해당 파드가 정상 동작을 하는지 주기적으로 체크하는 기능 livenessProbe의 매커니즘 중요! 여기서 중요한 점은 파드가 아닌 컨테이너 자체가 재시작 되는 것이며, 따라서 IP…]]></description><link>https://nickhealthy.github.io/Kubernetes/[따배쿠] - livenessProbe란/</link><guid isPermaLink="false">https://nickhealthy.github.io/Kubernetes/[따배쿠] - livenessProbe란/</guid><pubDate>Wed, 06 Oct 2021 17:34:30 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;livenessProbe의 개념을 익히고, 연습해 봅시다.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;해당 파드가 정상 동작을 하는지 주기적으로 체크하는 기능&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;livenessprobe의-매커니즘&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#livenessprobe%EC%9D%98-%EB%A7%A4%EC%BB%A4%EB%8B%88%EC%A6%98&quot; aria-label=&quot;livenessprobe의 매커니즘 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;livenessProbe의 매커니즘&lt;/h3&gt;
+&lt;div class=&quot;quote-block&quot;&gt;
+&lt;div class=&quot;quote-block__emoji&quot;&gt;💡&lt;/div&gt;
+&lt;div class=&quot;quote-block__content&quot; markdown=1&gt;
+&lt;p&gt;중요!&lt;/p&gt;
+&lt;p&gt;여기서 중요한 점은 &lt;u&gt;파드가 아닌 컨테이너 자체가 재시작&lt;/u&gt; 되는 것이며, 따라서 IP의 주소 또한 바뀌지 않습니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;httpGet&lt;/code&gt; : 지정한 IP 주소, port, path에 HTTP GET 요청을 보내, 해당 컨테이너가 응답하는지를 확인합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;반환코드가 &lt;strong&gt;200이 아닌 값이 나오면 오류. 컨테이너를 다시 시작합니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;default: 요청의 오류가 연속으로 3번 이상 발생한다면, 컨테이너 자체를 다시 &lt;code class=&quot;language-text&quot;&gt;restart&lt;/code&gt; 시켜주는 것입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;tcpSocket&lt;/code&gt; : 지정된 포트에 TCP 연결을 시도합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;연결되지 않으면 컨테이너를 다시 시작합니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;default: 요청의 오류가 연속으로 3번이상 발생한다면, 컨테이너 자체를 다시 &lt;code class=&quot;language-text&quot;&gt;restart&lt;/code&gt; 시켜주는 것입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;exec&lt;/code&gt; : exec 명령을 전달하고 명령의 종료코드가 &lt;strong&gt;0이 아니면 컨테이너를 다시 시작합니다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lab-1---livenessprobe-사용하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lab-1---livenessprobe-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot; aria-label=&quot;lab 1   livenessprobe 사용하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LAB 1 - livenessProbe 사용하기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;pod-nginx-liveness.yaml&lt;/em&gt; 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
+&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
+&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pod&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;liveness
+&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;container
+      &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.14&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; TCP
+      &lt;span class=&quot;token key atrule&quot;&gt;livenessProbe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;httpGet&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /
+          &lt;span class=&quot;token key atrule&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;pod 생성 및 상세정보 출력&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;yaml 파일에 설정한 값 이외에 자동 생성된 default 값을 확인(아래의 사진에 보이는 토대로 작성함)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;delay&lt;/code&gt; : pod 구동 후 0초 후 상태 체크를 실행하는 것을 의미함&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;timeout&lt;/code&gt; : health-check 한 후 응답을 기다리는 1초 동안 반응하지 않으면 실패로 간주&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;period&lt;/code&gt; : 10초마다 한번씩 상태 체크&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;success&lt;/code&gt; : 1번만 성공하면 성공으로 간주&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;failure&lt;/code&gt; : 연속에서 3번 요청이 실패하면 컨테이너 재시작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl create -f pod-nginx-liveness.yaml
+$ kubectl describe pods nginx-pod-liveness&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/136168008-db00f7b4-335b-41c2-a08e-7a00ecb3078c.JPG&quot; alt=&quot;1  파드 상세정보&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;파드 상세 정보를 yaml 파일 확인&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이를 복사해 새로운 yaml파일을 작성할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ kubectl get pods nginx-pod-liveness -o yaml&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/136167991-4d2ef278-8f95-4b6f-81d9-1329485e11dc.JPG&quot; alt=&quot;2  파드 상세정보&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;검증&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%80%EC%A6%9D&quot; aria-label=&quot;검증 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;검증&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;smlinux/unhealthy 해당 이미지는 5번의 요청만을 허용해주고, 이후 500번의 에러코드를 응답하는 컨테이너임&lt;/li&gt;
+&lt;li&gt;해당 컨테이너의 &lt;em&gt;app.js&lt;/em&gt; 코드&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; http &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;http&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; os &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;os&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Kubia server starting...&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; requestCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;request&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; response&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Received request from &apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; request&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;connection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;remoteAddress&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  requestCount&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;requestCount &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;writeHead&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;I&apos;m not well. Please restart me!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;writeHead&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  response&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;You&apos;ve hit &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; os&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hostname&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;\n&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; www &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; http&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createServer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;handler&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+www&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;pod-liveness.yaml&lt;/em&gt; 파일 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; v1
+&lt;span class=&quot;token key atrule&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Pod
+&lt;span class=&quot;token key atrule&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; liveness&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pod
+&lt;span class=&quot;token key atrule&quot;&gt;spec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;containers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; unhealthy&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;container
+      &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; smlinux/unhealthy
+      &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;containerPort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; TCP
+      &lt;span class=&quot;token key atrule&quot;&gt;livenessProbe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;httpGet&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; /
+          &lt;span class=&quot;token key atrule&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8080&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;50초 동안은 오류로 취급안하고 정상 작동하는 모습&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;위에서 default로 설정된 &lt;code class=&quot;language-text&quot;&gt;period&lt;/code&gt; 시간은 10초이고, 5번 응답하는 이미지 이므로 대략 50초 가량은 오류가 나지 않음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/136167999-44cff26e-f621-4333-b02f-539c0af6bccd.JPG&quot; alt=&quot;3  라이브니스 상세정보확인&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;50초 이후부터 오류가 발생하고, 3번 이상 오류 발생 시 컨테이너가 재생성되는 모습&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;default 값의 실패 3번 이후, 컨테이너가 재시작됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/66216102/136168005-46631e25-1f24-44a7-9dc6-bc06f90c9040.JPG&quot; alt=&quot;4  검증&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[쿠버네티스 work-node 서버 종료 이후 rejoin]]></title><description><![CDATA[…]]></description><link>https://nickhealthy.github.io/error/쿠버네티스 work-node 서버 종료 이후 rejoin/</link><guid isPermaLink="false">https://nickhealthy.github.io/error/쿠버네티스 work-node 서버 종료 이후 rejoin/</guid><pubDate>Tue, 05 Oct 2021 17:40:13 GMT</pubDate><content:encoded>&lt;h2 id=&quot;문제발생&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C%EB%B0%9C%EC%83%9D&quot; aria-label=&quot;문제발생 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제발생&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;클라우드 서버를 이용해서 쿠버네티스를 구축했는데, 클라우드 서비스의 이용 가격 때문에 워커노드를 종료시켰습니다. 하지만 워커노드를 재시작하였을 때, 컨트롤 플래인(마스터 노드)랑 연결이 안되는 문제가 있었습니다. &lt;strong&gt;&lt;u&gt;이를 해결한 방법을 잊지 않기 위해 적어봅니다.&lt;/u&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
