@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://nickhealthy.github.io/cloud/[시험] PaaS-TA 시험 복기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/cloud/[교육]20211019 - PaaS-TA 교육2일차/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/cloud/[교육]20211018 - PaaS-TA 교육1일차/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠] - livenessProbe란/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/error/쿠버네티스 work-node 서버 종료 이후 rejoin/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/devops/KOSTA_Ansible을 이용한 AWS 클라우드 DevOps 자동화 구현-4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -88,8 +91,8 @@
 <url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]/[리트코드]_1.TwoSum/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[백준]/[백준]_단계별_스택/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_정수삼각형/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]virtual machine 설치 및 세팅설치/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]쿠버네티스 설치,비설치 실습/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]virtual machine 설치 및 세팅설치/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]/[리트코드]_819.Most Common Word/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/[따배쿠]쿠버네티스입문/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[리트코드]/[리트코드]_5.Longest Palindromic Substring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -117,7 +120,9 @@
 <url> <loc>https://nickhealthy.github.io/error/1.윈도우 환경에서 python-pip 패키지 에러날 때/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_체육복/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[백준]/[백준]_단계별_기본수학2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/8.Kubernetes_Kubernetes Service_Headless, Endpoint, ExternalName/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_카펫/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://nickhealthy.github.io/Kubernetes/7.Kubernetes_Lifecycle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[프로그래머스]/[programmers]_이중우선순위큐/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/solving-algo/[백준]/[백준]_단계별_기본수학1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://nickhealthy.github.io/Kubernetes/6.Kubernetes_Controller/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
