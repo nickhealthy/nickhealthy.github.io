@@ -1,7 +1,7 @@
 ---
-title: 'Proxy (Squid) Instance - VPC Outbound Filtering'
+title: '[AWS] Proxy (Squid) Instance - VPC Outbound Filtering'
 date: 2021-06-09 14:43:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: 'CloudFormation으로 인프라 자동 구축(EC2 웹서버)'
+title: '[AWS] CloudFormation으로 인프라 자동 구축(EC2 웹서버)'
 date: 2021-06-01 14:43:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

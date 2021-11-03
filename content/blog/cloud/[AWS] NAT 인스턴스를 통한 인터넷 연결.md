@@ -1,7 +1,7 @@
 ---
-title: 'NAT 인스턴스를 통한 인터넷 연결'
+title: '[AWS] NAT 인스턴스를 통한 인터넷 연결'
 date: 2021-06-10 08:43:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

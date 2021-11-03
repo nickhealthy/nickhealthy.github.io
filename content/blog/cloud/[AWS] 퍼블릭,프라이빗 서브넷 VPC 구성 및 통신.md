@@ -1,7 +1,7 @@
 ---
-title: '퍼블릭,프라이빗 서브넷 VPC 구성 및 통신'
+title: '[AWS] 퍼블릭,프라이빗 서브넷 VPC 구성 및 통신'
 date: 2021-06-03 15:36:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

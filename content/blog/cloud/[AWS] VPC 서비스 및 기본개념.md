@@ -1,7 +1,7 @@
 ---
-title: 'AWS - VPC 서비스 및 기본개념'
+title: '[AWS] VPC 서비스 및 기본개념'
 date: 2021-06-02 15:23:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

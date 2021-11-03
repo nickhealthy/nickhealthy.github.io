@@ -1,7 +1,7 @@
 ---
-title: 'NCP VPC서버 생성 & 도커 안에 아파치 웹서버 구동시키기'
+title: '[NCP] VPC서버 생성 & 도커 안에 아파치 웹서버 구동시키기'
 date: 2021-07-21 21:25:30
-category: '🧶 ncp'
+category: '☁️ cloud'
 thumbnail: { thumbnailSrc }
 tags: [docker, linux]
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: '가비아 도메인 구입 후 AWS-Route53 연결하기'
+title: '[AWS] 가비아 도메인 구입 후 AWS-Route53 연결하기'
 date: 2021-06-29 14:22:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 
