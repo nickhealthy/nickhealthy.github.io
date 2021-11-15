@@ -1,7 +1,7 @@
 ---
-title: '게이트웨이/인터페이스 엔드포인트 비교'
+title: '[AWS] 게이트웨이/인터페이스 엔드포인트 비교'
 date: 2021-06-03 18:26:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

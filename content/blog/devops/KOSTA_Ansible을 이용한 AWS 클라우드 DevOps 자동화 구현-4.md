@@ -411,3 +411,4 @@ $ ansible-playbook ec2.ym
 ```
 
 ![1  앤서블 서버 생성](https://user-images.githubusercontent.com/66216102/133746396-7e53732e-fd9c-4480-a0c3-c4da3da0074d.JPG)
+fdsaf

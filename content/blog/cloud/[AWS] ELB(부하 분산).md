@@ -1,7 +1,7 @@
 ---
-title: 'AWS-ELB(부하 분산)'
+title: '[AWS] ELB(부하 분산)'
 date: 2021-06-28 15:06:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

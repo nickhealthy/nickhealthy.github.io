@@ -1,7 +1,7 @@
 ---
-title: 'Route53 구성 및 라우팅 정책'
+title: '[AWS] Route53 구성 및 라우팅 정책'
 date: 2021-06-29 18:22:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

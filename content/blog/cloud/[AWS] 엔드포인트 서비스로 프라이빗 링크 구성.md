@@ -1,7 +1,7 @@
 ---
-title: '엔드포인트 서비스로 프라이빗 링크 구성'
+title: '[AWS] 엔드포인트 서비스로 프라이빗 링크 구성'
 date: 2021-06-08 15:06:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

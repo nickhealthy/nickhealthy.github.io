@@ -1,7 +1,7 @@
 ---
-title: '배치 그룹 & 메타데이터'
+title: '[AWS] 배치 그룹 & 메타데이터'
 date: 2021-06-08 15:41:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 

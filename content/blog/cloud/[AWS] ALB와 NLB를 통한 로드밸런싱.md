@@ -1,7 +1,7 @@
 ---
-title: 'ALB와 NLB를 통한 로드밸런싱'
+title: '[AWS] ALB와 NLB를 통한 로드밸런싱'
 date: 2021-06-28 17:06:13
-category: '☁️ aws'
+category: '☁️ cloud'
 draft: false
 ---
 
